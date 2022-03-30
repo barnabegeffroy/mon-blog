@@ -1,5 +1,17 @@
+<script lang="ts">
+	import Header from '$lib/header/Header.svelte';
+	import '../app.css';
+	import { beforeUpdate } from 'svelte';
+
+	let page
+	beforeUpdate(() => {
+	page = window.location.pathname
+	});
+</script>
+<Header page={page} />
 <main>
 	<slot />
+
 </main>
 
 <footer>

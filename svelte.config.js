@@ -8,7 +8,6 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
 		adapter: adapter({
 			// default options are shown
 			pages: "build",
@@ -19,7 +18,6 @@ const config = {
 			default: true
 		},
 		paths: {
-			// YOUR github repository name
 			base: process.env.NODE_ENV === 'development' ? "" : "/mon-blog",
 		},
 	},
