@@ -16,7 +16,7 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={page === base }><a sveltekit:prefetch href="{base}/">Home</a></li>
+			<li class:active={page === base || page === base+'/' }><a sveltekit:prefetch href="{base}/">Home</a></li>
 			<li class:active={page === base+'/about'}>
 				<a sveltekit:prefetch href="{base}/about">About</a>
 			</li>
