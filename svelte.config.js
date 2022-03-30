@@ -15,6 +15,9 @@ const config = {
 			assets: "build",
 			fallback: null,
 		}),
+		prerender: {
+			default: true
+		},
 		paths: {
 			// YOUR github repository name
 			base: "/mon-blog",
