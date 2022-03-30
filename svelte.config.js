@@ -20,7 +20,7 @@ const config = {
 		},
 		paths: {
 			// YOUR github repository name
-			base: "/mon-blog",
+			base: process.env.NODE_ENV === 'development' ? "" : "/mon-blog",
 		},
 	},
 };
