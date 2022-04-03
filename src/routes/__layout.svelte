@@ -1,17 +1,17 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
+	import Header from '$lib/Header.svelte';
 	import '../app.css';
 	import { beforeUpdate } from 'svelte';
 
-	let page
+	let page;
 	beforeUpdate(() => {
-	page = window.location.pathname
+		page = window.location.pathname;
 	});
 </script>
-<Header page={page} />
+
+<Header {page} />
 <main>
 	<slot />
-
 </main>
 
 <footer>

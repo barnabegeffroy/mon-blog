@@ -1,23 +1,20 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import logo from './svelte-logo.svg';
 	export let page;
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
+	<div class="corner" />
 
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={page === base || page === base+'/' }><a sveltekit:prefetch href="{base}/">Home</a></li>
-			<li class:active={page === base+'/about'}>
+			<li class:active={page === base || page === base + '/'}>
+				<a sveltekit:prefetch href="{base}/">Home</a>
+			</li>
+			<li class:active={page === base + '/about'}>
 				<a sveltekit:prefetch href="{base}/about">About</a>
 			</li>
 		</ul>
@@ -27,7 +24,8 @@
 	</nav>
 
 	<div class="corner">
-		<!-- TODO put something else here? github link? -->
+		Mon Github
+		<a href="" />
 	</div>
 </header>
 
