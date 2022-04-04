@@ -24,8 +24,7 @@
 	</nav>
 
 	<div class="corner">
-		Mon Github
-		<a href="" />
+		<a href="https://github.com/barnabegeffroy/"> Mon Github</a>
 	</div>
 </header>
 
@@ -47,12 +46,12 @@
 		width: 100%;
 		height: 100%;
 	}
-
+	/* 
 	.corner img {
 		width: 2em;
 		height: 2em;
 		object-fit: contain;
-	}
+	} */
 
 	nav {
 		display: flex;

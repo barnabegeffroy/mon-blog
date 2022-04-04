@@ -1,12 +1,24 @@
 <script lang="ts">
 	export let appname;
 	export let appcolor;
+
+	import Modal from '$lib/Modal.svelte';
+	let content = appname;
+	let isOpenModal = false;
+	function openModal() {
+		isOpenModal = true;
+	}
+
+	function closeModal() {
+		isOpenModal = false;
+	}
 </script>
 
 <div class="app-body">
-	<div class="target" style="background-color: {appcolor};" />
+	<div class="target" on:click={openModal} style="background-color: {appcolor};" />
 	<h4 class="app-name">{appname}</h4>
 </div>
+<Modal {content} {isOpenModal} on:closeModal={closeModal} />
 
 <style>
 	.app-body {
@@ -21,7 +33,6 @@
 	.target {
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		border-radius: 1.5em;
 		position: relative;
 		text-align: center;

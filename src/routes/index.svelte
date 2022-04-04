@@ -18,6 +18,7 @@
 
 <style>
 	.container {
+		justify-content: center;
 		display: flex;
 		flex-wrap: wrap;
 		position: relative;
