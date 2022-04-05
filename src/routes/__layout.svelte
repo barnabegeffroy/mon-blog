@@ -15,7 +15,9 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>
+		<a href="https://github.com/barnabegeffroy/mon-blog" target="_blank">Code source du blog</a>
+	</p>
 </footer>
 
 <style>

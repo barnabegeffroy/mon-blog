@@ -24,7 +24,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/barnabegeffroy/"> Mon Github</a>
+		<a href="https://github.com/barnabegeffroy/" target="_blank"> Mon Github</a>
 	</div>
 </header>
 

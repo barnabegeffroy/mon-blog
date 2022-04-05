@@ -1,7 +1,15 @@
 <script lang="ts">
-	export let appname;
-	export let appcolor;
+	import { base } from '$app/paths';
+	import { fade } from 'svelte/transition';
+	import { create_in_transition } from 'svelte/internal';
+	import StarRating from 'svelte-star-rating';
+	import SvelteMarkdown from 'svelte-markdown';
 
+	export let appli;
+	export let showModal;
+
+	let name = appli.name;
+	let file = appli.file;
 	let isOpenModal = false;
 
 	function openModal() {
@@ -13,11 +21,21 @@
 	function closeEscape(event) {
 		if (event.key == 'Escape') closeModal();
 	}
+
+	let element;
+	let intro;
+	function animate() {
+		name = name == appli.name ? appli.altname : appli.name;
+		file = file == appli.file ? appli.altfile : appli.file;
+		intro = create_in_transition(element, fade, { duration: 1000 });
+		intro.start();
+		if (showModal) setTimeout(openModal, 1000);
+	}
 </script>
 
-<div class="app-body">
-	<div class="target" on:click={openModal} style="background-color: {appcolor};" />
-	<h4 class="app-name">{appname}</h4>
+<div class="app-body" bind:this={element}>
+	<img src={base + '/' + file} class="target" alt={appli.name + 'logo'} on:click={animate} />
+	<h4 class="app-name">{name}</h4>
 </div>
 
 <svelte:window on:keydown={closeEscape} />
@@ -25,16 +43,64 @@
 	<div class="modal-content">
 		<div class="modal-header">
 			<span class="close" on:click={closeModal}>&times;</span>
-			<h2>Modal Header</h2>
+			<div class="transition">
+				<div class="modal-app-icon">
+					<img src={base + '/' + appli.file} alt="" />
+					<h4>{appli.name}</h4>
+				</div>
+				<span class="arrow">&rarr;</span>
+				<div class="modal-app-icon">
+					<img src={base + '/' + appli.altfile} alt="" />
+					<h4>{appli.altname}</h4>
+				</div>
+			</div>
+			<h2 class="banner">{appli.theme}</h2>
 		</div>
 		<div class="modal-body">
-			<p>Some text in the Modal Body</p>
-			<p>{appname}</p>
-			<p>Some other text...</p>
+			<h3>{appli.name}</h3>
+			<SvelteMarkdown source={appli.appdescription} />
+			<h3>{appli.altname}</h3>
+			<SvelteMarkdown source={appli.altdescription} />
 		</div>
 		<div class="modal-footer">
-			<h3>Modal Footer</h3>
+			<h3>Fiche Technique</h3>
 		</div>
+		<div class="tech">
+			<div class="part">
+				<div class="rating">
+					<p>Expérience :</p>
+					<span><StarRating rating={appli.ux} /></span>
+				</div>
+				<SvelteMarkdown source={appli.uxdescription} />
+			</div>
+			<hr />
+			<div class="part">
+				<div class="rating">
+					<p>Installation :</p>
+					<span><StarRating rating={appli.instal} /></span>
+					<SvelteMarkdown source={appli.installdescription} />
+				</div>
+			</div>
+			<hr />
+			<div class="part">
+				<div class="rating">
+					<p>Transition :</p>
+					<span><StarRating rating={appli.transition} /></span>
+				</div>
+				<SvelteMarkdown source={appli.transitiondescription} />
+			</div>
+		</div>
+		{#if appli.otheralt}
+			<div class="modal-footer">
+				<h3>D'autres alternatives</h3>
+			</div>
+			<div class="modal-body">
+				{#each appli.otheralt as alt}
+					<h4>{alt.name}</h4>
+					<SvelteMarkdown source={alt.text} />
+				{/each}
+			</div>
+		{/if}
 	</div>
 </div>
 
@@ -48,6 +114,7 @@
 	.app-name {
 		margin-top: 1%;
 	}
+
 	.target {
 		display: flex;
 		justify-content: center;
@@ -58,6 +125,7 @@
 		height: 120px;
 		transform: translate3d(0, 0, 0);
 		z-index: 0;
+		background-color: white;
 	}
 
 	/* The Modal (background) */
@@ -80,9 +148,10 @@
 		position: relative;
 		background-color: #fefefe;
 		margin: auto;
+		margin-bottom: 10%;
 		padding: 0;
 		border: 1px solid #888;
-		width: 80%;
+		width: 70%;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		-webkit-animation-name: animatetop;
 		-webkit-animation-duration: 0.4s;
@@ -117,23 +186,31 @@
 	.close {
 		color: white;
 		float: right;
-		font-size: 28px;
+		font-size: 42px;
 		font-weight: bold;
 	}
 
 	.close:hover,
 	.close:focus {
-		color: #000;
+		color: #428542;
 		text-decoration: none;
 		cursor: pointer;
 	}
 
 	.modal-header {
-		padding: 2px 16px;
+		padding: 5% 3% 0.3% 3%;
+
 		background-color: #5cb85c;
 		color: white;
 	}
-
+	.banner {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		color: white;
+		font-weight: 800;
+		font-size: xx-large;
+	}
 	.modal-body {
 		padding: 2px 16px;
 	}
@@ -142,5 +219,78 @@
 		padding: 2px 16px;
 		background-color: #5cb85c;
 		color: white;
+	}
+	.modal-app-icon > h4 {
+		margin-top: 0%;
+		margin-bottom: 5%;
+		text-align: center;
+	}
+	.modal-app-icon > img {
+		height: 100px;
+		background-color: white;
+		width: auto;
+		border-radius: 1.5em;
+	}
+	.arrow {
+		font-size: 90px;
+		display: flex;
+		align-items: center;
+	}
+	.transition {
+		justify-content: center;
+		display: flex;
+	}
+
+	.tech {
+		display: flex;
+	}
+	.part {
+		flex: 1;
+		padding: 2%;
+	}
+	.rating {
+		font-weight: 700;
+		font-size: large;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	hr {
+		border: 1px solid #5cb85c;
+	}
+	@media (min-width: 1600px) {
+		.rating > p {
+			flex: 1;
+			margin: 0%;
+		}
+		.rating > span {
+			flex: 1;
+		}
+	}
+	@media (max-width: 1600px) {
+		.modal-content {
+			margin-bottom: 30%;
+		}
+		.tech {
+			flex-direction: column;
+		}
+		hr {
+			width: 90%;
+		}
+	}
+	@media (max-width: 775px) {
+		.target {
+			width: 90px;
+			height: 90px;
+		}
+		.modal-content {
+			width: 80%;
+		}
+		.modal-app-icon > img {
+			height: 80px;
+			width: auto;
+		}
+		.arrow {
+			font-size: 70px;
+		}
 	}
 </style>
