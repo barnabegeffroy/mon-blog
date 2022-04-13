@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-aria-label="Chrome" role="img"
-viewBox="0 0 512 512"><path d="M256 140h228A256 256 0 0 1 244 511.7" fill="#fc4"/><path d="M357 314 244 511.7A256 256 0 0 1 40 118" fill="#0f9d58"/><path d="M256 140h228A256 256 1 0 0 40 118L155 314" fill="#db4437"/><circle cx="256" cy="256" r="105" fill="#4285f4" stroke="#f1f1f1" stroke-width="24"/></svg>
+<svg aria-label="Chrome" role="img" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <g stroke-width=".9">
+  <path d="m256 154h200a224 224 0 0 1-210 326" fill="#fc4"/>
+  <path d="m345 307-99 173a224 224 0 0 1-179-345" fill="#0f9d58"/>
+  <path d="m256 154h200a224 224 0 0 0-389-19l101 172" fill="#db4437"/>
+ </g>
+ <circle cx="256" cy="256" r="92" fill="#4285f4" stroke="#f1f1f1" stroke-width="21"/>
+</svg>
