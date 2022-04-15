@@ -78,8 +78,8 @@
 				<div class="rating">
 					<p>Installation :</p>
 					<span><StarRating rating={appli.instal} /></span>
-					<SvelteMarkdown source={appli.installdescription} />
 				</div>
+				<SvelteMarkdown source={appli.installdescription} />
 			</div>
 			<hr />
 			<div class="part">
