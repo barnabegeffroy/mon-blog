@@ -1,4 +1,6 @@
 <script>
+	import Comment from '$lib/Comment.svelte';
+
 	export let title;
 	export let date;
 	export let source;
@@ -13,3 +15,5 @@
 {/if}
 
 <slot />
+
+<Comment name={title} />
