@@ -5,9 +5,12 @@
 <script>
 	import Appli from '$lib/Appli.svelte';
 	import Switch from '$lib/Switch.svelte';
+	import Modal from '$lib/Modal.svelte';
 	import applis from '../data/appli.json';
 
 	let showModal = true;
+	let isOpen = false;
+	let currentApp = applis[0];
 </script>
 
 <h1>Les alternatives aux GAFAM</h1>
@@ -19,9 +22,11 @@
 
 <div class="container">
 	{#each applis as appli}
-		<Appli {appli} {showModal} />
+		<Appli {appli} {showModal} bind:isOpenModal={isOpen} bind:currentApp={currentApp} />
 	{/each}
 </div>
+
+<Modal bind:isOpenModal={isOpen} appli={currentApp} />
 
 <style>
 	.container {
