@@ -8,7 +8,10 @@ const config = defineConfig({
 	},
 
 	remarkPlugins: [],
-	rehypePlugins: []
+	rehypePlugins: [],
+	layout: {
+		gafalt: 'src/routes/gafalt/mdlayout.svelte'
+	}
 });
 
 export default config;
