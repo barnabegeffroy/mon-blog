@@ -12,10 +12,10 @@
 		</svg>
 		<ul>
 			<li class:active={page === base || page === base + '/'}>
-				<a sveltekit:prefetch href="{base}/">Home</a>
+				<a sveltekit:prefetch href="{base}/">Accueil</a>
 			</li>
-			<li class:active={page === base + '/about'}>
-				<a sveltekit:prefetch href="{base}/about">About</a>
+			<li class:active={page === base + '/gafalt'}>
+				<a sveltekit:prefetch href="{base}/gafalt">GAFAlternative</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
