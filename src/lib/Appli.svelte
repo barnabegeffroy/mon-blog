@@ -22,11 +22,12 @@
 		intro = create_in_transition(element, fade, { duration: 1000 });
 		intro.start();
 		if (showModal) {
-			currentApp = appli
+			currentApp = appli;
 			setTimeout(openModal, 1000);
 		}
 	}
 </script>
+
 <div class="app-body" bind:this={element}>
 	<img src={base + '/' + file} class="target" alt={appli.name + 'logo'} on:click={animate} />
 	<h4 class="app-name">{name}</h4>
