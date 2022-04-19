@@ -18,4 +18,13 @@
 	});
 </script>
 
-<div bind:this={container} />
+<div>
+	<h4>Un commentaire ? Une autre alternative à proposer ? C'est par ici !</h4>
+	<div bind:this={container} />
+</div>
+
+<style>
+	h4 {
+		margin: 0;
+	}
+</style>

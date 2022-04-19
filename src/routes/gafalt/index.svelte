@@ -22,7 +22,7 @@
 
 <div class="container">
 	{#each applis as appli}
-		<Appli {appli} {showModal} bind:isOpenModal={isOpen} bind:currentApp={currentApp} />
+		<Appli {appli} {showModal} bind:isOpenModal={isOpen} bind:currentApp />
 	{/each}
 </div>
 

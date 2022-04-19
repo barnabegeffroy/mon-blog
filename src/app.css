@@ -107,3 +107,7 @@ button:focus:not(:focus-visible) {
 .return{
 	margin-bottom: 2%;
 }
+
+.utterances {
+	margin-left: 0%;
+}

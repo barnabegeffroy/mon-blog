@@ -1,16 +1,11 @@
 ---
 title: Firefox
-date: "2021-12-14"
+date: '2022-04-19'
 source: https://hg.mozilla.org/mozilla-central/
-categories:
-  - numbers
-  - odd
+file: firefox.svg
 ---
 
-Hello, I am {title}
+### Les extensions que j'ai installées
 
-**Nice to meet you!**
-
-## A heading
-
-### Another heading
+- Disconnect
+- Ok
