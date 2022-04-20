@@ -9,7 +9,7 @@
 </script>
 
 <div class="title">
-	<!-- <img src="{base + '/' + file} " alt="{title}-logo" width="200px" /> -->
+	<img src="{base + '/' + file} " alt="{title}-logo" width="200px" />
 	<h1>{title}</h1>
 	{#if source}
 		<a href={source} target="_blank" class="button">Code source</a>

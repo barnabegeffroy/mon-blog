@@ -10,7 +10,7 @@ const config = defineConfig({
 	remarkPlugins: [],
 	rehypePlugins: [],
 	layout: {
-		gafalt: 'src/routes/gafalt/mdlayout.svelte'
+		gafalt: 'src/routes/gafalt/_mdlayout.svelte'
 	}
 });
 
