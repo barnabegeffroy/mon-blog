@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-    import Rating from './Rating.svelte';
-	import SvelteMarkdown from 'svelte-markdown';
+	import Rating from './Rating.svelte';
 
 	export let appli;
 	export let isOpenModal;
@@ -21,8 +20,8 @@
 			<span class="close" on:click={closeModal}>&times;</span>
 			<div class="transition">
 				<div class="modal-app-icon">
-					<img src={base + '/' + appli.file} alt="" />
-					<h4>{appli.name}</h4>
+					<img src={base + '/' + appli.appfile} alt="" />
+					<h4>{appli.appname}</h4>
 				</div>
 				<span class="arrow">&rarr;</span>
 				<div class="modal-app-icon">
@@ -33,10 +32,10 @@
 			<h2 class="banner">{appli.theme}</h2>
 		</div>
 		<div class="modal-body">
-			<h3>{appli.name}</h3>
-			<SvelteMarkdown source={appli.appdescription} />
+			<h3>{appli.appname}</h3>
+			{@html appli.appcontents}
 			<h3>{appli.altname}</h3>
-			<SvelteMarkdown source={appli.altdescription} />
+			{@html appli.altcontents}
 		</div>
 		<div class="modal-footer">
 			<h3>Fiche Technique</h3>
@@ -45,25 +44,25 @@
 			<div class="part">
 				<div class="rating">
 					<p>Expérience :</p>
-					<span><Rating rating={appli.ux} /></span>
+					<span><Rating rating={appli.ux.rating} /></span>
 				</div>
-				<SvelteMarkdown source={appli.uxdescription} />
+				{@html appli.ux.contents}
 			</div>
 			<hr />
 			<div class="part">
 				<div class="rating">
 					<p>Installation :</p>
-					<span><Rating rating={appli.instal} /></span>
+					<span><Rating rating="5" /></span>
 				</div>
-				<SvelteMarkdown source={appli.installdescription} />
+				{@html appli.install.contents}
 			</div>
 			<hr />
 			<div class="part">
 				<div class="rating">
 					<p>Transition :</p>
-					<span><Rating rating={appli.transition} /></span>
+					<span><Rating rating={appli.transition.rating} /></span>
 				</div>
-				<SvelteMarkdown source={appli.transitiondescription} />
+				{@html appli.transition.contents}
 			</div>
 		</div>
 		{#if appli.otheralt}
@@ -72,8 +71,8 @@
 			</div>
 			<div class="modal-body">
 				{#each appli.otheralt as alt}
-					<h4>{alt.name}</h4>
-					<SvelteMarkdown source={alt.text} />
+					<h4>{alt.appname}</h4>
+					{@html alt.contents}
 				{/each}
 			</div>
 		{/if}

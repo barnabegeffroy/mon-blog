@@ -6,7 +6,7 @@
 	import Appli from '$lib/Appli.svelte';
 	import Switch from '$lib/Switch.svelte';
 	import Modal from '$lib/Modal.svelte';
-	import applis from '../../data/appli.json';
+	import applis from '../../data.json';
 
 	let showModal = true;
 	let isOpen = false;

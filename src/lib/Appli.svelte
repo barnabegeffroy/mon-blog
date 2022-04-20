@@ -8,8 +8,8 @@
 	export let showModal;
 	export let isOpenModal;
 
-	let name = appli.name;
-	let file = appli.file;
+	let name = appli.appname;
+	let file = appli.appfile;
 	function openModal() {
 		isOpenModal = true;
 	}
@@ -17,8 +17,8 @@
 	let element;
 	let intro;
 	function animate() {
-		name = name == appli.name ? appli.altname : appli.name;
-		file = file == appli.file ? appli.altfile : appli.file;
+		name = name == appli.appname ? appli.altname : appli.appname;
+		file = file == appli.appfile ? appli.altfile : appli.appfile;
 		intro = create_in_transition(element, fade, { duration: 1000 });
 		intro.start();
 		if (showModal) {
@@ -29,7 +29,7 @@
 </script>
 
 <div class="app-body" bind:this={element}>
-	<img src={base + '/' + file} class="target" alt={appli.name + 'logo'} on:click={animate} />
+	<img src={base + '/' + file} class="target" alt={appli.appname + 'logo'} on:click={animate} />
 	<h4 class="app-name">{name}</h4>
 </div>
 
