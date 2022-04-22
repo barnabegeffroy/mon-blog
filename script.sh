@@ -31,7 +31,8 @@ while read p; do
     *"appli.md"*)
         markdown-json -p "appli.md" -s $dir
         grep "appname" $data >>$out
-        grep "theme" $data >>$out
+        grep 'theme":' $data >>$out
+        grep 'usage":' $data >>$out
         grep "contents" $data >>$out
         sed -ie '$s/contents/appcontents/' $out
         grep "appfile" $data >>$out

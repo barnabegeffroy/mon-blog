@@ -29,11 +29,34 @@
 </script>
 
 <div class="app-body" bind:this={element}>
-	<img src={base + '/' + file} class="target" alt={appli.appname + 'logo'} on:click={animate} />
+	<span class="notification">
+		<span class="badge"
+			><img src={base + '/' + file} alt={appli.appname + 'logo'} width="20px" /></span
+		>
+		<img src={base + '/' + file} class="target" alt={appli.appname + 'logo'} on:click={animate} />
+	</span>
 	<h4 class="app-name">{name}</h4>
 </div>
 
 <style>
+	.notification {
+		position: relative;
+	}
+	.badge {
+		background-color: red;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 25px;
+		width: 25px;
+		margin-left: 110px;
+		top: 20px;
+		right: 10px;
+		padding: 10px;
+		z-index: 1;
+		position: inherit;
+		border-radius: 50%;
+	}
 	.app-body {
 		display: flex;
 		flex-direction: column;
