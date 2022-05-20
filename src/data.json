@@ -1,0 +1,169 @@
+[
+  {
+    "otheralt": [
+      {
+        "appname": "Midori",
+        "contents": "<p>Midori est un navigateur <a href=\"https://gitlab.com/midori-web\"><strong>open source</strong></a> développé par Astian. Il est considéré l&#39;un des navigateurs les plus <strong>légers, rapides et minimals</strong>. Il s&#39;adresse davatange aux utilisateurs expérimentés avec une personnalisation qui nécessite davatange de ressources que de simples installations d&#39;extensions. Il est disponible sur tous les systèmes sauf iOS.</p>\n"
+      },
+      {
+        "appname": "Tor Browser",
+        "contents": "<p>Tor Browser est un navigateur <a href=\"https://gitweb.torproject.org/tor-browser.git/\"><strong>open source</strong></a> développé par The Tor Project. Il est basé sur Firefox et le réseau Tor. Ce navigateur permet une navigation hautement sécurisée avec un <strong>anonymat</strong> de l&#39;origine de connexions, outils contre le pistage par empreinte numérique unique des dimensions de l’écran...<br class=\"return\" />Toutefois Tor Browser ne semble pas adaptée pour une navigation quotidienne (pas d&#39;historique, de cookies...). L&#39;anonymat des connexions est également <strong>coûteux en énergie</strong>. Ce navigateur peut toutefois remplacer le mode navigation privée d&#39;un navigateur standard et apporter un anonymat beaucoup plus robuste.</p>\n"
+      }
+    ],
+    "altname": "Firefox",
+    "altfile": "firefox.svg",
+    "altcontents": "<p>Firefox est un navigateur <a href=\"https://hg.mozilla.org/mozilla-central/\"><strong>open source</strong></a> développé par la Mozilla Foundation et des nombreux bénévoles. Mozilla est une entité de référence dans le monde libre et un &quot;Internet plus sain&quot;. Elle publie notamment le <a href=\"https://www.mozilla.org/fr/about/manifesto/\">manifeste Mozilla</a> qui prône <strong>la transparence, l&#39;éthique et la neutralité du net</strong>.</p>\n<p>En terme d&#39;efficacité, Firefox n&#39;est pas forcément le navigateur le plus sobre. Toutefois, la philosophie de Mozilla et son indépendance (propre plateforme d&#39;extensions, pas de pubs) en font un outil incontounable du numérique responsable.</p>\n<p>Firefox est disponible sur tous les systèmes d&#39;exploitations (Windows, Mac, Linux, iOS, Android...)</p>\n",
+    "appname": "Chrome",
+    "theme": "Navigateurs web",
+    "appfile": "chrome.svg",
+    "usage": "desktop",
+    "appcontents": "<p>Chrome est un navigateur <strong>propriétaire</strong> développé par <strong>Google</strong>. C&#39;est le navigateur le plus utilisé dans le monde avec <a href=\"https://fr.wikipedia.org/wiki/Parts_de_march%C3%A9_des_navigateurs_web\">66% des parts du marché</a>.</p>\n<p>Comme la plupart des outils de Google, ce logiciel est très gourmant des données personnelles. L&#39;entreprise a nottament été poursuivi en justice car son mode de navigation privée, le mode &quot;incognito&quot;, collectait les données personnelles. L&#39;entreprise profite également de sa position dominante (notamment sur les téléphones Android) pour imposer ce navigateur. Elle d&#39;ailleurs a été <a href=\"https://www.ouest-france.fr/high-tech/google/google-conteste-une-amende-de-4-3-milliards-devant-la-justice-de-l-ue-729fc706-1fb8-11ec-8af0-329508a32afd\">condamnée à une amende de 4,3 millidards par l&#39;UE</a> pour pratique anticoncurrentielle.</p>\n<p>De manière général Chrome collecte <a href=\"https://nitter.dark.fail/DuckDuckGo/status/1371509053613084679?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1371509053613084679%7Ctwgr%5E%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fwww.android-mt.com%2Fnews%2Fcomment-google-chrome-utilise-vos-donnees-et-vie-privee%2F116614%2F\">la plupart des données</a>: informations financières, localisation, contacts, historique de recherche, historique de navigation, identifiants, données d&#39;utilisation, et tant d&#39;autres.&quot;</p>\n",
+    "install": {
+      "rating": "5",
+      "contents": "<p>L&#39;installation ne nécessite <strong>aucune compétence particulière</strong>, elle se fait comme toute application classique. Firefox est disponible sur le <a href=\"https://www.mozilla.org/fr/firefox/new/\">site de mozilla</a> et sur les stores mobiles.</p>\n"
+    },
+    "transition": {
+      "rating": "5",
+      "contents": "<p>La transition vers Firefox est <strong>simple</strong>. La différence d&#39;utilisation entre les deux navigateurs est en effet très faible. Il existe même un <a href=\"https://support.mozilla.org/fr/kb/passer-de-chrome-a-firefox\">outil</a> pour transférer ces données (historiques, favoris, ...) depuis Chrome.</p>\n"
+    },
+    "ux": {
+      "rating": "5",
+      "contents": "<p>L&#39;utilisation de Firefox est <strong>très agéable</strong>. On trouve énormement d&#39;<a href=\"https://addons.mozilla.org/fr/firefox/\"><strong>extensions</strong></a> qui rendent le navigateur hautement personnalisable facilement. Vous pouvez notamment installer un bloqueur de pulicité sur votre mobile ! Firefox propose aussi un service de synchronisation pour connecter ses différents appareils.</p>\n"
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Telegram",
+        "contents": ""
+      }
+    ],
+    "altname": "Osmand",
+    "altfile": "osmand.svg",
+    "altcontents": "",
+    "appname": "Maps",
+    "theme": "Navigation",
+    "appfile": "google-maps.svg",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Telegram",
+        "contents": ""
+      }
+    ],
+    "altname": "Thunderbird",
+    "altfile": "thunderbird.svg",
+    "altcontents": "",
+    "appname": "Outlook",
+    "theme": "Gestionnaire d'e-mails",
+    "appfile": "outlook.svg",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Telegram",
+        "contents": ""
+      }
+    ],
+    "altname": "Signal",
+    "altfile": "signal.svg",
+    "altcontents": "",
+    "appname": "WhatsApp",
+    "theme": "Messageries instantannées",
+    "appfile": "whatsapp.svg",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Telegram",
+        "contents": ""
+      }
+    ],
+    "altname": "LibreOffice",
+    "altfile": "libreoffice.svg",
+    "altcontents": "",
+    "appname": "Word",
+    "theme": "Suite bureautique",
+    "appfile": "word.svg",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Telegram",
+        "contents": ""
+      }
+    ],
+    "altname": "Jitsi",
+    "altfile": "jitsi.svg",
+    "altcontents": "",
+    "appname": "Zoom",
+    "theme": "Visioconférence",
+    "appfile": "zoom.svg",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  }
+]

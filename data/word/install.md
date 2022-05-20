@@ -1,3 +1,3 @@
 ---
-rating:
+rating: 5
 ---

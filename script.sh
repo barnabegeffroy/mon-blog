@@ -1,84 +1,78 @@
-mkdir tmp
-tree -J data/* >tmp/tree.json
-sed -i 's/.*directory.*alt.*/\t\t{"alt":[/g' tmp/tree.json
-sed -i 'N;$!P;D' tmp/tree.json
-echo }] >>tmp/tree.json
+write_data () {
+  line=$(grep -n "\-\-\-" $1 | cut -f1 -d: | tail -1)
+  cat $1 | head -$(($line-1)) | tail -$(($line-2)) | sed 's/\(.*\): \(.*\)/"\1":"\2",/' >> $2
+  content=$(sed -n $(($line+1))',$p' $1 | marked | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g' | sed 's/\"\+/\\\"/g' )
+  echo '"contents":"'$content'",' >> $2
+}
 
 alt=0
 dir=""
-out="tmp/file.json"
-data="tmp/data.json"
+out="./src/data.json"
 echo [ >$out
+tree -J data/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
 while read p; do
     case $p in
+    *"directory"*)
+        dir=$(echo $p | sed 's/.*name\":\"\([a-z/]*\).*/\1/')
+        echo { >>$out
+        ;;
+
     '{"alt":[')
         alt=1
         echo '"otheralt":[' >>$out
         ;;
 
-    *"directory"*)
-        dir=$(echo $p | sed 's/.*name\":\"\([a-z/]*\).*/\1/')
-        echo { >>$out
-
-        ;;
     *"alt.md"*)
-        markdown-json -p "alt.md" -s $dir
-        grep "altname" $data >>$out
-        grep "altfile" $data >>$out
-        grep "contents" $data >>$out
+        write_data $dir/alt.md $out
         sed -ie '$s/contents/altcontents/' $out
         ;;
+
     *"appli.md"*)
-        markdown-json -p "appli.md" -s $dir
-        grep "appname" $data >>$out
-        grep 'theme":' $data >>$out
-        grep 'usage":' $data >>$out
-        grep "contents" $data >>$out
+        write_data $dir/appli.md $out
         sed -ie '$s/contents/appcontents/' $out
-        grep "appfile" $data >>$out
         ;;
+    
     *"install"*)
         echo '"install": {' >>$out
-        markdown-json -p "install.md" -s $dir
-        grep "rating" $data >>$out
-        grep "contents" $data >>$out
+        write_data $dir/"install.md" $out
+        sed -i '$ s/.$//' $out
         echo }, >>$out
         ;;
+
     *"transition"*)
         echo '"transition": {' >>$out
-        markdown-json -p "transition.md" -s $dir
-        grep "rating" $data >>$out
-        grep "contents" $data >>$out
+        write_data $dir/"transition.md" $out
+        sed -i '$ s/.$//' $out
         echo }, >>$out
         ;;
+
     *"ux.md"*)
         echo '"ux": {' >>$out
-        markdown-json -p "ux.md" -s $dir
-        grep "rating" $data >>$out
-        grep "contents" $data >>$out
+        write_data $dir/"ux.md" $out
+        sed -i '$ s/.$//' $out
         echo } >>$out
         ;;
+
     *"file"*)
         echo { >>$out
         name=$(echo $p | sed 's/.*name\":\"\([a-z]*.md\).*/\1/')
-        markdown-json -p $name -s $dir/alt
-        grep "appname" $data >>$out
-        grep "contents" $data >>$out
+        write_data $dir/alt/$name $out
+        sed -i '$ s/.$//' $out
         echo }, >>$out
         ;;
+
     "]},")
         if [ $alt -eq 0 ]; then
             echo }, >>$out
         else
             alt=0
             sed -ie '$s/},/}],/' $out
-
         fi
         ;;
+
     esac
-done <tmp/tree.json
+done
 
-sed -ie '$s/},/}]/' $out
-
-prettier tmp/file.json >./src/data.json
-rm -r tmp
+echo "}]" >> $out
+prettier -w $out 
+rm src/data.jsone

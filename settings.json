@@ -1,8 +1,0 @@
-{
-  "name": "markdown-json",
-  "cwd": "./",
-  "metadata": false,
-  "server":false,
-  "dist": "tmp/data.json",
-  "deterministicOrder": true
-}
