@@ -34,7 +34,7 @@
 		<span class="badge"><img src={base + '/laptop.svg'} alt="" width="30px" /></span>
 		<span class="badge2"><img src={base + '/phone.svg'} alt="" width="30px" /></span>
 		{:else}
-		<span class="badge"><img src={base + appli.usage == 'desktop' ? '/laptop.svg' : '/phone.svg'} alt="" width="30px" /></span>
+		<span class="badge"><img src={base + (appli.usage == 'desktop' ? '/laptop.svg' : '/phone.svg')} alt="" width="30px" /></span>
 		{/if}
 			<img src={base + '/' + file} class="target" alt={appli.appname + 'logo'} on:click={animate} />
 			<h4 class="app-name">{name}</h4>
