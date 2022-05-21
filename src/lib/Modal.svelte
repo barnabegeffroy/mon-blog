@@ -65,6 +65,9 @@
 				{@html appli.transition.contents}
 			</div>
 		</div>
+		<div class="flex">
+			<a href="{base + '/gafalt/' + appli.altname } " class="button">Plus d'informations sur cette alternative</a>
+		</div>
 		{#if appli.otheralt}
 			<div class="modal-footer">
 				<h3>D'autres alternatives</h3>
@@ -241,5 +244,11 @@
 		.arrow {
 			font-size: 70px;
 		}
+	}
+
+	.flex{
+		display: flex;
+		justify-content: center;
+		margin:30px;
 	}
 </style>

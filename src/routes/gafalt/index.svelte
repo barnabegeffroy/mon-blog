@@ -7,6 +7,7 @@
 	import Switch from '$lib/Switch.svelte';
 	import Modal from '$lib/Modal.svelte';
 	import applis from '../../data.json';
+import Comment from '$lib/Comment.svelte';
 
 	let showModal = true;
 	let isOpen = false;
@@ -27,6 +28,9 @@
 </div>
 
 <Modal bind:isOpenModal={isOpen} appli={currentApp} />
+
+
+<Comment name="gafalt" />
 
 <style>
 	.container {

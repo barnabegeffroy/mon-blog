@@ -43,26 +43,5 @@
 			color: rgb(134, 134, 134);
 		}
 	}
-	.button {
-		background-color: #5cb85c;
-		border: none;
-		color: white;
-		padding: 16px 32px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		font-size: 16px;
-		margin: 4px 2px;
-		transition-duration: 0.4s;
-		cursor: pointer;
-		background-color: #5cb85c;
-		color: white;
-		border: 2px solid #5cb85c;
-		border-radius: 12px;
-	}
 
-	.button:hover {
-		color: #5cb85c;
-		background-color: transparent;
-	}
 </style>
