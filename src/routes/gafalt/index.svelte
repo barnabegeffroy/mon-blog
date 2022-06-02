@@ -7,30 +7,32 @@
 	import Switch from '$lib/Switch.svelte';
 	import Modal from '$lib/Modal.svelte';
 	import applis from '../../data.json';
-import Comment from '$lib/Comment.svelte';
-
+	import Comment from '$lib/Comment.svelte';
 	let showModal = true;
 	let isOpen = false;
 	let currentApp = applis[0];
 </script>
 
-<h1>Les alternatives aux GAFAM</h1>
-<p>Cliquez sur les applications pour découvrir leur alternative !</p>
-<div class="switch">
-	<p>Activer les descriptions :</p>
-	<Switch bind:checked={showModal} />
-</div>
-
-<div class="container">
+<div>
+	
+	<h1>Les alternatives aux GAFAM</h1>
+	<p>Cliquez sur les applications pour découvrir leur alternative !</p>
+	<div class="switch">
+		<p>Activer les descriptions :</p>
+		<Switch bind:checked={showModal} />
+	</div>
+	
+	<div class="container">
 	{#each applis as appli}
 		<Appli {appli} {showModal} bind:isOpenModal={isOpen} bind:currentApp />
-	{/each}
-</div>
-
+		{/each}
+	</div>
+	
 <Modal bind:isOpenModal={isOpen} appli={currentApp} />
 
 
 <Comment name="gafalt" />
+</div>
 
 <style>
 	.container {

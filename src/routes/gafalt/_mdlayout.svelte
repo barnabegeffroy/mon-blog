@@ -17,9 +17,10 @@
 	<p class="date">Publié le {date}</p>
 </div>
 
-<slot />
-
-<Comment name={title} />
+<div>
+	<slot />
+	<Comment name={title} />
+</div>
 
 <style>
 	.title {

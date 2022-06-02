@@ -1,30 +1,30 @@
-import { mdsvex } from 'mdsvex';
-import mdsvexConfig from './mdsvex.config.js';
-import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import { mdsvex } from "mdsvex";
+import mdsvexConfig from "./mdsvex.config.js";
+import preprocess from "svelte-preprocess";
+import adapter from "@sveltejs/adapter-static";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
+  extensions: [".svelte", ...mdsvexConfig.extensions],
 
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
-	preprocess: [preprocess(), mdsvex(mdsvexConfig)],
+  // Consult https://github.com/sveltejs/svelte-preprocess
+  // for more information about preprocessors
+  preprocess: [preprocess(), mdsvex(mdsvexConfig)],
 
-	kit: {
-		adapter: adapter({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: null
-		}),
-		prerender: {
-			default: true
-		},
-		paths: {
-			base: process.env.NODE_ENV === 'development' ? '' : '/mon-blog'
-		}
-	}
+  kit: {
+    adapter: adapter({
+      // default options are shown
+      pages: "build",
+      assets: "build",
+      fallback: null,
+    }),
+    prerender: {
+      default: true,
+    },
+    paths: {
+      base: process.env.NODE_ENV === "development" ? "" : "/mon-blog",
+    },
+  },
 };
 
 export default config;

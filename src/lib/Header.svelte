@@ -14,6 +14,9 @@
 			<li class:active={page === base || page === base + '/'}>
 				<a sveltekit:prefetch href="{base}/">Accueil</a>
 			</li>
+			<li class:active={page === base + '/pourquoi'}>
+				<a sveltekit:prefetch href="{base}/pourquoi">Pourquoi une transition ?</a>
+			</li>
 			<li class:active={page === base + '/gafalt'}>
 				<a sveltekit:prefetch href="{base}/gafalt">GAFAlternative</a>
 			</li>
@@ -35,7 +38,7 @@
 	}
 
 	.corner {
-		width: 3em;
+		width: 7em;
 		height: 3em;
 	}
 

@@ -19,16 +19,42 @@
 	function animate() {
 		name = name == appli.appname ? appli.altname : appli.appname;
 		file = file == appli.appfile ? appli.altfile : appli.appfile;
-		intro = create_in_transition(element, fade, { duration: 1000 });
+		intro = create_in_transition(element, fade, { duration: 200 });
 		intro.start();
 		if (showModal) {
 			currentApp = appli;
 			setTimeout(openModal, 1000);
 		}
 	}
-</script>
+	
+	function longpress(node, threshold = 500) {
+		const handle_mousedown = () => {
+		element.style.transform = "scale(1.05)";
 
-<div class="app-body" bind:this={element}>
+		const timeout = setTimeout(() => {
+			node.dispatchEvent(new CustomEvent('longpress'));
+		}, threshold);
+	
+		const cancel = () => {
+			clearTimeout(timeout);
+			element.style.transform = "scale(1)";
+			node.removeEventListener('mousemove', cancel);
+			node.removeEventListener('mouseup', cancel);
+		};
+	
+		node.addEventListener('mousemove', cancel);
+		node.addEventListener('mouseup', cancel);
+		}
+	
+		node.addEventListener('mousedown', handle_mousedown);
+		return {
+		destroy() {
+			node.removeEventListener('mousedown', handle_mousedown);
+		}
+		};
+  }
+</script>
+<div class="app-body" bind:this={element} use:longpress on:longpress="{e => window.location.href=base + '/gafalt/'+appli.altname}">
 	<span class="notification">
 		{#if appli.usage == "all"}
 		<span class="badge"><img src={base + '/laptop.svg'} alt="" width="30px" /></span>
@@ -96,6 +122,18 @@
 		z-index: 0;
 		background-color: white;
 	}
+	.app-body.active {
+    background-color: #f00;
+    -ms-transition-duration: 0.2s;
+    -ms-transform: scale(0.95);
+    -webkit-transition-duration: 0.2s;
+    -webkit-transform: scale(0.95);
+    -moz-transition-duration: 0.2s;
+    -moz-transform: scale(0.95);
+    -o-transition-duration: 0.2s;
+    -o-transform: scale(0.95);
+}
+
 	@media (max-width: 775px) {
 		.target {
 			width: 90px;
