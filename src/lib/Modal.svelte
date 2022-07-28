@@ -52,7 +52,7 @@
 			<div class="part">
 				<div class="rating">
 					<p>Installation :</p>
-					<span><Rating rating="5" /></span>
+					<span><Rating rating={appli.install.rating} /></span>
 				</div>
 				{@html appli.install.contents}
 			</div>
