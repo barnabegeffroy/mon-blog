@@ -1,3 +1,0 @@
----
-appname: Telegram
----
