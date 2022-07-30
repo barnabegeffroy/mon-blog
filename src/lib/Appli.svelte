@@ -56,12 +56,12 @@
 </script>
 <div class="app-body" bind:this={element} use:longpress on:longpress="{e => window.location.href=base + '/gafalt/'+appli.altname}">
 	<span class="notification">
-		{#if appli.usage == "all"}
+		<!-- {#if appli.usage == "all"}
 		<span class="badge"><img src={base + '/laptop.svg'} alt="" width="30px" /></span>
 		<span class="badge2"><img src={base + '/phone.svg'} alt="" width="30px" /></span>
 		{:else}
 		<span class="badge"><img src={base + (appli.usage == 'desktop' ? '/laptop.svg' : '/phone.svg')} alt="" width="30px" /></span>
-		{/if}
+		{/if} -->
 			<img src={base + '/' + file} class="target" alt={appli.appname + 'logo'} on:click={animate} />
 			<h4 class="app-name">{name}</h4>
 		</span>
