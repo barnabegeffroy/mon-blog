@@ -1,6 +1,8 @@
 La transition numérique a un double enjeu :
-* Concilier le numérique avec nos limites planétaires
-* Tendre vers un numérique plus éthique et respectueux de la vie privée des utilisateurs
+
+- Concilier le numérique avec nos limites planétaires
+- Tendre vers un numérique plus éthique et respectueux de la vie privée des utilisateurs
+
 # Pourquoi une transition numérique est nécessaire ?
 
 ## Contexte
@@ -9,10 +11,9 @@ Le numérique est un espace inévitable dans notre vie. Il soulève de nombreux 
 
 L'impact du numérique sur notre planète est clairement non négligeable. Selon un [rapport de GreenIT.fr](https://www.greenit.fr/empreinte-environnementale-du-numerique-mondial/) Il représente 3,8% des émissions mondiales de gaz à effet de serre. Il participe également à l'épuisement des ressources abiotiques qui sont en voie d'épuisement. Cet épuisement est principalement liée aux équipements utilisateurs.
 
-Ce secteur est en constante expension. Sur le réseau mobile, le trafic de données consommées a été multiplié par plus de 8 en 5 ans ([Arcep](https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-marches-des-communications-electroniques-en-france/t3-2021.html)). Il est donc important d'effectuer virage pour éviter que le numérique soit considérer comme une ressource critique non renouvelable. Ce virage passe par une **sobriété numérique**. 
-D'abord en conservant le plus longtemps ses appareils. C'est en effet la phase de production qui représente le plus des émissions de gaz à effet de serre dans le cycle de vie de vos appareils. 
-Ensuite, en réduisant son utilisation. Celle-ci représente ..% des émissions de gaz à effet de serre de vos appareils et réprésente un . La surconsommation de données est très peu remise en question. Les opérateurs ne cessent de proposer des offres avec toujours plus de Giga Octets à des prix toujours plus dérisoires. Nous consommons des données sans se préocupper de l'impact de cette action, sans se demander comment sont traitées ces données. 
-
+Ce secteur est en constante expension. Sur le réseau mobile, le trafic de données consommées a été multiplié par plus de 8 en 5 ans ([Arcep](https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-marches-des-communications-electroniques-en-france/t3-2021.html)). Il est donc important d'effectuer virage pour éviter que le numérique soit considérer comme une ressource critique non renouvelable. Ce virage passe par une **sobriété numérique**.
+D'abord en conservant le plus longtemps ses appareils. C'est en effet la phase de production qui représente le plus des émissions de gaz à effet de serre dans le cycle de vie de vos appareils.
+Ensuite, en réduisant son utilisation. Celle-ci représente ..% des émissions de gaz à effet de serre de vos appareils et réprésente un . La surconsommation de données est très peu remise en question. Les opérateurs ne cessent de proposer des offres avec toujours plus de Giga Octets à des prix toujours plus dérisoires. Nous consommons des données sans se préocupper de l'impact de cette action, sans se demander comment sont traitées ces données.
 
 Pour savoir quelles alternatives choisir il faut d'abord comprendre comment fonctionnent les services numériques. Ceux-ci se composent en **deux grandes familles** : les services propriétaires et les services libres.
 
@@ -44,7 +45,8 @@ Facebook, aspirateur à données, Zuckerberg qui menace de fermer les services (
 
 Apple qui propose des produits tous les ans avec un chargeur non universel, qui dit que son iOS est sécurisé mais sans réelle preuve.... Bref y'a a beaucoup des comme ça.
 
-De plus ces entreprises participent à l'obscolescence logicielle. 
+De plus ces entreprises participent à l'obscolescence logicielle.
+
 ## Les applications libre
 
 ###

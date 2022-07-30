@@ -1,6 +1,6 @@
 ---
 appname: Instagram
-theme: 
+theme:
 appfile: instagram.svg
 usage: mobile
 ---

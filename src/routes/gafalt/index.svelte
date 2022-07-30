@@ -1,54 +1,52 @@
 <script context="module" lang="ts">
-	export const prerender = true;
+  export const prerender = true
 </script>
 
 <script>
-	import Appli from '$lib/Appli.svelte';
-	import Switch from '$lib/Switch.svelte';
-	import Modal from '$lib/Modal.svelte';
-	import applis from '../../data.json';
-	import Comment from '$lib/Comment.svelte';
-	let showModal = true;
-	let isOpen = false;
-	let currentApp = applis[0];
+  import Appli from '$lib/Appli.svelte'
+  import Switch from '$lib/Switch.svelte'
+  import Modal from '$lib/Modal.svelte'
+  import applis from '../../data.json'
+  import Comment from '$lib/Comment.svelte'
+  let showModal = true
+  let isOpen = false
+  let currentApp = applis[0]
 </script>
 
 <div>
-	
-	<h1>Les alternatives aux GAFAM</h1>
-	<p>Cliquez sur les applications pour découvrir leur alternative !</p>
-	<div class="switch">
-		<p>Activer les descriptions :</p>
-		<Switch bind:checked={showModal} />
-	</div>
-	
-	<div class="container">
-	{#each applis as appli}
-		<Appli {appli} {showModal} bind:isOpenModal={isOpen} bind:currentApp />
-		{/each}
-	</div>
-	
-<Modal bind:isOpenModal={isOpen} appli={currentApp} />
+  <h1>Les alternatives aux GAFAM</h1>
+  <p>Cliquez sur les applications pour découvrir leur alternative !</p>
+  <div class="switch">
+    <p>Activer les descriptions :</p>
+    <Switch bind:checked={showModal} />
+  </div>
 
+  <div class="container">
+    {#each applis as appli}
+      <Appli {appli} {showModal} bind:isOpenModal={isOpen} bind:currentApp />
+    {/each}
+  </div>
 
-<Comment name="gafalt" />
+  <Modal bind:isOpenModal={isOpen} appli={currentApp} />
+
+  <Comment name="gafalt" />
 </div>
 
 <style>
-	.container {
-		justify-content: center;
-		display: flex;
-		flex-wrap: wrap;
-		position: relative;
-		overflow: hidden;
-	}
-	.switch {
-		display: flex;
-	}
-	p {
-		font-size: x-large;
-	}
-	.switch > p {
-		margin: 0% 2% 3% 0%;
-	}
+  .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+  }
+  .switch {
+    display: flex;
+  }
+  p {
+    font-size: x-large;
+  }
+  .switch > p {
+    margin: 0% 2% 3% 0%;
+  }
 </style>
