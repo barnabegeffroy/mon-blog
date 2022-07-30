@@ -1,0 +1,12 @@
+<svg width="100" height="100" version="1.1" viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#703DB4;}
+	.st1{fill:#532B86;}
+	.st2{fill:#FFF;}
+</style>
+<g transform="translate(18,6)">
+	<path class="st0" d="m58 88h-52a6 6 0 0 1-6-6v-76a6 6 0 0 1 6-6h36l22 22v60a6 6 0 0 1-6 6z"/>
+	<path class="st1" d="m42 0 22 22h-22z"/>
+	<path class="st2" d="m50 39h-26v-5h26zm0 7h-26v5h26zm0 12h-26v5h26zm-34-24a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm0 12a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm0 12a2 2 0 1 0 2 2 2 2 0 0 0-2-2z"/>
+</g>
+</svg>
