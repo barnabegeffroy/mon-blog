@@ -32,6 +32,197 @@
     }
   },
   {
+    "altname": "Transportr",
+    "altfile": "transportr.svg",
+    "altcontents": "",
+    "appname": "Citymapper",
+    "theme": "Transports en commun",
+    "appfile": "citymapper.svg",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Rocketchat",
+        "contents": ""
+      }
+    ],
+    "altname": "Mattermost",
+    "altfile": "mattermost.svg",
+    "altcontents": "",
+    "appname": "Discord",
+    "theme": "Messagerie instannée",
+    "appfile": "discord.svg",
+    "usage": "all",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Framapad",
+        "contents": ""
+      }
+    ],
+    "altname": "OnlyOffice",
+    "altfile": "onlyoffice.svg",
+    "altcontents": "",
+    "appname": "Google Docs",
+    "theme": "Suite bureautique en ligne",
+    "appfile": "google-docs.svg",
+    "usage": "desktop",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "altname": "Framaforms",
+    "altfile": "framaforms.svg",
+    "altcontents": "",
+    "appname": "Google Forms",
+    "theme": "Éditeur de formulaires",
+    "appfile": "google-forms.svg",
+    "usage": "desktop",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Framapad",
+        "contents": ""
+      },
+      {
+        "appname": "Framapad",
+        "contents": ""
+      }
+    ],
+    "altname": "Iroco",
+    "altfile": "iroco.svg",
+    "altcontents": "",
+    "appname": "Gmail",
+    "theme": "Service d'e-mails",
+    "appfile": "gmail.svg",
+    "usage": "all",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "DuckDuckGo",
+        "contents": ""
+      },
+      {
+        "appname": "Qwant",
+        "contents": ""
+      }
+    ],
+    "altname": "Startpage",
+    "altfile": "startpage.svg",
+    "altcontents": "",
+    "appname": "Google Search",
+    "theme": "Moteur de recherche",
+    "appfile": "google-search.svg",
+    "usage": "all",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Barinsta",
+        "contents": ""
+      }
+    ],
+    "altname": "Pixelfed",
+    "altfile": "pixelfed.svg",
+    "altcontents": "",
+    "appname": "Instagram",
+    "theme": "",
+    "appfile": "instagram.svg",
+    "usage": "mobile",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
     "otheralt": [
       {
         "appname": "Telegram",
@@ -71,6 +262,57 @@
     "appname": "Outlook",
     "theme": "Gestionnaire d'e-mails",
     "appfile": "outlook.svg",
+    "usage": "desktop",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "altname": "Cospend",
+    "altfile": "cospend.svg",
+    "altcontents": "",
+    "appname": "Tricount",
+    "theme": "Gestion des dépenses de groupe",
+    "appfile": "tricount.png",
+    "usage": "mobile",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "5",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Nitter",
+        "contents": ""
+      }
+    ],
+    "altname": "Mastodon",
+    "altfile": "mastodon.svg",
+    "altcontents": "",
+    "appname": "Twitter",
+    "theme": "Réseau social",
+    "appfile": "twitter.svg",
+    "usage": "mobile",
     "appcontents": "",
     "install": {
       "rating": "5",
@@ -143,16 +385,17 @@
   {
     "otheralt": [
       {
-        "appname": "Telegram",
+        "appname": "FreeTube",
         "contents": ""
       }
     ],
-    "altname": "Jitsi",
-    "altfile": "jitsi.svg",
+    "altname": "PeerTube",
+    "altfile": "peertube.svg",
     "altcontents": "",
-    "appname": "Zoom",
-    "theme": "Visioconférence",
-    "appfile": "zoom.svg",
+    "appname": "YouTube",
+    "theme": "Vidéo",
+    "appfile": "youtube.svg",
+    "usage": "all",
     "appcontents": "",
     "install": {
       "rating": "5",
@@ -165,6 +408,34 @@
     "ux": {
       "rating": "5",
       "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "BigBlueButton",
+        "contents": "<p><a href=\"https://demo.bigbluebutton.org/gl\">BigBlueButton</a> est une application de visoconférence <a href=\"https://github.com/bigbluebutton/bigbluebutton\"><strong>open source</strong></a>. C&#39;est un service gratuit également pour un durée maximale d&#39;une heure par appel. Il faut créer un compte pour l&#39;utiliser. </p>\n"
+      }
+    ],
+    "altname": "Jitsi",
+    "altfile": "jitsi.svg",
+    "altcontents": "<p>Jitsi est un logiciel de visioconférence <a href=\"https://github.com/jitsi/jitsi\"><strong>open source</strong></a>. L&#39;application <a href=\"https://meet.jit.si/\">Jitsi Meet</a> est <strong>gratuite</strong> et permet des appels jusqu&#39;à 100 participants à la fois, sans limite de temps, avec une chiffrement des données pour respecter la <strong>confidentialité des utilisateurs</strong>. </p>\n<p>Jitsi peut également être installé sur un serveur pour proposer un service de visionconférence sur sa propre infrastructure. Il existe donc d&#39;autres plateformes que Jitsi Meet proposant les services Jitsi tels que les Chatons ou encore Disroot.</p>\n",
+    "appname": "Zoom",
+    "theme": "Visioconférence",
+    "appfile": "zoom.svg",
+    "usage": "all",
+    "appcontents": "<p>Zoom est un logiciel de visioconférence <strong>propriétaire</strong>. Il est réputé pour être un service ne respectant pas la vie privée des utilisateurs. On retrouve en effet dans la <a href=\"https://explore.zoom.us/fr/gdpr/\">politique de confidentialité</a> de l&#39;entreprise <strong>collecte vos données</strong> appelé le <em>contenu client</em>, et les stocke chez <strong>Amazon</strong>.</p>\n",
+    "install": {
+      "rating": "5",
+      "contents": "<p>Jitsi Meet est disponible sur tous les navigateurs, sur Android et iOS. Pas besoin d&#39;inscription pour participer à une réunion.</p>\n"
+    },
+    "transition": {
+      "rating": "5",
+      "contents": "<p>La création d&#39;une réunion est très simple, il sufit d&#39;envoyer un lien pour que les participant se connectent. On peut donc très facilement passer de Zoom à Jitsi.</p>\n"
+    },
+    "ux": {
+      "rating": "3.5",
+      "contents": "<p>Jitsi présente les fonctionnalités de base : visioconférence, chat, partage d&#39;écran, modération, arrière plan virtuel. Zoom dispose sûrement davatange de fonctionnalités mais moins indispendables comme la prise en main d&#39;un écran à distance. Le service Jitsi Meet étant gratuit, il peut être parfois saturé et ralenti. Toutefois vous pouvez régler la qualité de la vidéo pour améliorer la performance.</p>\n"
     }
   }
 ]
