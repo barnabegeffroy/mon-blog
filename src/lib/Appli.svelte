@@ -85,7 +85,7 @@
     padding-top: 15px;
     padding-left: 10px;
   }
-  .badge {
+  /* .badge {
     background-color: red;
     display: flex;
     height: 25px;
@@ -109,7 +109,7 @@
     bottom: 135px;
     position: absolute;
     border-radius: 50%;
-  }
+  } */
   .app-body {
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@
     z-index: 0;
     background-color: white;
   }
-  .app-body.active {
+  /* .app-body.active {
     background-color: #f00;
     -ms-transition-duration: 0.2s;
     -ms-transform: scale(0.95);
@@ -144,7 +144,7 @@
     -moz-transform: scale(0.95);
     -o-transition-duration: 0.2s;
     -o-transform: scale(0.95);
-  }
+  } */
 
   @media (max-width: 775px) {
     .target {

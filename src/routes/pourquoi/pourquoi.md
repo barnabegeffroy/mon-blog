@@ -49,7 +49,7 @@ De plus ces entreprises participent à l'obscolescence logicielle.
 
 ## Les applications libre
 
-###
+### Leur fonctionnement
 
 Leur code est en accès libre, tout le monde peut le voir, le vérifier. En gros au lieu de se baser sur la concurrence, l'open source c'est la collaboration. Tout le monde peut proposer une amélioration au code, rapporter un bug. Le fait que le code soit en libre accès, il peut être auditer par des instances externes spécialisées dans des domaines précis (sécurité, performance, ...). L'idée donc est de tout privatiser c'est de rendre accessible, utiliser les standards.
 
