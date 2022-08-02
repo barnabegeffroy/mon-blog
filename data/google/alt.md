@@ -6,6 +6,6 @@ Avant de détailler l'alternative, voici comment s'organisent les différents mo
 
 L'idée est donc d'utiliser un métamoteur qui affiche les résultats des crawlers mais se débarasse de tous les pisteurs et autres outils de traquage. Startpage est une solution. Ce métamoteur utilise les résultats de Google mais en mettant en place des solutions pour le **respect de la vie privée**. 
 
-Son modèle économique est basé sur la publicité sans utilisation de données personnelles. On peut tout à fait bloquer ces publicités avec un bloqueur de pub (voir [Firefox](./Firefox)).
+Son modèle économique est basé sur la publicité sans utilisation de données personnelles. On peut tout à fait bloquer ces publicités avec un bloqueur de pub (voir [Firefox](./gafalt/Firefox)).
 
 De plus, Startpage est l'un des moteurs de recherche les plus **sobres** du marché ([Greenspector](https://greenspector.com/fr/moteurs-de-recherches/)).
