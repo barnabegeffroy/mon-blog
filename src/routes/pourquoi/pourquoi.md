@@ -1,7 +1,7 @@
 La transition numérique a un double enjeu :
 
 - Concilier le numérique avec nos limites planétaires
-- Tendre vers un numérique plus éthique et respectueux de la vie privée des utilisateurs
+- Tendre vers un numérique plus éthique et respectueux de la vie privée des utilisateur⋅ices
 
 # Pourquoi une transition numérique est nécessaire ?
 
@@ -9,7 +9,7 @@ La transition numérique a un double enjeu :
 
 Le numérique est un espace inévitable dans notre vie. Il soulève de nombreux enjeux dans un monde où une transition systémique est nécessaire.
 
-L'impact du numérique sur notre planète est clairement non négligeable. Selon un [rapport de GreenIT.fr](https://www.greenit.fr/empreinte-environnementale-du-numerique-mondial/) Il représente 3,8% des émissions mondiales de gaz à effet de serre. Il participe également à l'épuisement des ressources abiotiques qui sont en voie d'épuisement. Cet épuisement est principalement liée aux équipements utilisateurs.
+L'impact du numérique sur notre planète est clairement non négligeable. Selon un [rapport de GreenIT.fr](https://www.greenit.fr/empreinte-environnementale-du-numerique-mondial/) Il représente 3,8% des émissions mondiales de gaz à effet de serre. Il participe également à l'épuisement des ressources abiotiques qui sont en voie d'épuisement. Cet épuisement est principalement liée aux équipements utilisateur⋅ices.
 
 Ce secteur est en constante expension. Sur le réseau mobile, le trafic de données consommées a été multiplié par plus de 8 en 5 ans ([Arcep](https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-marches-des-communications-electroniques-en-france/t3-2021.html)). Il est donc important d'effectuer virage pour éviter que le numérique soit considérer comme une ressource critique non renouvelable. Ce virage passe par une **sobriété numérique**.
 D'abord en conservant le plus longtemps ses appareils. C'est en effet la phase de production qui représente le plus des émissions de gaz à effet de serre dans le cycle de vie de vos appareils.
