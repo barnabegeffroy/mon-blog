@@ -1,6 +1,6 @@
 ---
-appname: Outlook
+appname: Client mail
 theme: Gestionnaire d'e-mails
-appfile: outlook.svg
+appfile: mail.svg
 usage: desktop
 ---
