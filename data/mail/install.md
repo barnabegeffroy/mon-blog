@@ -1,7 +1,8 @@
 ---
 rating: 5
 ---
-Thunderbird est disponible sur leur [site web](https://www.thunderbird.net/en-US/thunderbird/all/#F) pour tous les sytèmes (Windows, Mac, Linux) et s'installe comme tout autre logiciel. 
+
+Thunderbird est disponible sur leur [site web](https://www.thunderbird.net/en-US/thunderbird/all/#F) pour tous les sytèmes (Windows, Mac, Linux) et s'installe comme tout autre logiciel.
 
 K-9 Mail s'installe à partir de [F-Droid](https://f-droid.org/packages/com.fsck.k9/) ou du Play Store.
 
