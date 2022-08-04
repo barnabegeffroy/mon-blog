@@ -17,6 +17,7 @@
   let element
   let intro
   function animate() {
+    showBadge = !showBadge
     name = name == appli.appname ? appli.altname : appli.appname
     file = file == appli.appfile ? appli.altfile : appli.appfile
     intro = create_in_transition(element, fade, { duration: 200 })
@@ -53,6 +54,8 @@
       },
     }
   }
+
+  let showBadge = false
 </script>
 
 <div
@@ -63,12 +66,9 @@
     (window.location.href = base + '/gafalt/' + appli.altname)}
 >
   <span class="notification">
-    <!-- {#if appli.usage == "all"}
-		<span class="badge"><img src={base + '/laptop.svg'} alt="" width="30px" /></span>
-		<span class="badge2"><img src={base + '/phone.svg'} alt="" width="30px" /></span>
-		{:else}
-		<span class="badge"><img src={base + (appli.usage == 'desktop' ? '/laptop.svg' : '/phone.svg')} alt="" width="30px" /></span>
-		{/if} -->
+    <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
+      <div class="badge-text">&#x2713;</div>
+    </div>
     <img
       src={base + '/' + file}
       class="target"
@@ -85,8 +85,8 @@
     padding-top: 15px;
     padding-left: 10px;
   }
-  /* .badge {
-    background-color: red;
+  .badge {
+    background-color: #5cb85c;
     display: flex;
     height: 25px;
     width: 25px;
@@ -98,18 +98,14 @@
     border-radius: 50%;
   }
 
-  .badge2 {
-    background-color: red;
-    display: flex;
-    height: 25px;
-    width: 25px;
-    padding: 10px;
-    z-index: 1;
-    left: 65px;
-    bottom: 135px;
+  .badge-text {
+    color: white;
+    font-size: 30px;
     position: absolute;
-    border-radius: 50%;
-  } */
+    top: 50%;
+    left: 50%;
+    margin: -17px 0 0 -12px;
+  }
   .app-body {
     display: flex;
     flex-direction: column;
@@ -134,17 +130,6 @@
     z-index: 0;
     background-color: white;
   }
-  /* .app-body.active {
-    background-color: #f00;
-    -ms-transition-duration: 0.2s;
-    -ms-transform: scale(0.95);
-    -webkit-transition-duration: 0.2s;
-    -webkit-transform: scale(0.95);
-    -moz-transition-duration: 0.2s;
-    -moz-transform: scale(0.95);
-    -o-transition-duration: 0.2s;
-    -o-transform: scale(0.95);
-  } */
 
   @media (max-width: 775px) {
     .target {
