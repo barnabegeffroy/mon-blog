@@ -2,7 +2,6 @@
 appname: Gmail
 theme: Service d'e-mails
 appfile: gmail.svg
-usage: all
 ---
 
 Gmail est un service d'e-mails **propriétaire** proposés par **Google**. Avec ce service, la firme américaine met en place une **structure de surveillance et d'analyse de données**. En effet, sur le webmail (l'interface web de Gmail), des **publicités ciblées** s’affichent en fonction du contenu des messages.

@@ -2,7 +2,6 @@
 appname: Google Search
 theme: Moteur de recherche
 appfile: google-search.svg
-usage: all
 ---
 
 Google Search est un moteur de recherche **propriétaire** développé par **Google**. C'est le moteur de recherche le plus utilisé dans le monde avec [91% des parts du marché](https://gs.statcounter.com/search-engine-market-share).

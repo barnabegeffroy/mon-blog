@@ -2,7 +2,6 @@
 appname: Chrome
 theme: Navigateurs web
 appfile: chrome.svg
-usage: all
 ---
 
 Chrome est un navigateur **propriétaire** développé par **Google**. C'est le navigateur le plus utilisé dans le monde avec [66% des parts du marché](https://fr.wikipedia.org/wiki/Parts_de_march%C3%A9_des_navigateurs_web).
