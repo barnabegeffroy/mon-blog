@@ -1,6 +1,6 @@
 ---
 altname: Osmand
-altfile: osmand.svg
+altfile: osmand
 ---
 
 OsmAnd est une application de navigation [**open source**](https://github.com/osmandapp/Osmand). Elle utilise les données d'OpenStreetMap, une base de données cartographiques collaborative [**open source**](https://github.com/openstreetmap).

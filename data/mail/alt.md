@@ -1,6 +1,6 @@
 ---
 altname: Thunderbird
-altfile: thunderbird.svg
+altfile: thunderbird
 ---
 
 Thunderbird est un client mail [**open source**](https://hg.mozilla.org/comm-central) développé par Mozilla. Mozilla est une entité de référence dans le monde libre et un "Internet plus sain". Elle publie notamment le [manifeste Mozilla](https://www.mozilla.org/fr/about/manifesto/) qui prône **la transparence, l'éthique et la neutralité du net**.

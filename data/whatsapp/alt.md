@@ -1,6 +1,6 @@
 ---
 altname: Signal
-altfile: signal.svg
+altfile: signal
 ---
 
 Signal est une messagerie [**open source**](https://github.com/signalapp) qui fonctionne comme WhatsApp. Il suffit d'un numéro de téléphone pour s'inscrire. L'application est réputée pour assurer au mieux la confidentialité des données utilisateur⋅ices. Son modèle économique est basé sur les dons des utilisateur⋅ices.

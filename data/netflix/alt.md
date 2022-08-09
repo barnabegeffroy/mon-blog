@@ -1,4 +1,4 @@
 ---
 altname: Médiathèque
-altfile: disc.svg
+altfile: disc
 ---

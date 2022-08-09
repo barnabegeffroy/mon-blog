@@ -1,5 +1,5 @@
 ---
 appname: Netflix
 theme: Streaming
-appfile: netflix.svg
+appfile: netflix
 ---

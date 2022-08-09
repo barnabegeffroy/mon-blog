@@ -1,5 +1,5 @@
 ---
 appname: Météo
 theme: Météo
-appfile: weather.svg
+appfile: weather
 ---

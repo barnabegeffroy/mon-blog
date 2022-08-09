@@ -1,7 +1,7 @@
 ---
 appname: Mots de passe
 theme: Gestionnaire de mots de passe
-appfile: mdp.svg
+appfile: mdp
 ---
 
 Les systèmes d'exploitations propriétaires (Windows, Mac, iOS, Android) proposent des gestionnaires de mots de passe pour vous permettre de les stocker sans avoir à les retenir. C'est un outil très pratique mais les solutions proposées par ces systèmes sont **propriétaires** ce qui pose deux problèmes.

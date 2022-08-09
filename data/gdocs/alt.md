@@ -1,6 +1,6 @@
 ---
 altname: OnlyOffice
-altfile: onlyoffice.svg
+altfile: onlyoffice
 ---
 
 OnlyOffice propose une suite bureautique en ligne [**open source**](https://github.com/ONLYOFFICE) : **OnlyOffice Docs**. Celle-ciOnlyOffice Docs les fichiers Office (Word, Excel, PowerPoint). Elle est **auto-hébergeable**, c'est-à-dire qu'elle peut être hébergée par différentes institutions. Elle s'intègre notamment avec **NextCloud** (voir ce qu'est NextCloud sur l'alternative à Google Cloud). J'utilise pour ma part OnlyOffice Docs avec mon compte [cloud murena.io](https://murena.io/). Ce dernier est un cloud proposé par Murena, une société qui met en oeuvre des solutions libres et respectueuses de la vie privée (comme son /e/OS dégooglisé).

@@ -1,4 +1,4 @@
 ---
 altname: Pixelfed
-altfile: pixelfed.svg
+altfile: pixelfed
 ---

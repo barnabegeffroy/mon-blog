@@ -1,4 +1,4 @@
 ---
 altname: Bitwarden
-altfile: bitwarden.svg
+altfile: bitwarden
 ---

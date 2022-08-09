@@ -1,6 +1,6 @@
 ---
 altname: Iroco
-altfile: iroco.svg
+altfile: iroco
 ---
 
 [Iroco](https://iroco.co/) est un service de mail français. Iroco s'engage pour un service **respectueux de la vie privée** des utilisateur⋅ices. Iroco a également une approche la plus vertueuse possible pour l'environnement. Le service est basé sur des technologies **open source**, **sobres** et **éco-conçu**. Le service est également hébergé sur des **serveurs éco-responsables** français.

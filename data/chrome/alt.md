@@ -1,6 +1,6 @@
 ---
 altname: Firefox
-altfile: firefox.svg
+altfile: firefox
 ---
 
 Firefox est un navigateur [**open source**](https://hg.mozilla.org/mozilla-central/) développé par la Mozilla Foundation et des nombreux bénévoles. Mozilla est une entité de référence dans le monde libre et un "Internet plus sain". Elle publie notamment le [manifeste Mozilla](https://www.mozilla.org/fr/about/manifesto/) qui prône **la transparence, l'éthique et la neutralité du net**.

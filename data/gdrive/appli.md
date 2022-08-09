@@ -1,5 +1,5 @@
 ---
 appname: Google Drive
 theme: Service de cloud/drive
-appfile: google-drive.svg
+appfile: google-drive
 ---

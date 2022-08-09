@@ -1,6 +1,6 @@
 ---
 altname: Startpage
-altfile: startpage.svg
+altfile: startpage
 ---
 
 Avant de détailler l'alternative, voici comment s'organisent les différents moteurs de recherches. Il y a deux types : les crawlers et les méta-moteurs. Les crawlers sont les moteurs de recherche qui vont parcourir le web pour référencer les pages web existantes. Les méta-moteurs sont des moteurs de recherches qui utilisent les résultats d'un ou plusieurs crawlers pour afficher les résultats. Vous pouvez regarder [la carte des moteurs de recherche](https://www.searchenginemap.com/) pour comprendre les liens entre eux. Aujourd'hui il n'existe que très peu de crawlers efficaces (Google, Bing et Yandex) qui sont tous propriétaires.

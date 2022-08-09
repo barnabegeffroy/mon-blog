@@ -1,4 +1,4 @@
 ---
 altname: NextCloud
-altfile: nextcloud-notes.svg
+altfile: nextcloud-notes
 ---

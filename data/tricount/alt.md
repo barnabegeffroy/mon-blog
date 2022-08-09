@@ -1,6 +1,6 @@
 ---
 altname: Cospend
-altfile: cospend.svg
+altfile: cospend
 ---
 
 Cospend est un projet [**open source**](https://github.com/eneiluj/cospend-nc) développé par **NextCloud**. L'application s'intègre donc aux instances NextCloud (voir l'alternative à Google Drive). Les données de vos différentes dépenses sont donc **stockées sur votre cloud**. Il vous faut donc un compte NextCloud où Cospend est installé pour pouvoir l'utiliser.

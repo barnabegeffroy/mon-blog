@@ -1,7 +1,7 @@
 ---
 appname: Discord
 theme: Messagerie instantanée
-appfile: discord.svg
+appfile: discord
 ---
 
 Discord est une messagerie instantanée **propriétaire**. Elle a été au centre de **plusieurs polémiques** (diffusions de virus, non modération, ...). L'application utilise également **plusieurs pisteurs** dont Google Analytics (illégal depuis 2022).

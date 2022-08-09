@@ -1,6 +1,6 @@
 ---
 altname: OnlyOffice
-altfile: onlyoffice.svg
+altfile: onlyoffice
 ---
 
 OnlyOffice est une suite bureautique [**open source**](https://github.com/ONLYOFFICE). C'est une **copie quasi conforme de Microsoft Office** donc si vous êtes habitué⋅es à utiliser la pack Office vous ne serez pas déranger du tout. OnlyOffice est également très compatible avec les fichers Microsoft Office (docx, pptx, xlsx) que LibreOffice.

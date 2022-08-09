@@ -1,7 +1,7 @@
 ---
 appname: WhatsApp
 theme: Messageries instantannées
-appfile: whatsapp.svg
+appfile: whatsapp
 ---
 
 WhatsApp est une messagerie instantanné **propriétaire** développée par **Meta/Facebook**. Elle est l'une des plus utilisées.
