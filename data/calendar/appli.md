@@ -1,5 +1,5 @@
 ---
 appname: Agenda
-theme: Calendrier et gestion d'événements 
+theme: Calendrier et gestion d'événements
 appfile: calendar.svg
 ---

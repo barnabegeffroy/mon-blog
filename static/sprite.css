@@ -1,0 +1,387 @@
+.svg-apple-notes {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 0 no-repeat;
+}
+
+.svg-apple-notes-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-bitwarden {
+	background: url("svg/sprite.css-6d5933a6.svg") 16.666666666666668% 0 no-repeat;
+}
+
+.svg-bitwarden-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-calendar {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 16.666666666666668% no-repeat;
+}
+
+.svg-calendar-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-chrome {
+	background: url("svg/sprite.css-6d5933a6.svg") 16.666666666666668% 16.666666666666668% no-repeat;
+}
+
+.svg-chrome-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-citymapper {
+	background: url("svg/sprite.css-6d5933a6.svg") 33.333333333333336% 0 no-repeat;
+}
+
+.svg-citymapper-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-cospend {
+	background: url("svg/sprite.css-6d5933a6.svg") 33.333333333333336% 16.666666666666668% no-repeat;
+}
+
+.svg-cospend-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-disc {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 33.333333333333336% no-repeat;
+}
+
+.svg-disc-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-discord {
+	background: url("svg/sprite.css-6d5933a6.svg") 16.666666666666668% 33.333333333333336% no-repeat;
+}
+
+.svg-discord-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-firefox {
+	background: url("svg/sprite.css-6d5933a6.svg") 33.333333333333336% 33.333333333333336% no-repeat;
+}
+
+.svg-firefox-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-framaforms {
+	background: url("svg/sprite.css-6d5933a6.svg") 50% 0 no-repeat;
+}
+
+.svg-framaforms-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-gmail {
+	background: url("svg/sprite.css-6d5933a6.svg") 50% 16.666666666666668% no-repeat;
+}
+
+.svg-gmail-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-google-docs {
+	background: url("svg/sprite.css-6d5933a6.svg") 50% 33.333333333333336% no-repeat;
+}
+
+.svg-google-docs-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-google-drive {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 50% no-repeat;
+}
+
+.svg-google-drive-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-google-forms {
+	background: url("svg/sprite.css-6d5933a6.svg") 16.666666666666668% 50% no-repeat;
+}
+
+.svg-google-forms-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-google-maps {
+	background: url("svg/sprite.css-6d5933a6.svg") 33.333333333333336% 50% no-repeat;
+}
+
+.svg-google-maps-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-google-search {
+	background: url("svg/sprite.css-6d5933a6.svg") 50% 50% no-repeat;
+}
+
+.svg-google-search-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-instagram {
+	background: url("svg/sprite.css-6d5933a6.svg") 66.66666666666667% 0 no-repeat;
+}
+
+.svg-instagram-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-iroco {
+	background: url("svg/sprite.css-6d5933a6.svg") 66.66666666666667% 16.666666666666668% no-repeat;
+}
+
+.svg-iroco-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-jitsi {
+	background: url("svg/sprite.css-6d5933a6.svg") 66.66666666666667% 33.333333333333336% no-repeat;
+}
+
+.svg-jitsi-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-mail {
+	background: url("svg/sprite.css-6d5933a6.svg") 66.66666666666667% 50% no-repeat;
+}
+
+.svg-mail-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-mastodon {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 66.66666666666667% no-repeat;
+}
+
+.svg-mastodon-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-mattermost {
+	background: url("svg/sprite.css-6d5933a6.svg") 16.666666666666668% 66.66666666666667% no-repeat;
+}
+
+.svg-mattermost-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-mdp {
+	background: url("svg/sprite.css-6d5933a6.svg") 33.333333333333336% 66.66666666666667% no-repeat;
+}
+
+.svg-mdp-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-netflix {
+	background: url("svg/sprite.css-6d5933a6.svg") 50% 66.66666666666667% no-repeat;
+}
+
+.svg-netflix-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-nextcloud {
+	background: url("svg/sprite.css-6d5933a6.svg") 66.66666666666667% 66.66666666666667% no-repeat;
+}
+
+.svg-nextcloud-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-nextcloud-notes {
+	background: url("svg/sprite.css-6d5933a6.svg") 83.33333333333333% 0 no-repeat;
+}
+
+.svg-nextcloud-notes-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-onlyoffice {
+	background: url("svg/sprite.css-6d5933a6.svg") 83.33333333333333% 16.666666666666668% no-repeat;
+}
+
+.svg-onlyoffice-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-osmand {
+	background: url("svg/sprite.css-6d5933a6.svg") 83.33333333333333% 33.333333333333336% no-repeat;
+}
+
+.svg-osmand-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-peertube {
+	background: url("svg/sprite.css-6d5933a6.svg") 83.33333333333333% 50% no-repeat;
+}
+
+.svg-peertube-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-pixelfed {
+	background: url("svg/sprite.css-6d5933a6.svg") 83.33333333333333% 66.66666666666667% no-repeat;
+}
+
+.svg-pixelfed-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-rating-empty {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 83.33333333333333% no-repeat;
+}
+
+.svg-rating-empty-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-rating-half {
+	background: url("svg/sprite.css-6d5933a6.svg") 16.666666666666668% 83.33333333333333% no-repeat;
+}
+
+.svg-rating-half-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-rating-plain {
+	background: url("svg/sprite.css-6d5933a6.svg") 33.333333333333336% 83.33333333333333% no-repeat;
+}
+
+.svg-rating-plain-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-signal {
+	background: url("svg/sprite.css-6d5933a6.svg") 50% 83.33333333333333% no-repeat;
+}
+
+.svg-signal-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-startpage {
+	background: url("svg/sprite.css-6d5933a6.svg") 66.66666666666667% 83.33333333333333% no-repeat;
+}
+
+.svg-startpage-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-thunderbird {
+	background: url("svg/sprite.css-6d5933a6.svg") 83.33333333333333% 83.33333333333333% no-repeat;
+}
+
+.svg-thunderbird-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-transportr {
+	background: url("svg/sprite.css-6d5933a6.svg") 100% 0 no-repeat;
+}
+
+.svg-transportr-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-twitter {
+	background: url("svg/sprite.css-6d5933a6.svg") 100% 16.666666666666668% no-repeat;
+}
+
+.svg-twitter-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-weather {
+	background: url("svg/sprite.css-6d5933a6.svg") 100% 33.333333333333336% no-repeat;
+}
+
+.svg-weather-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-whatsapp {
+	background: url("svg/sprite.css-6d5933a6.svg") 100% 50% no-repeat;
+}
+
+.svg-whatsapp-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-word {
+	background: url("svg/sprite.css-6d5933a6.svg") 100% 66.66666666666667% no-repeat;
+}
+
+.svg-word-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-youtube {
+	background: url("svg/sprite.css-6d5933a6.svg") 100% 83.33333333333333% no-repeat;
+}
+
+.svg-youtube-dims {
+	width: 120px;
+	height: 120px;
+}
+
+.svg-zoom {
+	background: url("svg/sprite.css-6d5933a6.svg") 0 100% no-repeat;
+}
+
+.svg-zoom-dims {
+	width: 120px;
+	height: 120px;
+}
+
