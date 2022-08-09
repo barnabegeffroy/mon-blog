@@ -1,7 +1,7 @@
 ---
 appname: Tricount
 theme: Gestion des dépenses de groupe
-appfile: tricount.webp
+appfile: tricount
 ---
 
 Tricount est une application de gestion des dépenses de groupe **propriétaire** déténue par la banque néerlandaise Bunq. Son modèle économique est basé sur la **publicité** et la vente d'abonnement premium.
