@@ -76,3 +76,5 @@ done
 echo "}]" >> $out
 prettier -w $out 
 rm src/data.jsone
+rm static/svg/*
+svg-sprite --css --css-dest=static --ccss icons/*.svg -w 120 -h 120
