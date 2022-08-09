@@ -7,11 +7,11 @@
 <div class="star-rating">
   {#each grades as grade}
     {#if grade <= rating}
-      <img src={base + '/rating/plain.svg'} width="30px" alt="" />
+      <i class="svg-rating-plain svg-rating-plain-dims" />
     {:else if grade - rating == 0.5}
-      <img src={base + '/rating/half.svg'} width="30px" alt="" />
+      <i class="svg-rating-half svg-rating-half-dims" />
     {:else}
-      <img src={base + '/rating/empty.svg'} width="30px" alt="" />
+      <i class="svg-rating-empty svg-rating-empty-dims" />
     {/if}
   {/each}
 </div>
@@ -19,5 +19,7 @@
 <style>
   .star-rating {
     display: flex;
+  }
+  .star-rating > i {
   }
 </style>

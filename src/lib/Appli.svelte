@@ -126,8 +126,7 @@
 
   @media (max-width: 775px) {
     .target {
-    transform: scale(.75);
-      
+      transform: scale(0.75);
     }
     .app-name {
       width: 90px;

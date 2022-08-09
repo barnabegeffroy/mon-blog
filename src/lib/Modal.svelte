@@ -24,12 +24,12 @@
       <span class="close" on:click={closeModal}>&times;</span>
       <div class="transition">
         <div class="modal-app-icon">
-          <img src={base + '/' + appli.appfile} alt="" />
+          <i class="svg-{appli.appfile} svg-{appli.appfile}-dims" />
           <h4>{appli.appname}</h4>
         </div>
         <span class="arrow">&rarr;</span>
         <div class="modal-app-icon">
-          <img src={base + '/' + appli.altfile} alt="" />
+          <i class="svg-{appli.altfile} svg-{appli.altfile}-dims" />
           <h4>{appli.altname}</h4>
         </div>
       </div>
@@ -186,11 +186,11 @@
     margin-bottom: 5%;
     text-align: center;
   }
-  .modal-app-icon > img {
-    height: 100px;
+  .modal-app-icon > i {
     background-color: white;
-    width: auto;
     border-radius: 1.5em;
+    display: block;
+    transform: scale(0.8);
   }
   .arrow {
     font-size: 90px;
