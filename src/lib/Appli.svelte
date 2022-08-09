@@ -69,12 +69,7 @@
     <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
       <div class="badge-text">&#x2713;</div>
     </div>
-    <img
-      src={base + '/' + file}
-      class="target"
-      alt={appli.appname + 'logo'}
-      on:click={animate}
-    />
+    <i class="svg-{file} svg-{file}-dims target" on:click={animate} />
     <h4 class="app-name">{name}</h4>
   </span>
 </div>
@@ -124,8 +119,6 @@
     border-radius: 1.5em;
     position: relative;
     text-align: center;
-    width: 120px;
-    height: 120px;
     transform: translate3d(0, 0, 0);
     z-index: 0;
     background-color: white;
@@ -133,8 +126,8 @@
 
   @media (max-width: 775px) {
     .target {
-      width: 90px;
-      height: 90px;
+    transform: scale(.75);
+      
     }
     .app-name {
       width: 90px;
