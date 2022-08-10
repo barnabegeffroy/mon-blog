@@ -62,8 +62,6 @@
   class="app-body"
   bind:this={element}
   use:longpress
-  on:longpress={(e) =>
-    (window.location.href = base + '/gafalt/' + appli.altname)}
 >
   <span class="notification">
     <div class="badge" style="display: {showBadge ? 'block' : 'none'};">

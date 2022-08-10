@@ -69,11 +69,6 @@
         {@html appli.transition.contents}
       </div>
     </div>
-    <div class="flex">
-      <a href="{base + '/gafalt/' + appli.altname} " class="button"
-        >Plus d'informations sur cette alternative</a
-      >
-    </div>
     {#if appli.otheralt}
       <div class="modal-footer">
         <h3>D'autres alternatives</h3>
