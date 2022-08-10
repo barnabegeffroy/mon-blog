@@ -1,4 +1,4 @@
 ---
 altname: Geometric
-altfile: geometric.webp
+altfile: geometric
 ---
