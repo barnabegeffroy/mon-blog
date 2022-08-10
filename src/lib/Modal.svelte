@@ -24,12 +24,12 @@
       <span class="close" on:click={closeModal}>&times;</span>
       <div class="transition">
         <div class="modal-app-icon">
-          <i class="svg-{appli.appfile} svg-{appli.appfile}-dims" />
+          <i class="svg-{appli.appfile} svg-sprite-icon" />
           <h4>{appli.appname}</h4>
         </div>
         <span class="arrow">&rarr;</span>
         <div class="modal-app-icon">
-          <i class="svg-{appli.altfile} svg-{appli.altfile}-dims" />
+          <i class="svg-{appli.altfile} svg-sprite-icon" />
           <h4>{appli.altname}</h4>
         </div>
       </div>
@@ -190,7 +190,8 @@
     background-color: white;
     border-radius: 1.5em;
     display: block;
-    transform: scale(0.8);
+    width: 100px;
+    height: 100px;
   }
   .arrow {
     font-size: 90px;
@@ -243,9 +244,9 @@
     .modal-content {
       width: 80%;
     }
-    .modal-app-icon > img {
-      height: 80px;
-      width: auto;
+    .modal-app-icon > i {
+      height: 100px;
+      width: 100px;
     }
     .arrow {
       font-size: 70px;

@@ -69,7 +69,7 @@
     <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
       <div class="badge-text">&#x2713;</div>
     </div>
-    <i class="svg-{file} svg-{file}-dims target" on:click={animate} />
+    <i class="svg-{file} svg-sprite-icon target" on:click={animate} />
     <h4 class="app-name">{name}</h4>
   </span>
 </div>
@@ -122,11 +122,14 @@
     transform: translate3d(0, 0, 0);
     z-index: 0;
     background-color: white;
+    width: 120px;
+    height: 120px;
   }
 
   @media (max-width: 775px) {
     .target {
-      transform: scale(0.75);
+      width: 90px;
+      height: 90px;
     }
     .app-name {
       width: 90px;
