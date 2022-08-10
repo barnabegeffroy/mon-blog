@@ -77,6 +77,7 @@ echo "}]" >> $out
 prettier -w $out 
 rm src/data.jsone
 rm static/svg/*
-svg-sprite --css --css-dest=static --css-common=svg-sprite-icon --ccss icons/*.svg -w 120 -h 120
+svg-sprite --css --css-dest=static --css-common=svg-sprite-icon --ccss static/icons/*.svg -w 120 -h 120
 sed -i -E '/dims/,+4d' static/sprite.css
 sed -i  '/url/a background-size: 700%;' static/sprite.css
+prettier -w static/sprite.css 
