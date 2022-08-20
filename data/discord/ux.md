@@ -2,4 +2,4 @@
 rating: 5
 ---
 
-L'expérience utilistaur est quasi similaire à celle de Discord (salons de discussion, rôles, bots, ...).
+L'expérience d'utilisateur⋅ice est quasi similaire à celle de Discord (salons de discussion, rôles, bots, ...).

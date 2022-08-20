@@ -6,4 +6,4 @@ Sur ordinateur, Bitwarden **s'intègre très bien** sur Firefox. Grâce à une e
 
 Sur mobile, l'application permet de compléter automatiquement les champs d'authentification sur n'importe quelle application de votre smartphone.
 
-Vous pouve également générer des mots de passe très sécurisés sans avoir à les retenir grâce au générateur de mot de passe.
+Vous pouvez également générer des mots de passe très sécurisés sans avoir à les retenir grâce au générateur de mot de passe.

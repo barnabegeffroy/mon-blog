@@ -12,7 +12,9 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "deploy": "bash script.sh && bash build.sh && gh-pages -d build -t true",
-    "data": "bash script.sh"
+    "data": "bash script.sh",
+    "count": "find data/ | grep '[.]md' | xargs wc -w",
+    "spell": " for f in $(find data/ | grep '[.]md'); do aspell -x -c $f; done"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "next",
