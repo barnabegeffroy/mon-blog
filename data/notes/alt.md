@@ -7,9 +7,8 @@ NextCloud (voir l'alternative à Google Drive) propose une service de prise de n
 
 Vous pouvez utiliser les notes sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>.
 
-Pour Android, l'application s'appelle **Nextcloud Notes**, disponible gratuitement sur [F-Droid](https://f-droid.org/fr/packages/it.niedermann.owncloud.notes/) et le Play Store pour 2€99. Pour iOS, l'application s'appelle **CloudNotes**, disponible sur l'App Store pour 1€99. Ces deux applications sont **open source**.
+Pour Android, l'application s'appelle **Nextcloud Notes**, disponible **gratuitement** sur [F-Droid](https://f-droid.org/fr/packages/it.niedermann.owncloud.notes/) et le Play Store pour 2€99. Pour iOS, l'application s'appelle **CloudNotes**, disponible sur l'App Store pour 1€99. Ces deux applications sont **open source**.
 
 **Aucun pisteur** et **aucune publicité** ne sont utilisé lors de l'utilisation de NextCloud Notes.
-
 
 <sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.

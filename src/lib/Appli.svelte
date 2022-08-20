@@ -58,11 +58,7 @@
   let showBadge = false
 </script>
 
-<div
-  class="app-body"
-  bind:this={element}
-  use:longpress
->
+<div class="app-body" bind:this={element} use:longpress>
   <span class="notification">
     <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
       <div class="badge-text">&#x2713;</div>

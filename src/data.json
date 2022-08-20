@@ -55,19 +55,19 @@
     "otheralt": [
       {
         "appname": "Öffi",
-        "contents": "<p>Öffi est un autre application d&#39;itinéraire <a href=\"https://gitlab.com/oeffi/oeffi\"><strong>open source</strong></a>. Elle encore plus légère (5Mo) mais ne supporte que <strong>la région parisienne</strong> et n&#39;est disponible que sur le playstore d&#39;Android. L&#39;affichage des trajets est très agréable et visuel.</p>\n"
+        "contents": "<p>Öffi est un autre application d&#39;itinéraire <a href=\"https://gitlab.com/oeffi/oeffi\"><strong>open source</strong></a>. Elle encore plus légère (5Mo) mais ne supporte que <strong>la région parisienne</strong> et n&#39;est disponible que sur Android (<a href=\"https://f-droid.org/fr/packages/de.schildbach.oeffi/\">F-Droid</a> et le Play Store). L&#39;affichage des trajets est très agréable et visuel.</p>\n"
       }
     ],
     "altname": "Transportr",
     "altfile": "transportr",
-    "altcontents": "<p>Transportr est une application <a href=\"https://github.com/grote/Transportr\"><strong>open source</strong></a> alternative. Elle est malheureusement disponible <strong>uniquement sur Android</strong> (je n&#39;ai malheuresement pas encore trouvé d&#39;aletnative performante pour iOS). C&#39;est un un projet de logiciel libre à but <strong>non lucratif</strong>, financé par les dons. Elle permet d&#39;obtenir un itinéraire en transports en commun facilement dans de nombreuses villes à travers le monde. En termes de confidentialité, l&#39;application ne possède <strong>aucun pisteur</strong>, <strong>aucune publicité</strong>. Elle est également plus <em>légère</em> que Citymapper, elle nécessite que 36Mo contre 95Mo.</p>\n",
+    "altcontents": "<p>Transportr est une application <a href=\"https://github.com/grote/Transportr\"><strong>open source</strong></a> alternative. Elle est malheureusement disponible <strong>uniquement sur Android</strong> (je n&#39;ai malheuresement pas encore trouvé d&#39;alternative performante pour iOS). C&#39;est un un projet de logiciel libre à but <strong>non lucratif</strong>, financé par les dons. Elle permet d&#39;obtenir un itinéraire en transports en commun facilement dans de nombreuses villes à travers le monde. En termes de confidentialité, l&#39;application ne possède <strong>aucun pisteur</strong>, <strong>aucune publicité</strong>. Elle est également plus <em>légère</em> que Citymapper, elle nécessite que 36Mo contre 95Mo.</p>\n",
     "appname": "Citymapper",
     "theme": "Transports en commun",
     "appfile": "citymapper",
     "appcontents": "<p>Citymapper est une application <strong>propriétaire</strong> de calcul d&#39;itinéraires en transports en commun. Selon la <a href=\"https://citymapper.com/privacy\">politique de confidentialité de Citymapper</a>, l&#39;application récupère vos données (localisation, recherches, trajets, ...) et peut les envoyer à des services tiers. Elle utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022).</p>\n",
     "install": {
       "rating": "5",
-      "contents": "<p>L&#39;application s&#39;installe facilement à partir de <a href=\"https://f-droid.org/fr/packages/de.grobox.liberario/\">F-droid</a> ou du PlayStore. Une fois installée, vous avez juste à choisir le réseau de transports que vous souhaitez utiliser.</p>\n"
+      "contents": "<p>L&#39;application s&#39;installe facilement à partir de <a href=\"https://f-droid.org/fr/packages/de.grobox.liberario/\">F-droid</a> ou du Play Store. Une fois installée, vous avez juste à choisir le réseau de transports que vous souhaitez utiliser.</p>\n"
     },
     "transition": {
       "rating": "4",
@@ -306,7 +306,7 @@
     "appcontents": "<p>Google Maps est une application de navigation <strong>*propriétaire</strong> développé par <strong>Google</strong>. Comme tous les services de Google, derrière ce produit gratuit se cache une <strong>structure de surveillance et d&#39;analyse de données</strong>. Avec ce service, vous donnez directement accès à votre localisation, vos itinéraires, vos recherches...</p>\n",
     "install": {
       "rating": "5",
-      "contents": "<p>L&#39;application s&#39;installer depuis <a href=\"https://f-droid.org/fr/packages/net.osmand.plus/\">F-Droid</a> ou le playstore pour Android et depuis l&#39;Appstore pour iOS. L&#39;application vous propose de télécharger la carte associée à votre position.</p>\n"
+      "contents": "<p>L&#39;application s&#39;installer depuis <a href=\"https://f-droid.org/fr/packages/net.osmand.plus/\">F-Droid</a> ou le Play Store pour Android et depuis l&#39;Appstore pour iOS. L&#39;application vous propose de télécharger la carte associée à votre position.</p>\n"
     },
     "transition": {
       "rating": "3.5",
@@ -321,12 +321,12 @@
     "otheralt": [
       {
         "appname": "NextCloud",
-        "contents": "<p>NextCloud propose un solution de stockage de mots de passe</p>\n"
+        "contents": "<p>NextCloud propose une solution de gestion de mots de passe. Les mots de passe sont <strong>stockés sur votre cloud</strong>. Il s&#39;intègre sur les navigateurs et les smartphones mais l&#39;utilisation est moins agréable que Bitwarden.</p>\n"
       }
     ],
     "altname": "Bitwarden",
     "altfile": "bitwarden",
-    "altcontents": "",
+    "altcontents": "<p>Bitwarden est un gestionnaire de mot de passe <a href=\"https://github.com/orgs/bitwarden/\"><strong>open source</strong></a>. Cette application est <strong>respectueuse de la vie privée</strong>. Le fait que le code soit ouvert à toustes rend la correction de bug beaucoup plus transparente et immédiate ce qui augmente la <strong>sécurité</strong> de Bitwarden.</p>\n<p>Il s&#39;intègre sur <strong>tous les systèmes</strong> (Windows, Mac, Linux, Android, iOS). Le modèle économique de Bitwarden repose sur des abonnements premium (donnant accès à un espace de stockage, une gestion des mots de passe avancée, ...).</p>\n",
     "appname": "Mots de passe",
     "theme": "Gestionnaire de mots de passe",
     "appfile": "mdp",
@@ -341,7 +341,7 @@
     },
     "ux": {
       "rating": "5",
-      "contents": "<p>Sur ordinateur, Bitwarden s&#39;intègre très bien sur Firefox. Grâce à une extension, il détecte les site où vous avez des identifiants et vous permet de compléter les champs d&#39;authentification d&#39;un simple raccourci clavier (Ctrl-Maj-L).</p>\n<p>Sur mobile, l&#39;application permet de compléter les champs d&#39;authentification sur n&#39;importe quelle application de votre smartphone.</p>\n<p>Vous pouve également générer des mots de passe très sécurisés sans avoir à les retenir grâce au générateur de mot de passe.</p>\n"
+      "contents": "<p>Sur ordinateur, Bitwarden <strong>s&#39;intègre très bien</strong> sur Firefox. Grâce à une extension, il détecte les site où vous avez des identifiants et vous permet de compléter automatiquement les champs d&#39;authentification d&#39;un simple raccourci clavier (Ctrl-Maj-L).</p>\n<p>Sur mobile, l&#39;application permet de compléter automatiquement les champs d&#39;authentification sur n&#39;importe quelle application de votre smartphone.</p>\n<p>Vous pouve également générer des mots de passe très sécurisés sans avoir à les retenir grâce au générateur de mot de passe.</p>\n"
     }
   },
   {
@@ -366,24 +366,30 @@
     }
   },
   {
+    "otheralt": [
+      {
+        "appname": "Joplin",
+        "contents": "<p>Joplin est une application de prise de notes <a href=\"https://github.com/laurent22/joplin\"><strong>open source</strong></a>. Elle est disponible <strong>gratuitement</strong> sur tous les systèmes (Windows, Mac, Linux, Android, iOS). Elle permet la création de notes et de tâches sans synchronisation.</p>\n"
+      }
+    ],
     "altname": "NextCloud",
     "altfile": "nextcloud-notes",
-    "altcontents": "",
+    "altcontents": "<p>NextCloud (voir l&#39;alternative à Google Drive) propose une service de prise de notes <a href=\"https://github.com/nextcloud/notes\"><strong>open source</strong></a>. Vos notes sont stockés en ligne <strong>dans votre cloud</strong>, elles sont donc accessibles depuis vos différents appareils. Si vous n&#39;avez pas besoin de stockage en ligne mais seulement de notes sur votre téléphone, regardez les autres alternatives ci-dessous.</p>\n<p>Vous pouvez utiliser les notes sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>Nextcloud Notes</strong>, disponible <strong>gratuitement</strong> sur <a href=\"https://f-droid.org/fr/packages/it.niedermann.owncloud.notes/\">F-Droid</a> et le Play Store pour 2€99. Pour iOS, l&#39;application s&#39;appelle <strong>CloudNotes</strong>, disponible sur l&#39;App Store pour 1€99. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisé lors de l&#39;utilisation de NextCloud Notes.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
     "appname": "Notes",
     "theme": "Prise de notes textuelles",
     "appfile": "apple-notes",
-    "appcontents": "",
+    "appcontents": "<p>Les applications de prise de notes proposées sur ordinateur comme sur smartphone sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>proriétaires</strong>. </p>\n<p>Les notes sont pourtant de simple textes qui doivent pouvoir être rédigés sans pisteur ni publicité.</p>\n",
     "install": {
-      "rating": "5",
-      "contents": ""
+      "rating": "4.5",
+      "contents": "<p>Si vous avez déjà un compte NextCloud, il suffit d&#39;installer l&#39;application <em>NextCloud Notes</em> pour Android ou <em>CloudNotes</em> pour iOS. Si vous n&#39;avez pas de compte NextCloud, allez voir l&#39;alternative de Google Drive.</p>\n"
     },
     "transition": {
-      "rating": "3.5",
-      "contents": ""
+      "rating": "5",
+      "contents": "<p><strong>Aucun problème</strong> de transition pour de simples notes textuelles.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>L&#39;utilisation est <strong>simple</strong>. L&#39;application supporte la rédaction dans la syntaxe <strong>Markdown</strong>.</p>\n"
     }
   },
   {
@@ -395,7 +401,7 @@
     ],
     "altname": "Cospend",
     "altfile": "cospend",
-    "altcontents": "<p>Cospend est un projet <a href=\"https://github.com/eneiluj/cospend-nc\"><strong>open source</strong></a> développé par <strong>NextCloud</strong>. L&#39;application s&#39;intègre donc aux instances NextCloud (voir l&#39;alternative à Google Drive). Les données de vos différentes dépenses sont donc <strong>stockées sur votre cloud</strong>. Il vous faut donc un compte NextCloud où Cospend est installé pour pouvoir l&#39;utiliser.</p>\n<p>Vous pouvez utiliser Cospend sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>MoneyBuster</strong>, disponible sur <a href=\"https://f-droid.org/packages/net.eneiluj.moneybuster/\">F-Droid</a> et le playstore. Pour iOS, l&#39;application s&#39;appelle <strong>PayForMe</strong>, disponible sur l&#39;App Store. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisés lors de l&#39;utilisation de Cospend.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
+    "altcontents": "<p>Cospend est un projet <a href=\"https://github.com/eneiluj/cospend-nc\"><strong>open source</strong></a> développé par <strong>NextCloud</strong>. L&#39;application s&#39;intègre donc aux instances NextCloud (voir l&#39;alternative à Google Drive). Les données de vos différentes dépenses sont donc <strong>stockées sur votre cloud</strong>. Il vous faut donc un compte NextCloud où Cospend est installé pour pouvoir l&#39;utiliser.</p>\n<p>Vous pouvez utiliser Cospend sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>MoneyBuster</strong>, disponible sur <a href=\"https://f-droid.org/packages/net.eneiluj.moneybuster/\">F-Droid</a> et le Play Store. Pour iOS, l&#39;application s&#39;appelle <strong>PayForMe</strong>, disponible sur l&#39;App Store. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisé lors de l&#39;utilisation de Cospend.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
     "appname": "Tricount",
     "theme": "Gestion des dépenses de groupe",
     "appfile": "tricount",
@@ -442,23 +448,23 @@
   },
   {
     "altname": "Geometric",
-    "altfile": "geometric.webp",
-    "altcontents": "",
+    "altfile": "geometric",
+    "altcontents": "<p><strong>Geometric weather</strong> est une application mobile <a href=\"https://github.com/WangDaYeeeeee/GeometricWeather\"><strong>open source</strong></a>. Elle permet d&#39;accèder aux bulletins météo de votre position ainsi que des communes que vous selectionnez. L&#39;application n&#39;utilise <strong>aucun pisteur</strong> et ne diffuse <strong>aucune publicité</strong>.</p>\n",
     "appname": "Météo",
     "theme": "Météo",
     "appfile": "weather",
-    "appcontents": "",
+    "appcontents": "<p>Les applications de météo proposées sur ordinateur comme sur smartphone sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>proriétaires</strong> qui récupère vos données.</p>\n<p>Les prévisions météorologiques sont pourtant de simples informations qui doivent être accessibles sans pisteur ni publicité.</p>\n",
     "install": {
-      "rating": "5",
-      "contents": ""
+      "rating": "3.5",
+      "contents": "<p>Sur Android, l&#39;application est disponible <a href=\"https://f-droid.org/fr/packages/wangdaye.com.geometricweather/\">F-Droid</a> et le Play Store. </p>\n<p>Sur iOS, l&#39;application est en phase de test, vous pouvez y participer en utilisant TestFlight et ainsi utiliser la version beta de l&#39;application graĉe à <a href=\"https://testflight.apple.com/join/sipVnAZC\">ce lien</a>. L&#39;installation est un peu plus compliqué mais il n&#39;existe pas d&#39;autres alternatives.</p>\n"
     },
     "transition": {
-      "rating": "3.5",
-      "contents": ""
+      "rating": "5",
+      "contents": "<p>La transition est très simple.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>Geometric weather propose une interface très agréable, elle se paramètre <strong>facilement</strong> et propose différents widgets. Vous pouvez choisir le <strong>fournisseur de données météorologiques</strong> (AccuWeather, OpenWeather, Météo France). </p>\n"
     }
   },
   {
