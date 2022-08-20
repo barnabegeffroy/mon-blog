@@ -1,3 +1,5 @@
 ---
-rating: 3.5
+rating: 5
 ---
+
+La transition est très simple.
