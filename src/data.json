@@ -525,7 +525,7 @@
     "otheralt": [
       {
         "appname": "FreeTube",
-        "contents": "<p>FreeTube est une interface alternative à YouTube <strong>open source</strong>. Vous pouvez donc visionner les vidéos diffusées sur YouTube sans utiliser le site web de YouTube truffé de pisteurs et de publicités. L&#39;application permet également de s&#39;abonner aux chaînes que vous souhaitez sans nécessairement avoir un compte.</p>\n<p>FreeTube est disponible sur tous les ordinateurs (Windows, Mac, Linux). La version mobile de FreeTube s&#39;appelle <strong>Née Pipe</strong>, disponible sur Android et iOS.</p>\n"
+        "contents": "<p>FreeTube est une interface alternative à YouTube <a href=\"https://github.com/FreeTubeApp/FreeTube\"><strong>open source</strong></a>. Vous pouvez donc visionner les vidéos diffusées sur YouTube <strong>sans publicité ni pisteur</strong>. L&#39;application permet également de s&#39;abonner aux chaînes que vous souhaitez sans avoir un compte, toutes les données sont stockées localement sur votre ordinateur.</p>\n<p>FreeTube est disponible sur tous les ordinateurs (Windows, Mac, Linux). La version Android de FreeTube s&#39;appelle <strong>New Pipe</strong>. Il n&#39;existe pas d&#39;alternative pour iOS.</p>\n"
       }
     ],
     "altname": "PeerTube",
@@ -534,7 +534,7 @@
     "appname": "YouTube",
     "theme": "Streaming vidéo",
     "appfile": "youtube",
-    "appcontents": "<p>YouTube est une plateforme de streaming vidéo <strong>propriétaire</strong> développée par <strong>Google</strong>.</p>\n",
+    "appcontents": "<p>YouTube est une plateforme de streaming vidéo <strong>propriétaire</strong> développée par <strong>Google</strong>. Comme tous les services de Google, derrière ce produit gratuit se cache une <strong>structure de surveillance et d&#39;analyse de données</strong>. De plus, YouTube permet de diffuser très facilement des <strong>publicités</strong> sur ses vidéos. YouTube se base également sur l&#39;<strong>économie de l&#39;attention</strong> avec un algorithme qui capte toujours plus les utilisateurs⋅ices.</p>\n",
     "install": {
       "rating": "5",
       "contents": "<p>Il faut choisir l&#39;instance sur laquelle créer son profil PeerTube. Vous pouvez choisir une communauté spécifique sur le <a href=\"https://joinpeertube.org/\">site de PeerTube</a>.</p>\n<p>Après avoir choisi votre instance, il suffit de compléter votre profil et suivre les comptes que vous souhaitez.</p>\n"
