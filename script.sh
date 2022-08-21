@@ -81,3 +81,4 @@ svg-sprite --css --css-dest=static --css-common=svg-sprite-icon --ccss static/ic
 sed -i -E '/dims/,+4d' static/sprite.css
 sed -i  '/url/a background-size: 700%;' static/sprite.css
 prettier -w static/sprite.css 
+mv static/sprite.css src/
