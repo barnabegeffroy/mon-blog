@@ -2,22 +2,22 @@
   {
     "altname": "NextCloud",
     "altfile": "nextcloud",
-    "altcontents": "",
+    "altcontents": "<p>NextCloud (voir l&#39;alternative à Google Drive) propose une gestion du calendrier. Vos événements sont stockés dans votre cloud et donc accessible depuis vos différents appareils.</p>\n<p>Vous pouvez utiliser le calendrier sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>. NextCloud utilise le protocole CalDAV (un standard web pour la gestion des événements) ce qui permet d&#39;être compatible avec de nombreuses applications client (comme celles installées par défaut sur les appareils).</p>\n<p>Pour ordinateur, vous pouvez l&#39;intégrer à votre client mail Thunderbird (voir l&#39;alternative à &quot;client mail&quot;).</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>Simple Calendar</strong>, disponible <strong>gratuitement</strong> sur <a href=\"https://f-droid.org/fr/packages/com.simplemobiletools.calendar.pro/\">F-Droid</a> et le Play Store pour 0€79. Pour iOS, l&#39;application s&#39;appelle <strong>Clendar</strong>, disponible sur l&#39;App Store gratuitement (et une version premium à 0€99).</p>\n<p>Ces applications client sont <strong>open source</strong> et n&#39;utilisent <strong>aucun pisteur</strong> et <strong>aucune publicité</strong>.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
     "appname": "Agenda",
     "theme": "Calendrier et gestion d'événements",
     "appfile": "calendar",
-    "appcontents": "",
+    "appcontents": "<p>Les applications de calendrier proposées sur ordinateurs comme sur smartphones sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>propriétaires</strong> (pour Mac, Windows, iOS et Android) et possèdent une <strong>structure de surveillance et d&#39;analyse de données</strong>.</p>\n<p>Avec ces applications, vous donnez directement accès à tous vos événements.</p>\n",
     "install": {
-      "rating": "5",
-      "contents": ""
+      "rating": "3.5",
+      "contents": "<p>Si vous avez déjà un compte NextCloud, il suffit d&#39;installer les applications client dont vous avez besoin. Si vous n&#39;avez pas de compte NextCloud, allez voir l&#39;alternative de Google Drive.</p>\n<p>Pour ordinateur, vous pouvez utiliser le tableau de bord en ligne de votre NextCloud ou Thunderbird. Pour l&#39;intégrer vos calendriers à Thunderbird il suffit de suivre les instructions de <a href=\"https://wiki.zaclys.com/index.php/Synchronisation_des_agendas_et_des_t%C3%A2ches_avec_Thunderbird\">ce lien</a>.</p>\n<p>Pour Android, il faut ajouter installer l&#39;application NextCloud et ajouter votre compte. Ensuite dans les paramètres de Simple Calendar allez dans la rubrique &quot;CalDAV&quot;.</p>\n<p>Pour iOS, il faut ajouter vos calendriers à votre système puis accepter que Clendar accède à vos calendriers.</p>\n"
     },
     "transition": {
       "rating": "3.5",
-      "contents": ""
+      "contents": "<p>La façon la plus simple de passer à l&#39;agenda NextCloud, est d&#39;intégrer son ancien calendrier à votre application client. Vous avez donc deux services de calendriers : celui propriétaire avec vos anciens événements, celui NextCloud où vous créez vos nouveaux événements.</p>\n<p>Sinon vous pouvez exporter vos anciens calendriers au format <em>ics</em> et les importer sur le tableau de bord de votre calendrier NextCloud.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>Toutes ces applications client permettent de bien gérer ces événements. Des notifications sont envoyées pour les rappeler. </p>\n<p>Pour les applications mobiles, les fonctionnalités sont réduits à l&#39;essentiel.</p>\n"
     }
   },
   {
@@ -347,22 +347,22 @@
   {
     "altname": "Médiathèque",
     "altfile": "disc",
-    "altcontents": "",
+    "altcontents": "<p>La médiathèque est un lieu <strong>ouvert à toustes</strong> qui prône un des fondamentaux de la <strong>sobriété</strong> : la <strong>mutualisation</strong>. Vous pouvez y emprunter livres, CDs, DVDs et tant d&#39;autres types de médias. L&#39;abonnement est en général <strong>gratuit</strong> pour les résident⋅es de la commune. Vous pouvez ainsi choisir des DVDs avec pour seul algorithme de suggestion le ou la médiathécaire.</p>\n<p>Cette alternative <strong>ne nécessite pas de connexion internet</strong> donc aucune chance d&#39;être tracer ou d&#39;être face à des publicités. Vous réduisez également votre empreinte numérique<sup>1</sup> en utilisant des DVDs partagés au sein d&#39;une médiathèque d&#39;autant plus si vous vous y rendez avec un moyen de transport décarboné.</p>\n<p><sup>1</sup> à ne pas confondre avec <a href=\"https://nosgestesclimat.fr/\">votre empreinte carbone</a>. L&#39;empreinte numérique représente environ 2% de l&#39;empreinte carbone totale.</p>\n",
     "appname": "Netflix",
-    "theme": "Streaming",
+    "theme": "Vidéo à la demande",
     "appfile": "netflix",
-    "appcontents": "",
+    "appcontents": "<p>Netflix est une plateforme de vidéo à la demande (VoD) <strong>propriétaire</strong> et <strong>payant</strong>. Derrière ce produit gratuit se cache une <strong>structure de surveillance et d&#39;analyse de données</strong>. Netflix se base également sur l&#39;<strong>économie de l&#39;attention</strong> avec un algorithme qui incite les utilisateurs⋅ices à consommer toujours plus.</p>\n<p>De plus, les vidéos représente 80% du flux sur Internet et la VoD à elle seule 20% du flux total de données et 7% du total des émissions de gaz à effet de serre dues au numérique (<a href=\"https://theshiftproject.org/wp-content/uploads/2019/07/R%C3%A9sum%C3%A9-aux-d%C3%A9cideurs_FR_Linsoutenable-usage-de-la-vid%C3%A9o-en-ligne.pdf\">Shift Project</a>).</p>\n<p>Selon une <a href=\"https://iopscience.iop.org/article/10.1088/1748-9326/9/5/054007\">étude de Berkeley</a>, le streaming vidéo demande <strong>davantage d&#39;énergie</strong> et émet <strong>davantage de gaz à effet de serre</strong> que la <strong>fabrication</strong> et la <strong>lecture</strong> d&#39;un <strong>DVD</strong>.</p>\n",
     "install": {
-      "rating": "5",
-      "contents": ""
+      "rating": "3.5",
+      "contents": "<p>Il faut trouver la médiathèque la plus proche de chez vous et s&#39;y inscrire. C&#39;est généralement <strong>gratuit</strong>.</p>\n<p>Si vous lisez les DVDs sur votre ordinateur, il faut également installer le lecteur <a href=\"https://code.videolan.org/explore/projects/starred\"><strong>open source</strong></a> VLC.</p>\n"
     },
     "transition": {
-      "rating": "3.5",
-      "contents": ""
+      "rating": "2.5",
+      "contents": "<p>Il faut <strong>ếtre équipé⋅e</strong> dans lecteur de DVD. Si vous n&#39;en avez pas, vous pouvez acheter (de préférence d&#39;occasion) un lecteur DVD à brancher sur un écran ou un lecteur de disque externe à brancher sur votre ordinateur. Vous pourrez difficilement regarder vos films et séries sur votre smartphone, ce qui permet également de <strong>réduire son usage</strong>.</p>\n"
     },
     "ux": {
-      "rating": "5",
-      "contents": ""
+      "rating": "4.5",
+      "contents": "<p>C&#39;est très agréable de prendre le temps de choisir et d&#39;être conseiller sur le film ou la série à regarder. Il n&#39;y a pas immédiatement les toutes dernières sorties (cela prend en général 6 mois) mais tout de même un <strong>large choix</strong>.</p>\n"
     }
   },
   {
@@ -453,7 +453,7 @@
     "appname": "Météo",
     "theme": "Météo",
     "appfile": "weather",
-    "appcontents": "<p>Les applications de météo proposées sur ordinateur comme sur smartphone sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>propriétaires</strong> qui récupère vos données.</p>\n<p>Les prévisions météorologiques sont pourtant de simples informations qui doivent être accessibles sans pisteur ni publicité.</p>\n",
+    "appcontents": "<p>Les applications de météo proposées sur ordinateurs comme sur smartphones sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>propriétaires</strong> et possèdent une <strong>structure de surveillance et d&#39;analyse de données</strong>.</p>\n<p>Les prévisions météorologiques sont pourtant de simples informations qui doivent être accessibles sans pisteur ni publicité.</p>\n",
     "install": {
       "rating": "3.5",
       "contents": "<p>Sur Android, l&#39;application est disponible <a href=\"https://f-droid.org/fr/packages/wangdaye.com.geometricweather/\">F-Droid</a> et le Play Store.</p>\n<p>Sur iOS, l&#39;application est en phase de test, vous pouvez y participer en utilisant TestFlight et ainsi utiliser la version bêta de l&#39;application grâce à <a href=\"https://testflight.apple.com/join/sipVnAZC\">ce lien</a>. L&#39;installation est un peu plus compliqué mais il n&#39;existe pas d&#39;autres alternatives.</p>\n"
