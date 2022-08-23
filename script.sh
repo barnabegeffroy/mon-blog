@@ -74,6 +74,7 @@ while read p; do
 done
 
 echo "}]" >> $out
+sed -i 's/\(href=\\\"http\)/target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\" \1/g' $out 
 prettier -w $out 
 rm src/data.jsone
 rm static/svg/*
