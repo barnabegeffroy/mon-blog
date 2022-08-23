@@ -65,7 +65,5 @@ Faut pas mal se renseigner pour savoir quel est le meilleur produit, le plus ét
 <style>
 p{
     margin:0.5%;
-    text-align: justify;
-    text-justify: inter-word;
 }
 </style>
