@@ -1,23 +1,23 @@
 [
   {
-    "altname": "NextCloud",
+    "altname": "Nextcloud",
     "altfile": "nextcloud",
-    "altcontents": "<p>NextCloud (voir l&#39;alternative à Google Drive) propose une gestion du calendrier. Vos événements sont stockés dans votre cloud et donc accessible depuis vos différents appareils.</p>\n<p>Vous pouvez utiliser le calendrier sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>. NextCloud utilise le protocole CalDAV (un standard web pour la gestion des événements) ce qui permet d&#39;être compatible avec de nombreuses applications client (comme celles installées par défaut sur les appareils).</p>\n<p>Pour ordinateur, vous pouvez l&#39;intégrer à votre client mail Thunderbird (voir l&#39;alternative à &quot;client mail&quot;).</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>Simple Calendar</strong>, disponible <strong>gratuitement</strong> sur <a href=\"https://f-droid.org/fr/packages/com.simplemobiletools.calendar.pro/\">F-Droid</a> et le Play Store pour 0€79. Pour iOS, l&#39;application s&#39;appelle <strong>Clendar</strong>, disponible sur l&#39;App Store gratuitement (et une version premium à 0€99).</p>\n<p>Ces applications client sont <strong>open source</strong> et n&#39;utilisent <strong>aucun pisteur</strong> et <strong>aucune publicité</strong>.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
+    "altcontents": "<p>Nextcloud (voir l&#39;alternative à Google Drive) propose une gestion du calendrier. Vos événements sont stockés dans votre cloud et donc accessible depuis vos différents appareils.</p>\n<p>Vous pouvez utiliser le calendrier sur votre tableau de bord Nextcloud ou installer une application client<sup>1</sup>. Nextcloud utilise le protocole CalDAV (un standard web pour la gestion des événements) ce qui permet d&#39;être compatible avec de nombreuses applications client (comme celles installées par défaut sur les appareils).</p>\n<p>Pour ordinateur, vous pouvez l&#39;intégrer à votre client mail Thunderbird (voir l&#39;alternative à &quot;client mail&quot;).</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>Simple Calendar</strong>, disponible <strong>gratuitement</strong> sur <a href=\"https://f-droid.org/fr/packages/com.simplemobiletools.calendar.pro/\">F-Droid</a> et le Play Store pour 0€79. Pour iOS, l&#39;application s&#39;appelle <strong>Clendar</strong>, disponible sur l&#39;App Store gratuitement (et une version premium à 0€99).</p>\n<p>Ces applications client sont <strong>open source</strong> et n&#39;utilisent <strong>aucun pisteur</strong> et <strong>aucune publicité</strong>.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre Nextcloud) et afficher vos données.</p>\n",
     "appname": "Agenda",
     "theme": "Calendrier et gestion d'événements",
     "appfile": "calendar",
     "appcontents": "<p>Les applications de calendrier proposées sur ordinateurs comme sur smartphones sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>propriétaires</strong> (pour Mac, Windows, iOS et Android) et possèdent une <strong>structure de surveillance et d&#39;analyse de données</strong>.</p>\n<p>Avec ces applications, vous donnez directement accès à tous vos événements.</p>\n",
     "install": {
       "rating": "3.5",
-      "contents": "<p>Si vous avez déjà un compte NextCloud, il suffit d&#39;installer les applications client dont vous avez besoin. Si vous n&#39;avez pas de compte NextCloud, allez voir l&#39;alternative de Google Drive.</p>\n<p>Pour ordinateur, vous pouvez utiliser le tableau de bord en ligne de votre NextCloud ou Thunderbird. Pour l&#39;intégrer vos calendriers à Thunderbird il suffit de suivre les instructions de <a href=\"https://wiki.zaclys.com/index.php/Synchronisation_des_agendas_et_des_t%C3%A2ches_avec_Thunderbird\">ce lien</a>.</p>\n<p>Pour Android, il faut ajouter installer l&#39;application NextCloud et ajouter votre compte. Ensuite dans les paramètres de Simple Calendar allez dans la rubrique &quot;CalDAV&quot;.</p>\n<p>Pour iOS, il faut ajouter vos calendriers à votre système puis accepter que Clendar accède à vos calendriers.</p>\n"
+      "contents": "<p>Si vous avez déjà un compte Nextcloud, il suffit d&#39;installer les applications client dont vous avez besoin. Si vous n&#39;avez pas de compte Nextcloud, allez voir l&#39;alternative de Google Drive.</p>\n<p>Pour ordinateur, vous pouvez utiliser le tableau de bord en ligne de votre Nextcloud ou Thunderbird. Pour l&#39;intégrer vos calendriers à Thunderbird il suffit de suivre les instructions de <a href=\"https://wiki.zaclys.com/index.php/Synchronisation_des_agendas_et_des_t%C3%A2ches_avec_Thunderbird\">ce lien</a>.</p>\n<p>Pour Android, il faut ajouter installer l&#39;application Nextcloud et ajouter votre compte. Ensuite dans les paramètres de Simple Calendar allez dans la rubrique &quot;CalDAV&quot;.</p>\n<p>Pour iOS, il faut ajouter vos calendriers à votre système puis accepter que Clendar accède à vos calendriers.</p>\n"
     },
     "transition": {
       "rating": "3.5",
-      "contents": "<p>La façon la plus simple de passer à l&#39;agenda NextCloud, est d&#39;intégrer son ancien calendrier à votre application client. Vous avez donc deux services de calendriers : celui propriétaire avec vos anciens événements, celui NextCloud où vous créez vos nouveaux événements.</p>\n<p>Sinon vous pouvez exporter vos anciens calendriers au format <em>ics</em> et les importer sur le tableau de bord de votre calendrier NextCloud.</p>\n"
+      "contents": "<p>La façon la plus simple de passer à l&#39;agenda Nextcloud, est d&#39;intégrer son ancien calendrier à votre application client. Vous avez donc deux services de calendriers : celui propriétaire avec vos anciens événements, celui Nextcloud où vous créez vos nouveaux événements.</p>\n<p>Sinon vous pouvez exporter vos anciens calendriers au format <em>ics</em> et les importer sur le tableau de bord de votre calendrier Nextcloud.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": "<p>Toutes ces applications client permettent de bien gérer ces événements. Des notifications sont envoyées pour les rappeler. </p>\n<p>Pour les applications mobiles, les fonctionnalités sont réduits à l&#39;essentiel.</p>\n"
+      "contents": "<p>Toutes ces applications client permettent de bien gérer ces événements. Des notifications sont envoyées pour les rappeler.</p>\n<p>Pour les applications mobiles, les fonctionnalités sont réduits à l&#39;essentiel.</p>\n"
     }
   },
   {
@@ -87,7 +87,7 @@
     ],
     "altname": "Mattermost",
     "altfile": "mattermost",
-    "altcontents": "<p>Mattermost est un service de messagerie instantanée <a href=\"https://github.com/mattermost\"><strong>open source</strong></a>. La messagerie fonctionne comme Discord ou Slack avec un chat interne et des salons de discussions. Elle est <strong>auto-hébergeable</strong>, c&#39;est-à-dire que Mattermost peut être hébergé par différents institutions (associations, entreprises, ...). De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a href=\"https://www.chatons.org/taxonomy/term/250\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application. Le modèle économique de Mattermost est basé sur un service payant dédié aux entreprises.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
+    "altcontents": "<p>Mattermost est un service de messagerie instantanée <a href=\"https://github.com/mattermost\"><strong>open source</strong></a>. La messagerie fonctionne comme Discord ou Slack avec un chat interne et des salons de discussions. Elle est <strong>auto-hébergeable</strong>, c&#39;est-à-dire que Mattermost peut être hébergé par différentes institutions (associations, entreprises, ...). De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a href=\"https://www.chatons.org/taxonomy/term/250\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application. Le modèle économique de Mattermost est basé sur un service payant dédié aux entreprises.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
     "appname": "Discord",
     "theme": "Messagerie instantanée",
     "appfile": "discord",
@@ -98,7 +98,7 @@
     },
     "transition": {
       "rating": "2",
-      "contents": "<p>Comme tous les réseaux sociaux, la transition est longue et ne dépend pas que de vous.</p>\n"
+      "contents": "<p>Comme tous les réseaux sociaux, la transition est longue et ne dépend pas que de vous. Elle est plus simple quand vous êtes un groupe à franchir le pas en même temps.</p>\n"
     },
     "ux": {
       "rating": "5",
@@ -114,7 +114,7 @@
     ],
     "altname": "OnlyOffice",
     "altfile": "onlyoffice",
-    "altcontents": "<p>OnlyOffice propose une suite bureautique en ligne <a href=\"https://github.com/ONLYOFFICE\"><strong>open source</strong></a> : <strong>OnlyOffice Docs</strong>. Celle-ci OnlyOffice Docs les fichiers Office (Word, Excel, PowerPoint). Elle est <strong>auto-hébergeable</strong>, c&#39;est-à-dire qu&#39;elle peut être hébergée par différentes institutions. Elle s&#39;intègre notamment avec <strong>NextCloud</strong> (voir ce qu&#39;est NextCloud sur l&#39;alternative à Google Cloud). J&#39;utilise pour ma part OnlyOffice Docs avec mon compte <a href=\"https://murena.io/\">cloud murena.io</a>. Ce dernier est un cloud proposé par Murena, une société qui met en oeuvre des solutions libres et respectueuses de la vie privée (comme son /e/OS dégooglisé).</p>\n<p>Le modèle économique d&#39;OnlyOffice est basé sur la vente de licences de services d&#39;éditions en ligne. Pour Murena, le premier Giga Octet de cloud est gratuit, il faut ensuite payer pour en avoir davantage. Murena vend également des téléphones dégooglisés.</p>\n",
+    "altcontents": "<p>OnlyOffice propose une suite bureautique en ligne <a href=\"https://github.com/ONLYOFFICE\"><strong>open source</strong></a> : <strong>OnlyOffice Docs</strong>. Celle-ci OnlyOffice Docs les fichiers Office (Word, Excel, PowerPoint). Elle est <strong>auto-hébergeable</strong>, c&#39;est-à-dire qu&#39;elle peut être hébergée par différentes institutions. Elle s&#39;intègre notamment avec <strong>Nextcloud</strong> (voir ce qu&#39;est Nextcloud sur l&#39;alternative à Google Cloud). J&#39;utilise pour ma part OnlyOffice Docs avec mon compte <a href=\"https://murena.io/\">cloud murena.io</a>. Ce dernier est un cloud proposé par Murena, une société qui met en oeuvre des solutions libres et respectueuses de la vie privée (comme son /e/OS dégooglisé).</p>\n<p>Le modèle économique d&#39;OnlyOffice est basé sur la vente de licences de services d&#39;éditions en ligne. Pour Murena, le premier Giga Octet de cloud est gratuit, il faut ensuite payer pour en avoir davantage. Murena vend également des téléphones dégooglisés.</p>\n",
     "appname": "Google Docs",
     "theme": "Suite bureautique en ligne",
     "appfile": "google-docs",
@@ -133,30 +133,24 @@
     }
   },
   {
-    "otheralt": [
-      {
-        "appname": "OwnCloud",
-        "contents": ""
-      }
-    ],
-    "altname": "NextCloud",
+    "altname": "Nextcloud",
     "altfile": "nextcloud",
-    "altcontents": "",
+    "altcontents": "<p>Nextcloud est un service de cloud <a href=\"https://github.com/nextcloud\"><strong>open source</strong></a>. Il est <strong>auto-hébergeable</strong>, c&#39;est-à-dire qu&#39;il peut être hébergée par différentes institutions (associations, entreprises, ...). Le modèle économique de Nextcloud est basé sur un service payant dédié aux entreprises.</p>\n<p>De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a href=\"https://www.chatons.org/taxonomy/term/271\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application.</p>\n<p>Sur Nextcloud, vous pouvez donc stocker vos fichiers sur des hébergeurs de confiance. Ce Cloud propose également l&#39;<strong>intégration d&#39;applications</strong> (ajoutée par l&#39;hébergeur) dont les données seront stockées sur votre Nextcloud. En voici quelques exemples :</p>\n<ul>\n<li>Notes : l&#39;alternative aux applications de prises de notes</li>\n<li>Agenda : pour stocker ces événements dans un serveur de confiance</li>\n<li>OnlyOffice : l&#39;alternative aux Google Docs</li>\n<li>Cospend : l&#39;alternative à Tricount</li>\n</ul>\n<p>Et tant d&#39;autres qui peuvent être intégrées à votre tableau de bord NextCloud.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
     "appname": "Google Drive",
     "theme": "Service de cloud/drive",
     "appfile": "google-drive",
-    "appcontents": "",
+    "appcontents": "<p>Google Drive est un service de cloud <strong>propriétaire</strong> développé par <strong>Google</strong>. Comme tous les services de Google, derrière ce produit gratuit se cache une <strong>structure de surveillance et d&#39;analyse de données</strong>. Avec ce service, vous donnez directement accès à vos images, vidéos, documents, ...</p>\n",
     "install": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>Il faut choisir une instance hébergeant NextCloud et les applications que vous souhaitez utilisées. Je conseille<a href=\"https://murena.io/\">murena.io</a> proposé par Murena, une société qui met en oeuvre des solutions libres et <strong>respectueuses de la vie privée</strong> (comme son /e/OS dégooglisé). Vous disposez de <strong>1 Go gratuit</strong>. Ce NextCloud dispose notamment du calendrier, des notes, d&#39;OnlyOffice.</p>\n"
     },
     "transition": {
       "rating": "3.5",
-      "contents": ""
+      "contents": "<p>Dans une démarche de <strong>sobriété</strong>, la meilleure solution est de ne garder que les fichiers indispensables sur votre Nextcloud. Garder les fichiers que vous utilisez que ponctuellement sur des stockages locaux (disques durs, clefs USB, ...) en priorisant les fichiers volumineux (vidéos, photos).</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>L&#39;intégration est très bonne, le tableau de bord web est très <strong>intuitif</strong>. Les différentes applications proposées permettent de <strong>reprendre le contrôle</strong> sur nos données</p>\n"
     }
   },
   {
@@ -246,27 +240,27 @@
     "otheralt": [
       {
         "appname": "Barinsta",
-        "contents": ""
+        "contents": "<p>Barinsta est une interface alternative à Instagram <a href=\"https://github.com/Android-Builds/barinsta\"><strong>open source</strong></a>. Vous pouvez donc visionner le contenu diffusé par vos abonnements sur Instagram <strong>sans publicité ni pisteur</strong>.</p>\n<p>Barinsta est disponible seulement sur Android (<a href=\"https://f-droid.org/fr/packages/me.austinhuang.instagrabber/\">F-Droid</a>).</p>\n"
       }
     ],
     "altname": "Pixelfed",
     "altfile": "pixelfed",
-    "altcontents": "",
+    "altcontents": "<p>Pixelfed est un réseau social alternatif <a href=\"https://github.com/pixelfed/pixelfed\"><strong>open source</strong></a>. Il est <strong>décentralisé et fédérateur</strong>. C&#39;est-à-dire que chaque hébergeur peut créer une instance Mastodon (décentralisé) et que les différentes instances peuvent communiquer entre elles (fédérateur). Par exemple les adresses e-mail fonctionnent de la même manière, vous pouvez envoyer des e-mails à n&#39;importe quelle adresse, peu importe son fournisseur. Les données ne sont donc pas détenues par un super-puissant serveur mais par différents petits serveurs indépendants.</p>\n<p>Pixelfed n&#39;utilise <strong>aucun pisteur</strong> et <strong>aucune publicité</strong> n&#39;est présente.</p>\n<p>Tout comme Mastodon ou PeerTube (les alternatives respectives de Twitter et YouTube), Pixelfed fait parti du <strong>Fediverse</strong>. Cela veut dire que vous pouvez suivre un compte Mastodon (ou PeerTube) depuis votre compte Pixelfed et vice versa. Si vous ne voulez pas démultiplier vos comptes, vous pouvez très bien utiliser Mastodon pour suivre des comptes Pixelfed.</p>\n<p>Il existe une version web de Pixelfed pour ordinateur. Pour Android, il y a l&#39;application PixelDroid disponible sur <a href=\"https://f-droid.org/fr/packages/org.pixeldroid.app/\">F-Droid</a>. Pour iOS, je n&#39;ai pas trouvé d&#39;application mais vous pouvez utiliser une application client Mastodon.</p>\n",
     "appname": "Instagram",
     "theme": "Réseau social",
     "appfile": "insta",
-    "appcontents": "",
+    "appcontents": "<p>Instagram est un réseau social <strong>propriétaire</strong> développé par <strong>Meta/Facebook</strong>. Cette firme fait souvent l&#39;objet de <strong>polémiques</strong>, la dernière en date est d&#39;avoir donné des messages aux autorités américaines pour qu&#39;elle poursuive une adolescente pour avoir avorté. Il existe même un <a href=\"https://dayssincelastfacebookscandal.com/\">site web</a> qui compte le nombre de jours depuis le dernier scandale Meta/Facebook.</p>\n<p>Comme la plupart des services de Meta, WhatsApp est un <strong>aspirateur à données personnelles</strong>. Instagram est en effet un service commercial dont le but est de vendre les données utilisateur⋅ices pour en faire de la publicité. L&#39;application joue également sur l&#39;<strong>économie de l&#39;attention</strong> pour faire consommer toujours plus de contenu (et donc collecter plus de données) aux utilisateur⋅ices.</p>\n",
     "install": {
-      "rating": "5",
-      "contents": ""
+      "rating": "4.5",
+      "contents": "<p>Il faut choisir l&#39;instance sur laquelle créer son profil Pixelfed. Vous pouvez choisir une communauté spécifique dans la <a href=\"https://fedidb.org/software/pixelfed\">liste des instances</a>.</p>\n<p>Après avoir choisi votre instance, il suffit de compléter votre profil et suivre les comptes que vous souhaitez.</p>\n"
     },
     "transition": {
-      "rating": "5",
-      "contents": ""
+      "rating": "2",
+      "contents": "<p>Comme tous les réseaux sociaux, la transition est <strong>longue</strong> et ne dépend pas que de vous. Elle est plus simple quand vous êtes un groupe à franchir le pas en même temps.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>Pixelfed <strong>ressemble à Instagram</strong> <em>avant qu&#39;il ne se transforme en une copie de TikTok</em>.</p>\n"
     }
   },
   {
@@ -320,8 +314,8 @@
   {
     "otheralt": [
       {
-        "appname": "NextCloud",
-        "contents": "<p>NextCloud propose une solution de gestion de mots de passe. Les mots de passe sont <strong>stockés sur votre cloud</strong>. Il s&#39;intègre sur les navigateurs et les smartphones mais l&#39;utilisation est moins agréable que Bitwarden.</p>\n"
+        "appname": "Nextcloud",
+        "contents": "<p>Nextcloud propose une solution de gestion de mots de passe. Les mots de passe sont <strong>stockés sur votre cloud</strong>. Il s&#39;intègre sur les navigateurs et les smartphones mais l&#39;utilisation est moins agréable que Bitwarden.</p>\n"
       }
     ],
     "altname": "Bitwarden",
@@ -372,16 +366,16 @@
         "contents": "<p>Joplin est une application de prise de notes <a href=\"https://github.com/laurent22/joplin\"><strong>open source</strong></a>. Elle est disponible <strong>gratuitement</strong> sur tous les systèmes (Windows, Mac, Linux, Android, iOS). Elle permet la création de notes et de tâches sans synchronisation.</p>\n"
       }
     ],
-    "altname": "NextCloud",
+    "altname": "Nextcloud",
     "altfile": "nextcloud-notes",
-    "altcontents": "<p>NextCloud (voir l&#39;alternative à Google Drive) propose une service de prise de notes <a href=\"https://github.com/nextcloud/notes\"><strong>open source</strong></a>. Vos notes sont stockés en ligne <strong>dans votre cloud</strong>, elles sont donc accessibles depuis vos différents appareils. Si vous n&#39;avez pas besoin de stockage en ligne mais seulement de notes sur votre téléphone, regardez les autres alternatives ci-dessous.</p>\n<p>Vous pouvez utiliser les notes sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>NextCloud Notes</strong>, disponible <strong>gratuitement</strong> sur <a href=\"https://f-droid.org/fr/packages/it.niedermann.owncloud.notes/\">F-Droid</a> et le Play Store pour 2€99. Pour iOS, l&#39;application s&#39;appelle <strong>CloudNotes</strong>, disponible sur l&#39;App Store pour 1€99. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisé lors de l&#39;utilisation de NextCloud Notes.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
+    "altcontents": "<p>Nextcloud (voir l&#39;alternative à Google Drive) propose une service de prise de notes <a href=\"https://github.com/nextcloud/notes\"><strong>open source</strong></a>. Vos notes sont stockés en ligne <strong>dans votre cloud</strong>, elles sont donc accessibles depuis vos différents appareils. Si vous n&#39;avez pas besoin de stockage en ligne mais seulement de notes sur votre téléphone, regardez les autres alternatives ci-dessous.</p>\n<p>Vous pouvez utiliser les notes sur votre tableau de bord Nextcloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>Nextcloud Notes</strong>, disponible <strong>gratuitement</strong> sur <a href=\"https://f-droid.org/fr/packages/it.niedermann.owncloud.notes/\">F-Droid</a> et le Play Store pour 2€99. Pour iOS, l&#39;application s&#39;appelle <strong>CloudNotes</strong>, disponible sur l&#39;App Store pour 1€99. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisé lors de l&#39;utilisation de Nextcloud Notes.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre Nextcloud) et afficher vos données.</p>\n",
     "appname": "Notes",
     "theme": "Prise de notes textuelles",
     "appfile": "apple-notes",
     "appcontents": "<p>Les applications de prise de notes proposées sur ordinateur comme sur smartphone sont des façons très simple de <strong>récolter des données d&#39;utilisateur⋅ices</strong>. Elles sont toutes <strong>propriétaires</strong>.</p>\n<p>Les notes sont pourtant de simple textes qui doivent pouvoir être rédigés sans pisteur ni publicité.</p>\n",
     "install": {
       "rating": "4.5",
-      "contents": "<p>Si vous avez déjà un compte NextCloud, il suffit d&#39;installer l&#39;application <em>NextCloud Notes</em> pour Android ou <em>CloudNotes</em> pour iOS. Si vous n&#39;avez pas de compte NextCloud, allez voir l&#39;alternative de Google Drive.</p>\n"
+      "contents": "<p>Si vous avez déjà un compte Nextcloud, il suffit d&#39;installer l&#39;application <em>Nextcloud Notes</em> pour Android ou <em>CloudNotes</em> pour iOS. Si vous n&#39;avez pas de compte Nextcloud, allez voir l&#39;alternative de Google Drive.</p>\n"
     },
     "transition": {
       "rating": "5",
@@ -396,19 +390,19 @@
     "otheralt": [
       {
         "appname": "IHateMoney",
-        "contents": "<p>IHateMoney est un autre projet <a href=\"https://github.com/spiral-project/ihatemoney/\"><strong>open source</strong></a> de gestion de dépenses. Il ne nécessite pas de compte pour être utilisé. Les données sont stockées sur les serveurs d&#39;IHateMoney. C&#39;est donc une bonne alternative si votre NextCloud n&#39;a pas Cospend.</p>\n<p>Vous pouvez également utiliser <strong>MoneyBuster</strong> (Android) ou <strong>PayForMe</strong> (iOS) pour gérer vos différents projets IHateMoney.</p>\n"
+        "contents": "<p>IHateMoney est un autre projet <a href=\"https://github.com/spiral-project/ihatemoney/\"><strong>open source</strong></a> de gestion de dépenses. Il ne nécessite pas de compte pour être utilisé. Les données sont stockées sur les serveurs d&#39;IHateMoney. C&#39;est donc une bonne alternative si votre Nextcloud n&#39;a pas Cospend.</p>\n<p>Vous pouvez également utiliser <strong>MoneyBuster</strong> (Android) ou <strong>PayForMe</strong> (iOS) pour gérer vos différents projets IHateMoney.</p>\n"
       }
     ],
     "altname": "Cospend",
     "altfile": "cospend",
-    "altcontents": "<p>Cospend est un projet <a href=\"https://github.com/eneiluj/cospend-nc\"><strong>open source</strong></a> développé par <strong>NextCloud</strong>. L&#39;application s&#39;intègre donc aux instances NextCloud (voir l&#39;alternative à Google Drive). Les données de vos différentes dépenses sont donc <strong>stockées sur votre cloud</strong>. Il vous faut donc un compte NextCloud où Cospend est installé pour pouvoir l&#39;utiliser.</p>\n<p>Vous pouvez utiliser Cospend sur votre tableau de bord NextCloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>MoneyBuster</strong>, disponible sur <a href=\"https://f-droid.org/packages/net.eneiluj.moneybuster/\">F-Droid</a> et le Play Store. Pour iOS, l&#39;application s&#39;appelle <strong>PayForMe</strong>, disponible sur l&#39;App Store. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisé lors de l&#39;utilisation de Cospend.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre NextCloud) et afficher vos données.</p>\n",
+    "altcontents": "<p>Cospend est un projet <a href=\"https://github.com/eneiluj/cospend-nc\"><strong>open source</strong></a> développé par <strong>Nextcloud</strong>. L&#39;application s&#39;intègre donc aux instances Nextcloud (voir l&#39;alternative à Google Drive). Les données de vos différentes dépenses sont donc <strong>stockées sur votre cloud</strong>. Il vous faut donc un compte Nextcloud où Cospend est installé pour pouvoir l&#39;utiliser.</p>\n<p>Vous pouvez utiliser Cospend sur votre tableau de bord Nextcloud ou installer une application client<sup>1</sup>.</p>\n<p>Pour Android, l&#39;application s&#39;appelle <strong>MoneyBuster</strong>, disponible sur <a href=\"https://f-droid.org/packages/net.eneiluj.moneybuster/\">F-Droid</a> et le Play Store. Pour iOS, l&#39;application s&#39;appelle <strong>PayForMe</strong>, disponible sur l&#39;App Store. Ces deux applications sont <strong>open source</strong>.</p>\n<p><strong>Aucun pisteur</strong> et <strong>aucune publicité</strong> ne sont utilisé lors de l&#39;utilisation de Cospend.</p>\n<p><sup>1</sup> Une application client est une application qui va interagir avec votre serveur (ici votre Nextcloud) et afficher vos données.</p>\n",
     "appname": "Tricount",
     "theme": "Gestion des dépenses de groupe",
     "appfile": "tricount",
     "appcontents": "<p>Tricount est une application de gestion des dépenses de groupe <strong>propriétaire</strong> détenue par la banque néerlandaise Bunq. Son modèle économique est basé sur la <strong>publicité</strong> et la vente d&#39;abonnement premium.</p>\n<p>Selon la <a href=\"https://www.tricount.com/fr/politique-de-confidentialite\">politique de confidentialité de Tricount</a>, l&#39;application récupère vos <strong>&quot;données sur le mode de vie, activités de loisirs et intérêts&quot;</strong> grâce aux créations d&#39;un Tricount, l&#39;ajout de dépenses et commentaires. Elle peut alors envoyer ces informations à des services tiers.</p>\n<p>Elle utilise également <strong>nombreux pisteurs</strong> dont Google Analytics (illégal depuis 2022).</p>\n",
     "install": {
       "rating": "4.5",
-      "contents": "<p>Il faut avoir un compte <strong>NextCloud qui supporte Cospend</strong>. Si c&#39;est le cas, il suffit d&#39;installer MoneyBuster ou PayForMe et de vous connecter avec votre compte NextCloud. Sinon il faut demander à l&#39;hébergeur d&#39;installer Cospend sur le serveur NextCloud ou utiliser <strong>IHateMoney</strong> (voir ci-dessous).</p>\n"
+      "contents": "<p>Il faut avoir un compte <strong>Nextcloud qui supporte Cospend</strong>. Si c&#39;est le cas, il suffit d&#39;installer MoneyBuster ou PayForMe et de vous connecter avec votre compte Nextcloud. Sinon il faut demander à l&#39;hébergeur d&#39;installer Cospend sur le serveur Nextcloud ou utiliser <strong>IHateMoney</strong> (voir ci-dessous).</p>\n"
     },
     "transition": {
       "rating": "3.5",
@@ -480,7 +474,7 @@
     "appname": "WhatsApp",
     "theme": "Messageries instantanées",
     "appfile": "whatsapp",
-    "appcontents": "<p>WhatsApp est une messagerie instantané <strong>propriétaire</strong> développée par <strong>Meta/Facebook</strong>. Elle est l&#39;une des plus utilisées.</p>\n<p>Comme la plupart des services de Meta, WhatsApp est un aspirateur à données personnelles. WhatsApp est en effet un service commercial dont le but est de vendre les données utilisateur⋅ices pour en faire de la publicité.</p>\n",
+    "appcontents": "<p>WhatsApp est une messagerie instantané <strong>propriétaire</strong> développée par <strong>Meta/Facebook</strong>. Elle est l&#39;une des plus utilisées. Cette firme américaine fait souvent l&#39;objet de <strong>polémiques</strong>, la dernière en date est d&#39;avoir donné des messages aux autorités américaines pour qu&#39;elle poursuive une adolescente pour avoir avorté. Il existe même un <a href=\"https://dayssincelastfacebookscandal.com/\">site web</a> qui compte le nombre de jours depuis le dernier scandale Meta/Facebook.</p>\n<p>Comme la plupart des services de Meta, WhatsApp est un aspirateur à données personnelles. WhatsApp est en effet un service commercial dont le but est de vendre les données utilisateur⋅ices pour en faire de la publicité.</p>\n",
     "install": {
       "rating": "4.5",
       "contents": "<p>L&#39;application est disponible sur les stores mobiles. La création de compte se fait facilement avec un numéro de téléphone.\nUne version pour ordinateur est également disponible, pensez à l&#39;installer au même moment (si vous en avez besoin). En effet la synchronisation de vos messages entre votre ordinateur et votre smartphone ne se fait qu&#39;après l&#39;installation des deux applications, vous ne pourrez donc pas voir vos anciens messages sur votre ordinateur si vous l&#39;installer après la version mobile.</p>\n"
