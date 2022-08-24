@@ -18,4 +18,10 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  @media (max-width: 775px) {
+    .container {
+      width: 90%;
+    }
+  }
 </style>

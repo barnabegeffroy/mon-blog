@@ -125,8 +125,25 @@
       width: 90px;
       height: 90px;
     }
+
+    .app-body {
+      margin: 4px 2px;
+    }
     .app-name {
       width: 90px;
+    }
+
+    .badge {
+      height: 15px;
+      width: 15px;
+      left: 75px;
+      bottom: 115px;
+    }
+
+    .badge-text {
+      font-size: 20px;
+      top: 40%;
+      margin: -12px 0 0 -8px;
     }
   }
 </style>

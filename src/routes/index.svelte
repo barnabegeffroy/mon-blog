@@ -26,4 +26,14 @@
     margin: 5%;
     font-size: x-large;
   }
+
+  @media (max-width: 775px) {
+    .flex {
+      flex-direction: column;
+      align-items: center;
+    }
+    a {
+      width: 70%;
+    }
+  }
 </style>

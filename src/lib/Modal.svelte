@@ -80,6 +80,9 @@
         {/each}
       </div>
     {/if}
+    <div class="end-close-button">
+      <button on:click={closeModal} class="button">Fermer</button>
+    </div>
   </div>
 </div>
 
@@ -198,6 +201,10 @@
     display: flex;
   }
 
+  .end-close-button {
+    display: none;
+  }
+
   .tech {
     display: flex;
   }
@@ -237,14 +244,18 @@
   }
   @media (max-width: 775px) {
     .modal-content {
-      width: 80%;
+      width: 85%;
     }
     .modal-app-icon > i {
-      height: 100px;
-      width: 100px;
+      height: 60px;
+      width: 60px;
     }
     .arrow {
-      font-size: 70px;
+      font-size: 40px;
+    }
+    .end-close-button {
+      display: flex;
+      justify-content: center;
     }
   }
 
