@@ -20,6 +20,7 @@
 <style>
   .flex {
     display: flex;
+    align-items: center;
   }
   a {
     width: 30%;
@@ -30,7 +31,6 @@
   @media (max-width: 775px) {
     .flex {
       flex-direction: column;
-      align-items: center;
     }
     a {
       width: 70%;

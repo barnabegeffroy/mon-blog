@@ -8,6 +8,10 @@
   beforeUpdate(() => {
     page = window.location.pathname
   })
+
+  function stick() {
+    document.getElementsByTagName('main')[0].style.top = '0px'
+  }
 </script>
 
 <Header {page} />
@@ -23,8 +27,12 @@
   </p>
 </footer>
 
+<svelte:window on:scroll={stick} />
+
 <style>
   main {
+    top: -45px;
+    position: relative;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -33,7 +41,7 @@
     padding: 1rem;
     width: 100%;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 45px auto;
     box-sizing: border-box;
   }
 

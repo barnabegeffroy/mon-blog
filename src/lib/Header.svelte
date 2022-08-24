@@ -11,9 +11,19 @@
   ]
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu)
+
+  function stick() {
+    var navbar = document.getElementById('navbar')
+    var sticky = navbar.offsetTop
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add('sticky')
+    } else {
+      navbar.classList.remove('sticky')
+    }
+  }
 </script>
 
-<nav>
+<nav id="navbar">
   <div class="inner">
     <div
       on:click={handleMobileIconClick}
@@ -36,10 +46,20 @@
   </div>
 </nav>
 
+<svelte:window on:scroll={stick} />
+
 <style>
-  nav {
-    background-color: rgba(255, 255, 255, 0.7);
+  #navbar {
+    z-index: 2;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
     height: 45px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 
   li.active > a {
