@@ -1,124 +1,179 @@
 <script lang="ts">
   import { base } from '$app/paths'
+
+  let showMobileMenu = false
   export let page
+
+  const navItems = [
+    { label: 'Accueil', href: '' },
+    { label: 'Pourquoi une transition ?', href: 'pourquoi' },
+    { label: 'GAFAlternative', href: 'gafalt' },
+  ]
+
+  const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu)
 </script>
 
-<header>
-  <div class="corner" />
-
-  <nav>
-    <svg viewBox="0 0 2 3" aria-hidden="true">
-      <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-    </svg>
-    <ul>
-      <li class:active={page === base || page === base + '/'}>
-        <a sveltekit:prefetch href="{base}/">Accueil</a>
-      </li>
-      <li class:active={page === base + '/pourquoi'}>
-        <a sveltekit:prefetch href="{base}/pourquoi"
-          >Pourquoi une transition ?</a
-        >
-      </li>
-      <li class:active={page === base + '/gafalt'}>
-        <a sveltekit:prefetch href="{base}/gafalt">GAFAlternative</a>
-      </li>
-    </ul>
-    <svg viewBox="0 0 2 3" aria-hidden="true">
-      <path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-    </svg>
-  </nav>
-
-  <div class="corner">
-    <a href="https://github.com/barnabegeffroy/" target="_blank"> Mon Github</a>
+<nav>
+  <div class="inner">
+    <div
+      on:click={handleMobileIconClick}
+      class={`mobile-icon${showMobileMenu ? ' active' : ''}`}
+    >
+      <div class="middle-line" />
+    </div>
+    <div class="items">
+      <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
+        {#each navItems as item}
+          <li
+            on:click={showMobileMenu ? handleMobileIconClick : null}
+            class:active={page === base || page === base + '/' + item.href}
+          >
+            <a sveltekit:prefetch href={base + '/' + item.href}>{item.label}</a>
+          </li>
+        {/each}
+      </ul>
+    </div>
   </div>
-</header>
+</nav>
 
 <style>
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .corner {
-    width: 7em;
-    height: 3em;
-  }
-
-  .corner a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  /* 
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	} */
-
   nav {
-    display: flex;
-    justify-content: center;
-    --background: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 45px;
   }
 
-  svg {
-    width: 2em;
-    height: 3em;
-    display: block;
-  }
-
-  path {
-    fill: var(--background);
-  }
-
-  ul {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    height: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    background: var(--background);
-    background-size: contain;
-  }
-
-  li {
-    position: relative;
-    height: 100%;
-  }
-
-  li.active::before {
-    --size: 6px;
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: calc(50% - var(--size));
-    border: var(--size) solid transparent;
-    border-top: var(--size) solid var(--accent-color);
-  }
-
-  nav a {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    padding: 0 1em;
-    color: var(--heading-color);
+  li.active > a {
     font-weight: 700;
-    font-size: 0.8rem;
+    color: var(--accent-color);
+  }
+  .inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    text-decoration: none;
     transition: color 0.2s linear;
   }
+  .mobile-icon {
+    width: 25px;
+    height: 14px;
+    position: relative;
+    cursor: pointer;
+  }
 
-  a:hover {
-    color: var(--accent-color);
+  .mobile-icon:after,
+  .mobile-icon:before,
+  .middle-line {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--heading-color);
+    transition: all 0.4s;
+    transform-origin: center;
+  }
+
+  .mobile-icon:before,
+  .middle-line {
+    top: 0;
+  }
+
+  .mobile-icon:after,
+  .middle-line {
+    bottom: 0;
+  }
+
+  .mobile-icon:before {
+    width: 66%;
+  }
+
+  .mobile-icon:after {
+    width: 33%;
+  }
+
+  .middle-line {
+    margin: auto;
+  }
+
+  .mobile-icon:hover:before,
+  .mobile-icon:hover:after,
+  .mobile-icon.active:before,
+  .mobile-icon.active:after,
+  .mobile-icon.active .middle-line {
+    width: 100%;
+  }
+
+  .mobile-icon.active:before,
+  .mobile-icon.active:after {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  .mobile-icon.active .middle-line {
+    transform: rotate(45deg);
+  }
+
+  .navbar-list {
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 40px;
+  }
+
+  .navbar-list.mobile {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    display: block;
+    height: calc(100% - 45px);
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .navbar-list li {
+    list-style-type: none;
+    position: relative;
+  }
+
+  .navbar-list li:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.9);
+  }
+
+  .navbar-list a {
+    color: var(--heading-color);
+    text-decoration: none;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 13px;
+  }
+
+  @media only screen and (min-width: 767px) {
+    .mobile-icon {
+      display: none;
+    }
+    .inner {
+      justify-content: center;
+    }
+    .navbar-list {
+      display: flex;
+      padding: 0;
+    }
+
+    .navbar-list a {
+      display: inline-flex;
+    }
   }
 </style>
