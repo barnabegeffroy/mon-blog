@@ -6,7 +6,8 @@
   --primary-color: #b9c6d2;
   --secondary-color: #d0dde9;
   --tertiary-color: #edf0f8;
-  --accent-color: #5cb85c;
+  --accent-color: #87ceeb;
+  --success-color: #5cb85c;
   --heading-color: rgba(0, 0, 0, 0.7);
   --text-color: #444444;
   --background-without-opacity: rgba(255, 255, 255, 0.7);
@@ -114,7 +115,7 @@ button:focus:not(:focus-visible) {
 }
 
 .button {
-  background-color: #5cb85c;
+  background-color: var(--accent-color);
   border: none;
   color: white;
   padding: 16px 32px;
@@ -125,13 +126,65 @@ button:focus:not(:focus-visible) {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: #5cb85c;
+  background-color: var(--accent-color);
   color: white;
-  border: 2px solid #5cb85c;
+  border: 2px solid var(--accent-color);
   border-radius: 12px;
 }
 
 .button:hover {
-  color: #5cb85c;
+  color: var(--accent-color);
   background-color: transparent;
+}
+
+details > p,
+details > h2,
+details > h3 {
+  margin: 0.5%;
+  padding: 1% 4%;
+}
+
+details {
+  margin: 1rem 0;
+  box-shadow: 0 0.2rem 1rem -0.5rem rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+summary {
+  font-size: large;
+  color: white;
+  padding: 1rem;
+  background: var(--accent-color);
+  display: block;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary:before {
+  content: '';
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
+  background: linear-gradient(
+    180deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 10.45%,
+    var(--tertiary-color) 41.35%
+  );
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
 }

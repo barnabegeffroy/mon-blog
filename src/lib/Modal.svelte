@@ -159,7 +159,7 @@
   .modal-header {
     padding: 5% 3% 0.3% 3%;
 
-    background-color: #5cb85c;
+    background-color: var(--accent-color);
     color: white;
   }
   .banner {
@@ -176,7 +176,7 @@
 
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: var(--accent-color);
     color: white;
   }
   .modal-app-icon > h4 {
@@ -219,7 +219,7 @@
     flex-wrap: wrap;
   }
   hr {
-    border: 1px solid #5cb85c;
+    border: 1px solid var(--accent-color);
   }
 
   @media (min-width: 1600px) {
@@ -244,7 +244,7 @@
   }
   @media (max-width: 775px) {
     .modal-content {
-      width: 85%;
+      width: 95%;
     }
     .modal-app-icon > i {
       height: 60px;

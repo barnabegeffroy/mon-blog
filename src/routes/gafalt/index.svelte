@@ -8,6 +8,7 @@
   import Modal from '$lib/Modal.svelte'
   import applis from '../../data.json'
   import Comment from '$lib/Comment.svelte'
+  import Info from './info.md'
   let showModal = true
   let isOpen = false
   let currentApp = applis[0]
@@ -15,9 +16,13 @@
 
 <div>
   <h1>Les alternatives aux GAFAM</h1>
-  <p>Cliquez sur les applications pour découvrir leur alternative !</p>
+
+  <details>
+    <summary> Important ! Comment bien choisir ses alternatives ? </summary>
+    <Info />
+  </details>
   <div class="switch">
-    <p>Activer les descriptions :</p>
+    <p>Descriptions</p>
     <Switch bind:checked={showModal} />
   </div>
 

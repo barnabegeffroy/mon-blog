@@ -1,6 +1,5 @@
 <script context="module" lang="ts">
   export const prerender = true
-  import { base } from '$app/paths'
 </script>
 
 <script>
@@ -13,7 +12,7 @@
 
 <style>
   .container {
-    width: 70%;
+    /* width: 70%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +20,7 @@
 
   @media (max-width: 775px) {
     .container {
-      width: 90%;
+      /* width: 90%; */
     }
   }
 </style>

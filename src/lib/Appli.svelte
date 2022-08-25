@@ -75,7 +75,7 @@
     padding-left: 10px;
   }
   .badge {
-    background-color: #5cb85c;
+    background-color: var(--success-color);
     display: flex;
     height: 25px;
     width: 25px;

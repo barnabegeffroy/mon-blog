@@ -73,7 +73,6 @@
     display: flex;
     align-items: center;
     height: 100%;
-    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     transition: color 0.2s linear;
