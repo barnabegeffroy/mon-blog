@@ -13,7 +13,7 @@
     >Pourquoi une transition est nécessaire ?</a
   >
   <a sveltekit:prefetch class="button" href={base + '/gafalt'}
-    >Les alternatives éthiques du numériques</a
+    >Les alternatives éthiques du numérique</a
   >
 </div>
 
