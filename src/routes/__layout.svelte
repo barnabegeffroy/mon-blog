@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Header from '$lib/Header.svelte'
+  import Header from '$lib/Layouts/Header.svelte'
   import '../app.css'
   import '../sprite.css'
   import { beforeUpdate } from 'svelte'

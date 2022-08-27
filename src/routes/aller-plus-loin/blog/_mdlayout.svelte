@@ -1,6 +1,6 @@
 <script>
   import { base } from '$app/paths'
-  import Comment from '$lib/Comment.svelte'
+  import Comment from '$lib/Components/Comment.svelte'
 
   export let title
   export let date

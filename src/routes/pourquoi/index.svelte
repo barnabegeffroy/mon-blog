@@ -1,35 +1,10 @@
-<script context="module" lang="ts">
-  export const prerender = true
-  import { base } from '$app/paths'
-</script>
-
 <script>
+  import Manifest from '$lib/Pages/Manifest.svelte'
   import Pourquoi from './pourquoi.md'
+  let language = "fr"
 </script>
 
-<div class="container">
-  <Pourquoi />
-</div>
-
-<a sveltekit:prefetch class="button" href={base + '/gafalt'}
-  >Voir les alternatives éthiques du numérique</a
->
-
-<style>
-  .container {
-    /* width: 70%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .button {
-    margin-top: 5%;
-  }
-
-  @media (max-width: 775px) {
-    .container {
-      /* width: 90%; */
-    }
-  }
-</style>
+<Manifest {language}>
+  <Pourquoi slot="content" />
+  <span slot="button">Voir les alternatives éthiques du numérique</span>
+</Manifest>

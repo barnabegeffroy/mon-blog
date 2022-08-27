@@ -3,11 +3,11 @@
 </script>
 
 <script>
-  import Appli from '$lib/Appli.svelte'
-  import Switch from '$lib/Switch.svelte'
-  import Modal from '$lib/Modal.svelte'
+  import Appli from '$lib/Components/Appli.svelte'
+  import Switch from '$lib/Components/Switch.svelte'
+  import Modal from '$lib/Components/Modal.svelte'
   import applis from '../../data.json'
-  import Comment from '$lib/Comment.svelte'
+  import Comment from '$lib/Components/Comment.svelte'
   import Info from './info.md'
   let showModal = true
   let isOpen = false
