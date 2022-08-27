@@ -3,13 +3,8 @@
 
   let showMobileMenu = false
   export let page
-
-  const navItems = [
-    { label: 'Accueil', href: '' },
-    { label: 'Pourquoi une transition ?', href: 'pourquoi' },
-    { label: 'GAFAlternative', href: 'gafalt' },
-    { label: 'Aller plus loin', href: 'aller-plus-loin' },
-  ]
+  export let navItems
+  export let language
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu)
 
@@ -22,6 +17,10 @@
       navbar.classList.remove('sticky')
     }
   }
+  const languages = [
+    { name: '🇬🇧️ English', code: 'en' },
+    { name: '🇨🇵️ Français', code: 'fr' },
+  ]
 </script>
 
 <nav id="navbar">
@@ -32,18 +31,32 @@
     >
       <div class="middle-line" />
     </div>
+    <div />
     <div class="items">
       <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
         {#each navItems as item}
           <li
             on:click={showMobileMenu ? handleMobileIconClick : null}
-            class:active={page === base || page === base + '/' + item.href}
+            class:active={page === base + '/' + language + item.href ||
+              page === base + '/' + language + '/' + item.href}
           >
-            <a sveltekit:prefetch href={base + '/' + item.href}>{item.label}</a>
+            <a sveltekit:prefetch href={base + '/' + language + '/' + item.href}
+              >{item.label}</a
+            >
           </li>
         {/each}
       </ul>
     </div>
+    <select
+      bind:value={language}
+      on:change={() => (window.location.href = base + '/' + language)}
+    >
+      {#each languages as lang}
+        <option value={lang.code} selected={lang.code === language}
+          >{lang.name}</option
+        >
+      {/each}
+    </select>
   </div>
 </nav>
 
@@ -195,5 +208,24 @@
     .navbar-list a {
       display: inline-flex;
     }
+  }
+
+  select {
+    position: fixed;
+    right: 0px;
+    height: 45px;
+    background-color: var(--accent-color);
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid var(--accent-color);
+    border-radius: 12px;
+  }
+  select:hover {
+    color: var(--accent-color);
+    background-color: transparent;
   }
 </style>

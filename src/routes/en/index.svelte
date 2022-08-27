@@ -1,0 +1,11 @@
+<script>
+  import Home from '$lib/Pages/Home.svelte'
+  import Content from '../../data/fr/pages/home.md'
+
+  const language = 'en'
+  const manifest = 'Why change is necessary ?'
+  const manifestUrl = 'why'
+  const gafalt = 'Ethical alternatives'
+</script>
+
+<Home {Content} {language} {manifest} {manifestUrl} {gafalt} />

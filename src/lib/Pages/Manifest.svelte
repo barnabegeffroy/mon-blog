@@ -3,15 +3,18 @@
 </script>
 
 <script>
-    export let language
-    import { base } from '$app/paths'
+  export let language
+  export let Content
+  export let button
+  import { base } from '$app/paths'
 </script>
+
 <div class="container">
-  <slot name="content">No content provided</slot>
+  <svelte:component this={Content} />
 </div>
 
 <a sveltekit:prefetch class="button" href={base + '/' + language + '/gafalt'}
-  ><slot name="button">No content provided</slot></a
+  >{button}</a
 >
 
 <style>

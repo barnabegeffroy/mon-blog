@@ -21,9 +21,6 @@ const config = defineConfig({
 
   remarkPlugins: [],
   rehypePlugins: [[urls, processUrl]],
-  layout: {
-    articles: 'src/routes/aller-plus-loin/blog/_mdlayout.svelte',
-  },
 })
 
 export default config

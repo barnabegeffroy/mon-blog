@@ -1,0 +1,65 @@
+<script context="module" lang="ts">
+  export const prerender = true
+  import { base } from '$app/paths'
+</script>
+<div class="content">
+
+# Pour aller plus loin
+Vous pouvez configurer vos différentes applications et appareils pour ajouter **davantage de confidentialité** et **supprimer les publicités et pisteurs**.
+
+<div class="articles"> 
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/firefox'}>
+  Configurer Firefox
+  </a>
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/android'}>
+  Configurer son Android
+  </a>
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/iphone'}>
+  Configurer son iPhone
+  </a>
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/windows'}>
+  Configurer son Windows
+  </a>
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/mac'}>
+  Configurer son Mac
+  </a>
+</div>
+
+Si vos appareils le permettent, vous pouvez également **remplacer Windows et Android** par des systèmes **open source** plus respectueux de la vie privée.
+
+<div class="articles"> 
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/linux'}>
+  Remplacer Windows
+  </a>
+  <a sveltekit:prefetch class="button" href={base + '/fr/aller-plus-loin/blog/eos'}>
+  Remplacer Android
+  </a>
+</div>
+
+## Quelques éco-gestes liés au numérique
+
+- Préférer le wifi à la 4G
+
+
+## Ressources
+
+Voici une liste de ressources complémentaires pour creuser davantage le sujet
+
+
+### Sites web
+
+### Livres
+
+### Podcast
+
+</div>
+<style>
+  .articles{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content{
+    width:70%;
+  }
+</style>

@@ -7,9 +7,9 @@ write_data () {
 
 alt=0
 dir=""
-out="./src/data.json"
+out="./src/data/$1/applis.json"
 echo [ >$out
-tree -J data/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
+tree -J src/data/fr/applis/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
 while read p; do
     case $p in
     *"directory"*)
@@ -76,7 +76,7 @@ done
 echo "}]" >> $out
 sed -i 's/\(href=\\\"http\)/target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\" \1/g' $out 
 prettier -w $out 
-rm src/data.jsone
+rm src/data/fr/applis.jsone
 rm static/svg/*
 svg-sprite --css --css-dest=static --css-common=svg-sprite-icon --ccss static/icons/*.svg -w 120 -h 120
 sed -i -E '/dims/,+4d' static/sprite.css
