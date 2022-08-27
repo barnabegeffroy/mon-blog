@@ -8,19 +8,19 @@
 Vous pouvez configurer vos différentes applications et appareils pour ajouter **davantage de confidentialité** et **supprimer les publicités et pisteurs**.
 
 <div class="articles"> 
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/firefox'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/firefox'}>
   Configurer Firefox
   </a>
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/android'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/android'}>
   Configurer son Android
   </a>
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/iphone'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/iphone'}>
   Configurer son iPhone
   </a>
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/windows'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/windows'}>
   Configurer son Windows
   </a>
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/mac'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/mac'}>
   Configurer son Mac
   </a>
 </div>
@@ -28,10 +28,10 @@ Vous pouvez configurer vos différentes applications et appareils pour ajouter *
 Si vos appareils le permettent, vous pouvez également **remplacer Windows et Android** par des systèmes **open source** plus respectueux de la vie privée.
 
 <div class="articles"> 
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/linux'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/linux'}>
   Remplacer Windows
   </a>
-  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/eos'}>
+  <a sveltekit:prefetch class="button" href={base + '/aller-plus-loin/blog/eos'}>
   Remplacer Android
   </a>
 </div>

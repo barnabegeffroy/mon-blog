@@ -22,7 +22,7 @@ const config = defineConfig({
   remarkPlugins: [],
   rehypePlugins: [[urls, processUrl]],
   layout: {
-    articles: 'src/routes/gafalt/articles/_mdlayout.svelte',
+    articles: 'src/routes/aller-plus-loin/blog/_mdlayout.svelte',
   },
 })
 

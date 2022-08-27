@@ -116,6 +116,7 @@
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+    border-radius: 12px;
   }
 
   /* Add Animation */
@@ -161,24 +162,35 @@
 
     background-color: var(--accent-color);
     color: white;
+    border-radius: 12px;
   }
   .banner {
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
-    font-weight: 800;
+    font-weight: bold;
     font-size: xx-large;
   }
   .modal-body {
     padding: 2px 16px;
   }
 
+  .modal-body > h4 {
+    font-weight: bold;
+    color: var(--link-color);
+    font-size: 1.1em;
+  }
   .modal-footer {
     padding: 2px 16px;
     background-color: var(--accent-color);
     color: white;
   }
+
+  .modal-footer > h3 {
+    color: white;
+  }
+
   .modal-app-icon > h4 {
     margin-top: 0%;
     margin-bottom: 5%;

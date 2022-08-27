@@ -7,6 +7,7 @@
   --secondary-color: #d0dde9;
   --tertiary-color: #edf0f8;
   --accent-color: #87ceeb;
+  --link-color: #42a0c5;
   --success-color: #5cb85c;
   --heading-color: rgba(0, 0, 0, 0.7);
   --text-color: #444444;
@@ -62,12 +63,17 @@ li {
   text-justify: inter-word;
 }
 
+h2,
+h3 {
+  font-weight: bold;
+  color: var(--link-color);
+}
 p {
   line-height: 1.5;
 }
 
 a {
-  color: var(--accent-color);
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -78,6 +84,7 @@ a:hover {
 h1 {
   font-size: 2rem;
   text-align: center;
+  font-weight: bold;
 }
 
 pre {

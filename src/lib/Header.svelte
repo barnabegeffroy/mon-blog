@@ -8,7 +8,7 @@
     { label: 'Accueil', href: '' },
     { label: 'Pourquoi une transition ?', href: 'pourquoi' },
     { label: 'GAFAlternative', href: 'gafalt' },
-    { label: 'Aller plus loin', href: 'aller-plus-loin' }
+    { label: 'Aller plus loin', href: 'aller-plus-loin' },
   ]
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu)
