@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
-    "deploy": "bash script.sh && bash build.sh && gh-pages -d build -t true",
+    "deploy": "for i in en fr; do for j in applis services; do bash script.sh $i $j; done; done && bash build.sh && gh-pages -d build -t true",
     "data": "bash script.sh",
     "count": "find . -path ./node_modules -prune -o -name '*.md' | grep '[.]md' | xargs wc -w",
     "spell": " for f in $(find . -path ./node_modules -prune -o -name '*.md' | grep '[.]md'); do aspell -x -c $f; done"

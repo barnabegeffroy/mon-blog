@@ -76,7 +76,7 @@ done
 echo "}]" >> $out
 sed -i 's/\(href=\\\"http\)/target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\" \1/g' $out 
 prettier -w $out 
-rm src/data/fr/$2.jsone
+rm src/data/$1/$2.jsone
 svg-sprite --css --css-dest=static --css-common=svg-sprite-icon-$2 --ccss static/icons/$2/*.svg -w 120 -h 120
 sed -i -E '/dims/,+4d' static/sprite.css
 size=$(ls static/icons/$2/ | wc -l) #number of icons

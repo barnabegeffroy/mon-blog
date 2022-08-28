@@ -9,10 +9,10 @@
   import { varlang } from '$lib/Scripts/varlang'
   export let services
   export let title
-  export let configure
-  export let configureDescription
-  export let replace
-  export let replaceDescription
+  // export let configure
+  // export let configureDescription
+  // export let replace
+  // export let replaceDescription
   export let servicesTitle
   export let Actions
   export let Ressources
@@ -97,11 +97,11 @@
 </div>
 
 <style>
-  .articles {
+  /* .articles {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
   .content {
     width: 70%;
   }
