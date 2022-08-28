@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import Header from '$lib/Layouts/Header.svelte'
   import Footer from '$lib/Layouts/Footer.svelte'
   import { beforeUpdate } from 'svelte'

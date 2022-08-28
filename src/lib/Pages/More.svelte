@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script context="module">
   export const prerender = true
   import { base } from '$app/paths'
 </script>
@@ -27,35 +27,40 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/firefox'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/firefox'}
     >
       {configure} Firefox
     </a>
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/android'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/android'}
     >
       {configure} Android
     </a>
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/iphone'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/iphone'}
     >
       {configure} iPhone
     </a>
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/windows'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/windows'}
     >
       {configure} Windows
     </a>
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/mac'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/mac'}
     >
       {configure} Mac
     </a>
@@ -66,14 +71,16 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/linux'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/linux'}
     >
       {replace} Windows
     </a>
     <a
       sveltekit:prefetch
       class="button"
-      href={base + '/' + language + '/aller-plus-loin/blog/eos'}
+      href={(language === 'en' ? base : base + '/' + language) +
+        '/aller-plus-loin/blog/eos'}
     >
       {replace} Android
     </a>

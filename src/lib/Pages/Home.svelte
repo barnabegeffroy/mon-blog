@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script context="module">
   export const prerender = true
   import { base } from '$app/paths'
 </script>
@@ -16,9 +16,14 @@
   <a
     sveltekit:prefetch
     class="button"
-    href={base + '/' + language + '/' + manifestUrl}>{manifest}</a
+    href={(language === 'en' ? base : base + '/' + language) +
+      '/' +
+      manifestUrl}>{manifest}</a
   >
-  <a sveltekit:prefetch class="button" href={base + '/' + language + '/gafalt'}
+  <a
+    sveltekit:prefetch
+    class="button"
+    href={(language === 'en' ? base : base + '/' + language) + '/gafalt'}
     >{gafalt}</a
   >
 </div>

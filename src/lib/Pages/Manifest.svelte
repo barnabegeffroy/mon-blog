@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script context="module">
   export const prerender = true
 </script>
 
@@ -13,7 +13,10 @@
   <svelte:component this={Content} />
 </div>
 
-<a sveltekit:prefetch class="button" href={base + '/' + language + '/gafalt'}
+<a
+  sveltekit:prefetch
+  class="button"
+  href={(language === 'en' ? base : base + '/' + language) + '/gafalt'}
   >{button}</a
 >
 

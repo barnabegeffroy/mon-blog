@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { base } from '$app/paths'
   import Rating from './Rating.svelte'
 

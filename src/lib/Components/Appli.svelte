@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { fade } from 'svelte/transition'
   import { create_in_transition } from 'svelte/internal'
 

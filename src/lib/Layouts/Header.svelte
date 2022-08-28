@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { base } from '$app/paths'
 
   let showMobileMenu = false
@@ -37,11 +37,18 @@
         {#each navItems as item}
           <li
             on:click={showMobileMenu ? handleMobileIconClick : null}
-            class:active={page === base + '/' + language + item.href ||
-              page === base + '/' + language + '/' + item.href}
+            class:active={page ===
+              (language === 'en' ? base : base + '/' + language) + item.href ||
+              page ===
+                (language === 'en' ? base : base + '/' + language) +
+                  '/' +
+                  item.href}
           >
-            <a sveltekit:prefetch href={base + '/' + language + '/' + item.href}
-              >{item.label}</a
+            <a
+              sveltekit:prefetch
+              href={(language === 'en' ? base : base + '/' + language) +
+                '/' +
+                item.href}>{item.label}</a
             >
           </li>
         {/each}
@@ -49,7 +56,9 @@
     </div>
     <select
       bind:value={language}
-      on:change={() => (window.location.href = base + '/' + language)}
+      on:change={() =>
+        (window.location.href =
+          language === 'en' ? base + '/' : base + '/' + language)}
     >
       {#each languages as lang}
         <option value={lang.code} selected={lang.code === language}
