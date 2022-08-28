@@ -1,4 +1,6 @@
 <script>
+  import { varlang } from '$lib/Scripts/varlang'
+
   import Header from '$lib/Layouts/Header.svelte'
   import Footer from '$lib/Layouts/Footer.svelte'
   import { beforeUpdate } from 'svelte'
@@ -18,13 +20,11 @@
     { label: 'GAFAlternative', href: 'gafalt' },
     { label: 'Aller plus loin', href: 'aller-plus-loin' },
   ]
-  const language = 'fr'
 
   const footer = 'Code source du blog'
 </script>
 
-<Header {page} {navItems} {language} />
-
+<Header {page} {navItems} language={$varlang} />
 <main>
   <slot />
 </main>

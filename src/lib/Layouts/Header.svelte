@@ -21,6 +21,11 @@
     { name: '🇬🇧️ English', code: 'en' },
     { name: '🇨🇵️ Français', code: 'fr' },
   ]
+  import { varlang } from '$lib/Scripts/varlang'
+  function update(lang) {
+    $varlang = lang
+    window.location.href = lang === 'en' ? base + '/' : base + '/' + lang
+  }
 </script>
 
 <nav id="navbar">
@@ -54,12 +59,7 @@
         {/each}
       </ul>
     </div>
-    <select
-      bind:value={language}
-      on:change={() =>
-        (window.location.href =
-          language === 'en' ? base + '/' : base + '/' + language)}
-    >
+    <select bind:value={language} on:change={() => update(language)}>
       {#each languages as lang}
         <option value={lang.code} selected={lang.code === language}
           >{lang.name}</option

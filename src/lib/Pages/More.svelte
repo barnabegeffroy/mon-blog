@@ -6,13 +6,13 @@
 <script>
   import Grid from '$lib/Components/Grid.svelte'
   import Comment from '$lib/Components/Comment.svelte'
+  import { varlang } from '$lib/Scripts/varlang'
   export let services
   export let title
   export let configure
   export let configureDescription
   export let replace
   export let replaceDescription
-  export let language
   export let servicesTitle
   export let Actions
   export let Ressources
@@ -27,7 +27,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/firefox'}
     >
       {configure} Firefox
@@ -35,7 +35,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/android'}
     >
       {configure} Android
@@ -43,7 +43,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/iphone'}
     >
       {configure} iPhone
@@ -51,7 +51,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/windows'}
     >
       {configure} Windows
@@ -59,7 +59,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/mac'}
     >
       {configure} Mac
@@ -71,7 +71,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/linux'}
     >
       {replace} Windows
@@ -79,7 +79,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={(language === 'en' ? base : base + '/' + language) +
+      href={($varlang === 'en' ? base : base + '/' + $varlang) +
         '/aller-plus-loin/blog/eos'}
     >
       {replace} Android
