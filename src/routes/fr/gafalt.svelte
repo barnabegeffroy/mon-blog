@@ -8,4 +8,4 @@
   let banner = 'Important ! Comment bien choisir ses alternatives ?'
 </script>
 
-<Gafalt {title} {banner} {applis} {Info} />
+<Gafalt {title} {banner} {applis} {Info} comment="gafalt-fr" />

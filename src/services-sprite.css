@@ -1,0 +1,20 @@
+.svg-sprite-icon-services {
+  background: url('http://localhost:3000/svg/sprite.css-3cbc4e09.svg') no-repeat;
+  background-size: 200%;
+}
+
+.svg-banque {
+  background-position: 0 0;
+}
+
+.svg-creditcoop {
+  background-position: 100% 0;
+}
+
+.svg-operateur {
+  background-position: 0 100%;
+}
+
+.svg-telecoop {
+  background-position: 100% 100%;
+}

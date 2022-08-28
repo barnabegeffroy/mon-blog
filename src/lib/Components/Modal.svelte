@@ -3,6 +3,7 @@
   import Rating from './Rating.svelte'
 
   export let appli
+  export let source
   export let isOpenModal
 
   function closeModal() {
@@ -24,12 +25,12 @@
       <span class="close" on:click={closeModal}>&times;</span>
       <div class="transition">
         <div class="modal-app-icon">
-          <i class="svg-{appli.appfile} svg-sprite-icon" />
+          <i class="svg-{appli.appfile} svg-sprite-icon-{source}" />
           <h4>{appli.appname}</h4>
         </div>
         <span class="arrow">&rarr;</span>
         <div class="modal-app-icon">
-          <i class="svg-{appli.altfile} svg-sprite-icon" />
+          <i class="svg-{appli.altfile} svg-sprite-icon-{source}" />
           <h4>{appli.altname}</h4>
         </div>
       </div>

@@ -7,9 +7,9 @@ write_data () {
 
 alt=0
 dir=""
-out="./src/data/$1/applis.json"
+out="./src/data/$1/$2.json"
 echo [ >$out
-tree -J src/data/fr/applis/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
+tree -J src/data/fr/$2/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
 while read p; do
     case $p in
     *"directory"*)
@@ -76,10 +76,12 @@ done
 echo "}]" >> $out
 sed -i 's/\(href=\\\"http\)/target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\" \1/g' $out 
 prettier -w $out 
-rm src/data/fr/applis.jsone
-rm static/svg/*
-svg-sprite --css --css-dest=static --css-common=svg-sprite-icon --ccss static/icons/*.svg -w 120 -h 120
+rm src/data/fr/$2.jsone
+svg-sprite --css --css-dest=static --css-common=svg-sprite-icon-$2 --ccss static/icons/$2/*.svg -w 120 -h 120
 sed -i -E '/dims/,+4d' static/sprite.css
-sed -i  '/url/a background-size: 700%;' static/sprite.css
+size=$(ls static/icons/$2/ | wc -l) #number of icons
+sqr=$(bc -l <<<"sqrt($size)") #square root
+cell=$(( ( $size / ${sqr%.*}  )* 100 )) #get size of a cell (ceiling rounding of int(sqrt) * 100)
+sed -i  "/url/a background-size: ${cell}%;" static/sprite.css
 prettier -w static/sprite.css 
-mv static/sprite.css src/
+mv static/sprite.css src/$2-sprite.css

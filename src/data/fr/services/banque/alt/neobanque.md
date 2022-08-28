@@ -1,0 +1,3 @@
+---
+appname: Les néo-banques
+---

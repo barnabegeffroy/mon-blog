@@ -1,0 +1,56 @@
+[
+  {
+    "otheralt": [
+      {
+        "appname": "Les néo-banques",
+        "contents": ""
+      }
+    ],
+    "altname": "Crédit Coop",
+    "altfile": "creditcoop",
+    "altcontents": "",
+    "appname": "Votre banque",
+    "theme": "Système bancaire et financier",
+    "appfile": "banque",
+    "appcontents": "",
+    "install": {
+      "rating": "4.5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "2",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
+        "appname": "Source mobile",
+        "contents": ""
+      }
+    ],
+    "altname": "Telecoop",
+    "altfile": "telecoop",
+    "altcontents": "",
+    "appname": "Votre opérateur",
+    "theme": "Opérateur téléphonique",
+    "appfile": "operateur",
+    "appcontents": "",
+    "install": {
+      "rating": "4.5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "2",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "5",
+      "contents": ""
+    }
+  }
+]

@@ -18,7 +18,9 @@
     class="button"
     href={base + '/' + language + '/' + manifestUrl}>{manifest}</a
   >
-  <a sveltekit:prefetch class="button" href={base + '/' + language + '/gafalt'}>{gafalt}</a>
+  <a sveltekit:prefetch class="button" href={base + '/' + language + '/gafalt'}
+    >{gafalt}</a
+  >
 </div>
 
 <style>

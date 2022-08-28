@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { base } from '$app/paths'
   import { fade } from 'svelte/transition'
   import { create_in_transition } from 'svelte/internal'
 
   export let appli
+  export let source
   export let currentApp
   export let showModal
   export let isOpenModal
@@ -63,7 +63,7 @@
     <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
       <div class="badge-text">&#x2713;</div>
     </div>
-    <i class="svg-{file} svg-sprite-icon target" on:click={animate} />
+    <i class="svg-{file} svg-sprite-icon-{source} target" on:click={animate} />
     <h4 class="app-name">{name}</h4>
   </span>
 </div>
