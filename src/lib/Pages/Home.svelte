@@ -7,7 +7,6 @@
   import { varlang } from '$lib/Scripts/varlang'
   export let Content
   export let manifest
-  export let manifestUrl
   export let gafalt
 </script>
 
@@ -17,8 +16,7 @@
     sveltekit:prefetch
     class="button"
     href={($varlang === 'en' ? base : base + '/' + $varlang) +
-      '/' +
-      manifestUrl}>{manifest}</a
+      '/manifesto'}>{manifest}</a
   >
   <a
     sveltekit:prefetch

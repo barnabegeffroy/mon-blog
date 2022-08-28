@@ -4,8 +4,7 @@
 
   const language = 'en'
   const manifest = 'Why change is necessary ?'
-  const manifestUrl = 'why'
   const gafalt = 'Ethical alternatives'
 </script>
 
-<Home {Content} {language} {manifest} {manifestUrl} {gafalt} />
+<Home {Content} {language} {manifest} {gafalt} />

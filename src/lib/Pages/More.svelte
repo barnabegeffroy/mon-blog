@@ -22,7 +22,7 @@
 <h1>{title}</h1>
 
 <div class="content">
-  <p>{configureDescription}</p>
+  <!-- <p>{configureDescription}</p>
   <div class="articles">
     <a
       sveltekit:prefetch
@@ -84,7 +84,7 @@
     >
       {replace} Android
     </a>
-  </div>
+  </div> -->
 
   <h2>{servicesTitle}</h2>
   <Grid applis={services} source="services" />

@@ -14,7 +14,7 @@
 
   const navItems = [
     { label: 'Home', href: '' },
-    { label: 'Why change ?', href: 'why' },
+    { label: 'Why change ?', href: 'manifesto' },
     { label: 'GAFAlternative', href: 'gafalt' },
     { label: 'Go further', href: 'more' },
   ]
