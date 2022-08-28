@@ -1,4 +1,4 @@
 ---
-altname: Crédit Coop
+altname: Crédit Coopératif
 altfile: creditcoop
 ---

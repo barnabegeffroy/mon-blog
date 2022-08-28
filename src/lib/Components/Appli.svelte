@@ -60,17 +60,21 @@
 
 <div class="app-body" bind:this={element} use:longpress>
   <span class="notification">
-    <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
-      <div class="badge-text">&#x2713;</div>
+    <div>
+      <div class="badge" style="display: {showBadge ? 'block' : 'none'};">
+        <div class="badge-text">&#x2713;</div>
+      </div>
+      <i
+        class="svg-{file} svg-sprite-icon-{source} target"
+        on:click={animate}
+      />
     </div>
-    <i class="svg-{file} svg-sprite-icon-{source} target" on:click={animate} />
     <h4 class="app-name">{name}</h4>
   </span>
 </div>
 
 <style>
   .notification {
-    position: relative;
     padding-top: 15px;
     padding-left: 10px;
   }
@@ -82,7 +86,7 @@
     padding: 10px;
     z-index: 2;
     left: 95px;
-    bottom: 135px;
+    top: -7px;
     position: absolute;
     border-radius: 50%;
   }
@@ -110,7 +114,7 @@
   .target {
     display: flex;
     justify-content: center;
-    border-radius: 1.5em;
+    border-radius: 25%;
     position: relative;
     text-align: center;
     transform: translate3d(0, 0, 0);
@@ -137,7 +141,7 @@
       height: 15px;
       width: 15px;
       left: 75px;
-      bottom: 115px;
+      top: -3px;
     }
 
     .badge-text {

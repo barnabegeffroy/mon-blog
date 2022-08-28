@@ -86,7 +86,6 @@
 
   <svelte:component this={Ressources} />
 
-
   <Comment name={comment} />
 </div>
 

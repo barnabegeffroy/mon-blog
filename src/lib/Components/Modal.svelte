@@ -192,6 +192,11 @@
     color: white;
   }
 
+  .modal-app-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .modal-app-icon > h4 {
     margin-top: 0%;
     margin-bottom: 5%;
@@ -199,7 +204,7 @@
   }
   .modal-app-icon > i {
     background-color: white;
-    border-radius: 1.5em;
+    border-radius: 25%;
     display: block;
     width: 100px;
     height: 100px;
