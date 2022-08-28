@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-    "build": "bahs build.sh",
+    "build": "bash build.sh",
     "preview": "vite preview",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",

@@ -22,7 +22,7 @@ const config = {
       default: true,
     },
     paths: {
-      base: process.env.NODE_ENV === 'development' ? '' : '/mon-blog',
+      base: '/mon-blog',
     },
   },
 }
