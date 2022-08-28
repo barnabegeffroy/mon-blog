@@ -1,12 +1,11 @@
 <script context="module">
   export const prerender = true
-  import { base } from '$app/paths'
 </script>
 
 <script>
   import Grid from '$lib/Components/Grid.svelte'
   import Comment from '$lib/Components/Comment.svelte'
-  import { varlang } from '$lib/Scripts/varlang'
+  // import { varlang } from '$lib/Scripts/varlang'
   export let services
   export let title
   // export let configure

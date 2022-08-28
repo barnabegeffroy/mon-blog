@@ -1,5 +1,4 @@
 <script>
-  import { base } from '$app/paths'
   export let rating
   let grades = [1, 2, 3, 4, 5]
 </script>

@@ -15,8 +15,8 @@
   <a
     sveltekit:prefetch
     class="button"
-    href={($varlang === 'en' ? base : base + '/' + $varlang) +
-      '/manifesto'}>{manifest}</a
+    href={($varlang === 'en' ? base : base + '/' + $varlang) + '/manifesto'}
+    >{manifest}</a
   >
   <a
     sveltekit:prefetch

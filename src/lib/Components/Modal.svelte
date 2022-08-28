@@ -1,5 +1,4 @@
 <script>
-  import { base } from '$app/paths'
   import Rating from './Rating.svelte'
 
   export let appli
