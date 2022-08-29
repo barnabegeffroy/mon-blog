@@ -18,12 +18,10 @@
     { label: 'GAFAlternative', href: 'gafalt' },
     { label: 'Go further', href: 'more' },
   ]
-  const language = 'en'
-
   const footer = 'Code source du blog'
 </script>
 
-<Header {page} {navItems} {language} />
+<Header {page} {navItems} />
 
 <main>
   <slot />

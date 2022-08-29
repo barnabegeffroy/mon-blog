@@ -1,10 +1,10 @@
 <script>
   import { base } from '$app/paths'
+  import { varlang } from '$lib/Scripts/varlang'
 
   let showMobileMenu = false
   export let page
   export let navItems
-  export let language
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu)
 
@@ -21,11 +21,6 @@
     { name: '🇬🇧️ English', code: 'en' },
     { name: '🇨🇵️ Français', code: 'fr' },
   ]
-  import { varlang } from '$lib/Scripts/varlang'
-  function update(lang) {
-    $varlang = lang
-    window.location.href = lang === 'en' ? base + '/' : base + '/' + lang
-  }
 </script>
 
 <nav id="navbar">
@@ -43,15 +38,15 @@
           <li
             on:click={showMobileMenu ? handleMobileIconClick : null}
             class:active={page ===
-              (language === 'en' ? base : base + '/' + language) + item.href ||
+              ($varlang === 'en' ? base : base + '/' + $varlang) + item.href ||
               page ===
-                (language === 'en' ? base : base + '/' + language) +
+                ($varlang === 'en' ? base : base + '/' + $varlang) +
                   '/' +
                   item.href}
           >
             <a
               sveltekit:prefetch
-              href={(language === 'en' ? base : base + '/' + language) +
+              href={($varlang === 'en' ? base : base + '/' + $varlang) +
                 '/' +
                 item.href}>{item.label}</a
             >
@@ -59,9 +54,14 @@
         {/each}
       </ul>
     </div>
-    <select bind:value={language} on:change={() => update(language)}>
+    <select
+      bind:value={$varlang}
+      on:change={() =>
+        (window.location.href =
+          $varlang === 'en' ? base + '/' : base + '/' + $varlang)}
+    >
       {#each languages as lang}
-        <option value={lang.code} selected={lang.code === language}
+        <option value={lang.code} selected={lang.code === $varlang}
           >{lang.name}</option
         >
       {/each}

@@ -12,7 +12,6 @@
   let replace = 'Remplacer'
   let replaceDescription =
     'Si vos appareils le permettent, vous pouvez également **remplacer Windows et Android** par des systèmes **open source** plus respectueux de la vie privée.'
-  let language = 'fr'
   let servicesTitle =
     "D'autres services alternatifs liés au numérique et à la vie privée"
 </script>
@@ -20,7 +19,6 @@
 <More
   {title}
   {services}
-  {language}
   {configure}
   {configureDescription}
   {replace}

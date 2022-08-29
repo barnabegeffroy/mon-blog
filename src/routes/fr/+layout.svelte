@@ -1,6 +1,4 @@
 <script>
-  import { varlang } from '$lib/Scripts/varlang'
-
   import Header from '$lib/Layouts/Header.svelte'
   import Footer from '$lib/Layouts/Footer.svelte'
   import { beforeUpdate } from 'svelte'
@@ -24,7 +22,7 @@
   const footer = 'Code source du blog'
 </script>
 
-<Header {page} {navItems} language={$varlang} />
+<Header {page} {navItems} />
 <main>
   <slot />
 </main>

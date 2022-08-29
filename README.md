@@ -16,6 +16,7 @@
 `npm run data -- [lang] ['applis'|'services']`
 
 `lang='fr'|'en'`
+
 ### deploy app on github pages (+ update all data and build)
 
 `npm run deploy`
