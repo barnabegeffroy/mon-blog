@@ -1,6 +1,6 @@
 <script>
   import { base } from '$app/paths'
-  import { varlang } from '$lib/Scripts/varlang'
+  import { language } from '$lib/Scripts/vars'
 
   let showMobileMenu = false
 
@@ -39,13 +39,13 @@
           <li
             on:click={showMobileMenu ? handleMobileIconClick : null}
             class:active={$page.routeId ===
-              ($varlang === 'en' ? '(en)' : $varlang) + item.href ||
+              ($language === 'en' ? '(en)' : $language) + item.href ||
               $page.routeId ===
-                ($varlang === 'en' ? '(en)' : $varlang) + '/' + item.href}
+                ($language === 'en' ? '(en)' : $language) + '/' + item.href}
           >
             <a
               sveltekit:prefetch
-              href={($varlang === 'en' ? base : base + '/' + $varlang) +
+              href={($language === 'en' ? base : base + '/' + $language) +
                 '/' +
                 item.href}>{item.label}</a
             >
@@ -54,13 +54,13 @@
       </ul>
     </div>
     <select
-      bind:value={$varlang}
+      bind:value={$language}
       on:change={() =>
         (window.location.href =
-          $varlang === 'en' ? base + '/' : base + '/' + $varlang)}
+          $language === 'en' ? base + '/' : base + '/' + $language)}
     >
       {#each languages as lang}
-        <option value={lang.code} selected={lang.code === $varlang}
+        <option value={lang.code} selected={lang.code === $language}
           >{lang.name}</option
         >
       {/each}

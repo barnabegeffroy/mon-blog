@@ -4,7 +4,7 @@
 </script>
 
 <script>
-  import { varlang } from '$lib/Scripts/varlang'
+  import { language } from '$lib/Scripts/vars'
   export let Content
   export let manifest
   export let gafalt
@@ -15,13 +15,13 @@
   <a
     sveltekit:prefetch
     class="button"
-    href={($varlang === 'en' ? base : base + '/' + $varlang) + '/manifesto'}
+    href={($language === 'en' ? base : base + '/' + $language) + '/manifesto'}
     >{manifest}</a
   >
   <a
     sveltekit:prefetch
     class="button"
-    href={($varlang === 'en' ? base : base + '/' + $varlang) + '/gafalt'}
+    href={($language === 'en' ? base : base + '/' + $language) + '/gafalt'}
     >{gafalt}</a
   >
 </div>

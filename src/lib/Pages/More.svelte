@@ -5,7 +5,7 @@
 <script>
   import Grid from '$lib/Components/Grid.svelte'
   import Comment from '$lib/Components/Comment.svelte'
-  // import { varlang } from '$lib/Scripts/varlang'
+  // import { language } from '$lib/Scripts/vars'
   export let services
   export let title
   // export let configure
@@ -26,7 +26,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/firefox'}
     >
       {configure} Firefox
@@ -34,7 +34,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/android'}
     >
       {configure} Android
@@ -42,7 +42,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/iphone'}
     >
       {configure} iPhone
@@ -50,7 +50,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/windows'}
     >
       {configure} Windows
@@ -58,7 +58,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/mac'}
     >
       {configure} Mac
@@ -70,7 +70,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/linux'}
     >
       {replace} Windows
@@ -78,7 +78,7 @@
     <a
       sveltekit:prefetch
       class="button"
-      href={($varlang === 'en' ? base : base + '/' + $varlang) +
+      href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/eos'}
     >
       {replace} Android

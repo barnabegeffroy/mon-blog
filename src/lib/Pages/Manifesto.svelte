@@ -4,7 +4,7 @@
 
 <script>
   import { base } from '$app/paths'
-  import { varlang } from '$lib/Scripts/varlang'
+  import { language } from '$lib/Scripts/vars'
   export let Content
   export let button
 </script>
@@ -16,7 +16,7 @@
 <a
   sveltekit:prefetch
   class="button"
-  href={($varlang === 'en' ? base : base + '/' + $varlang) + '/gafalt'}
+  href={($language === 'en' ? base : base + '/' + $language) + '/gafalt'}
   >{button}</a
 >
 
