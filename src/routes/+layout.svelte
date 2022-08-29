@@ -14,11 +14,16 @@
   onMount(async () => {
     let ses = window.sessionStorage.getItem('store')
     if (ses) {
-      console.log('sob-- ~ loading ses', ses)
       $varlang = JSON.parse(ses)
     }
     savevar = true
   })
+
+  function stick() {
+    document.getElementsByTagName('main')[0].style.top = '0px'
+  }
 </script>
 
 <slot />
+
+<svelte:window on:scroll={stick} />

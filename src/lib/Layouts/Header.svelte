@@ -3,7 +3,8 @@
   import { varlang } from '$lib/Scripts/varlang'
 
   let showMobileMenu = false
-  export let page
+
+  import { page } from '$app/stores'
   export let navItems
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu)
@@ -37,12 +38,10 @@
         {#each navItems as item}
           <li
             on:click={showMobileMenu ? handleMobileIconClick : null}
-            class:active={page ===
-              ($varlang === 'en' ? base : base + '/' + $varlang) + item.href ||
-              page ===
-                ($varlang === 'en' ? base : base + '/' + $varlang) +
-                  '/' +
-                  item.href}
+            class:active={$page.routeId ===
+              ($varlang === 'en' ? '(en)' : $varlang) + item.href ||
+              $page.routeId ===
+                ($varlang === 'en' ? '(en)' : $varlang) + '/' + item.href}
           >
             <a
               sveltekit:prefetch
