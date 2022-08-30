@@ -5,13 +5,15 @@
 <script>
   import Grid from '$lib/Components/Grid.svelte'
   import Comment from '$lib/Components/Comment.svelte'
-  // import { language } from '$lib/Scripts/vars'
+  import { language } from '$lib/Scripts/vars'
+  import { base } from '$app/paths'
+
   export let services
   export let title
-  // export let configure
-  // export let configureDescription
-  // export let replace
-  // export let replaceDescription
+  export let configure
+  export let configureDescription
+  export let replace
+  export let replaceDescription
   export let servicesTitle
   export let Actions
   export let Ressources
@@ -21,13 +23,13 @@
 <h1>{title}</h1>
 
 <div class="content">
-  <!-- <p>{configureDescription}</p>
+  <p>{configureDescription}</p>
   <div class="articles">
     <a
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/firefox'}
+        '/more/firefox'}
     >
       {configure} Firefox
     </a>
@@ -35,7 +37,7 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/android'}
+        '/more/android'}
     >
       {configure} Android
     </a>
@@ -43,7 +45,7 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/iphone'}
+        '/more/iphone'}
     >
       {configure} iPhone
     </a>
@@ -51,15 +53,14 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/windows'}
+        '/more/windows'}
     >
       {configure} Windows
     </a>
     <a
       data-sveltekit-prefetch
       class="button"
-      href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/mac'}
+      href={($language === 'en' ? base : base + '/' + $language) + '/more/mac'}
     >
       {configure} Mac
     </a>
@@ -71,19 +72,18 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/linux'}
+        '/more/linux'}
     >
       {replace} Windows
     </a>
     <a
       data-sveltekit-prefetch
       class="button"
-      href={($language === 'en' ? base : base + '/' + $language) +
-        '/aller-plus-loin/blog/eos'}
+      href={($language === 'en' ? base : base + '/' + $language) + '/more/eos'}
     >
       {replace} Android
     </a>
-  </div> -->
+  </div>
 
   <h2>{servicesTitle}</h2>
   <Grid applis={services} source="services" />
@@ -96,11 +96,11 @@
 </div>
 
 <style>
-  /* .articles {
+  .articles {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-  } */
+  }
   .content {
     width: 70%;
   }
