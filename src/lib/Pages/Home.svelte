@@ -13,13 +13,13 @@
 <svelte:component this={Content} />
 <div class="flex">
   <a
-    sveltekit:prefetch
+    data-sveltekit-prefetch
     class="button"
     href={($language === 'en' ? base : base + '/' + $language) + '/manifesto'}
     >{manifest}</a
   >
   <a
-    sveltekit:prefetch
+    data-sveltekit-prefetch
     class="button"
     href={($language === 'en' ? base : base + '/' + $language) + '/gafalt'}
     >{gafalt}</a

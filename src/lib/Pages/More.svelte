@@ -24,7 +24,7 @@
   <!-- <p>{configureDescription}</p>
   <div class="articles">
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/firefox'}
@@ -32,7 +32,7 @@
       {configure} Firefox
     </a>
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/android'}
@@ -40,7 +40,7 @@
       {configure} Android
     </a>
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/iphone'}
@@ -48,7 +48,7 @@
       {configure} iPhone
     </a>
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/windows'}
@@ -56,7 +56,7 @@
       {configure} Windows
     </a>
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/mac'}
@@ -68,7 +68,7 @@
   <p>{replaceDescription}</p>
   <div class="articles">
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/linux'}
@@ -76,7 +76,7 @@
       {replace} Windows
     </a>
     <a
-      sveltekit:prefetch
+      data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
         '/aller-plus-loin/blog/eos'}

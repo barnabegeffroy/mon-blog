@@ -14,7 +14,7 @@
 </div>
 
 <a
-  sveltekit:prefetch
+  data-sveltekit-prefetch
   class="button"
   href={($language === 'en' ? base : base + '/' + $language) + '/gafalt'}
   >{button}</a

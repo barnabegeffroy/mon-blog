@@ -44,7 +44,7 @@
                 ($language === 'en' ? '(en)' : $language) + '/' + item.href}
           >
             <a
-              sveltekit:prefetch
+              data-sveltekit-prefetch
               href={($language === 'en' ? base : base + '/' + $language) +
                 '/' +
                 item.href}>{item.label}</a
