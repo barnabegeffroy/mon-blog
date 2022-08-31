@@ -1,5 +1,5 @@
 .svg-sprite-icon-applis {
-  background: url('http://localhost:5173/svg/sprite.css-a5757fc3.svg') no-repeat;
+  background: url('svg/sprite.css-69e38eb3.svg') no-repeat;
   background-size: 700%;
 }
 
@@ -35,150 +35,158 @@
   background-position: 16.666666666666668% 33.333333333333336%;
 }
 
-.svg-firefox {
+.svg-fdroid {
   background-position: 33.333333333333336% 33.333333333333336%;
 }
 
-.svg-framaforms {
+.svg-firefox {
   background-position: 50% 0;
 }
 
-.svg-geometric {
+.svg-framaforms {
   background-position: 50% 16.666666666666668%;
 }
 
-.svg-gmail {
+.svg-geometric {
   background-position: 50% 33.333333333333336%;
 }
 
-.svg-google-docs {
+.svg-gmail {
   background-position: 0 50%;
 }
 
-.svg-google-drive {
+.svg-google-docs {
   background-position: 16.666666666666668% 50%;
 }
 
-.svg-google-forms {
+.svg-google-drive {
   background-position: 33.333333333333336% 50%;
 }
 
-.svg-google-maps {
+.svg-google-forms {
   background-position: 50% 50%;
 }
 
-.svg-google-search {
+.svg-google-maps {
   background-position: 66.66666666666667% 0;
 }
 
-.svg-insta {
+.svg-google-search {
   background-position: 66.66666666666667% 16.666666666666668%;
 }
 
-.svg-iroco {
+.svg-insta {
   background-position: 66.66666666666667% 33.333333333333336%;
 }
 
-.svg-jitsi {
+.svg-iroco {
   background-position: 66.66666666666667% 50%;
 }
 
-.svg-mail {
+.svg-jitsi {
   background-position: 0 66.66666666666667%;
 }
 
-.svg-mastodon {
+.svg-mail {
   background-position: 16.666666666666668% 66.66666666666667%;
 }
 
-.svg-mattermost {
+.svg-mastodon {
   background-position: 33.333333333333336% 66.66666666666667%;
 }
 
-.svg-mdp {
+.svg-mattermost {
   background-position: 50% 66.66666666666667%;
 }
 
-.svg-netflix {
+.svg-mdp {
   background-position: 66.66666666666667% 66.66666666666667%;
 }
 
-.svg-nextcloud {
+.svg-netflix {
   background-position: 83.33333333333333% 0;
 }
 
-.svg-nextcloud-notes {
+.svg-nextcloud {
   background-position: 83.33333333333333% 16.666666666666668%;
 }
 
-.svg-onlyoffice {
+.svg-nextcloud-notes {
   background-position: 83.33333333333333% 33.333333333333336%;
 }
 
-.svg-osmand {
+.svg-onlyoffice {
   background-position: 83.33333333333333% 50%;
 }
 
-.svg-peertube {
+.svg-osmand {
   background-position: 83.33333333333333% 66.66666666666667%;
 }
 
-.svg-pixelfed {
+.svg-peertube {
   background-position: 0 83.33333333333333%;
 }
 
-.svg-rating-empty {
+.svg-pixelfed {
   background-position: 16.666666666666668% 83.33333333333333%;
 }
 
-.svg-rating-half {
+.svg-play-store {
   background-position: 33.333333333333336% 83.33333333333333%;
 }
 
-.svg-rating-plain {
+.svg-rating-empty {
   background-position: 50% 83.33333333333333%;
 }
 
-.svg-signal {
+.svg-rating-half {
   background-position: 66.66666666666667% 83.33333333333333%;
 }
 
-.svg-startpage {
+.svg-rating-plain {
   background-position: 83.33333333333333% 83.33333333333333%;
 }
 
-.svg-thunderbird {
+.svg-signal {
   background-position: 100% 0;
 }
 
-.svg-transportr {
+.svg-startpage {
   background-position: 100% 16.666666666666668%;
 }
 
-.svg-tricount {
+.svg-thunderbird {
   background-position: 100% 33.333333333333336%;
 }
 
-.svg-twitr {
+.svg-transportr {
   background-position: 100% 50%;
 }
 
-.svg-weather {
+.svg-tricount {
   background-position: 100% 66.66666666666667%;
 }
 
-.svg-whatsapp {
+.svg-twitr {
   background-position: 100% 83.33333333333333%;
 }
 
-.svg-word {
+.svg-weather {
   background-position: 0 100%;
 }
 
-.svg-youtube {
+.svg-whatsapp {
   background-position: 16.666666666666668% 100%;
 }
 
-.svg-zoom {
+.svg-word {
   background-position: 33.333333333333336% 100%;
+}
+
+.svg-youtube {
+  background-position: 50% 100%;
+}
+
+.svg-zoom {
+  background-position: 66.66666666666667% 100%;
 }

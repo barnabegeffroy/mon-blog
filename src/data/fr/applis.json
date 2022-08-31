@@ -389,6 +389,33 @@
   {
     "otheralt": [
       {
+        "appname": "Aurora Store",
+        "contents": ""
+      }
+    ],
+    "altname": "F-Droid",
+    "altfile": "fdroid",
+    "altcontents": "",
+    "appname": "Play Store",
+    "theme": "Gestionnaires d'applications",
+    "appfile": "play-store",
+    "appcontents": "",
+    "install": {
+      "rating": "5",
+      "contents": ""
+    },
+    "transition": {
+      "rating": "4",
+      "contents": ""
+    },
+    "ux": {
+      "rating": "3.5",
+      "contents": ""
+    }
+  },
+  {
+    "otheralt": [
+      {
         "appname": "IHateMoney",
         "contents": "<p>IHateMoney est un autre projet <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/spiral-project/ihatemoney/\"><strong>open source</strong></a> de gestion de dépenses. Il ne nécessite pas de compte pour être utilisé. Les données sont stockées sur les serveurs d&#39;IHateMoney. C&#39;est donc une bonne alternative si votre Nextcloud n&#39;a pas Cospend.</p>\n<p>Vous pouvez également utiliser <strong>MoneyBuster</strong> (Android) ou <strong>PayForMe</strong> (iOS) pour gérer vos différents projets IHateMoney.</p>\n"
       }

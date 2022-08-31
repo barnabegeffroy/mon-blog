@@ -1,0 +1,3 @@
+---
+appname: Aurora Store
+---
