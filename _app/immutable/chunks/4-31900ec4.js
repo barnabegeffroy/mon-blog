@@ -1,0 +1,1 @@
+import{default as e}from"../components/pages/(en)/_page.svelte-26bb22b4.js";import"./index-a68cf9ac.js";import"./home-cc1f5cd8.js";import"./paths-081befaa.js";import"./vars-4639f30b.js";export{e as component};
