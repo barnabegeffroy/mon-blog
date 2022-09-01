@@ -1,7 +1,7 @@
 <script>
   import More from '$lib/Pages/More.svelte'
 
-  import services from '../../../data/fr/services.json'
+  import services from '../../../data/en/services.json'
   import Ecogestes from '../../../data/fr/pages/ecogestes.md'
   import Ressources from '../../../data/fr/pages/ressources.md'
 

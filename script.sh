@@ -9,7 +9,7 @@ alt=0
 dir=""
 out="./src/data/$1/$2.json"
 echo [ >$out
-tree -J src/data/fr/$2/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
+tree -J src/data/$1/$2/* | sed 's/.*directory.*alt.*/\t\t{"alt":[/g' | head -n -3 | 
 while read p; do
     case $p in
     *"directory"*)

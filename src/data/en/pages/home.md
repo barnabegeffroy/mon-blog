@@ -1,3 +1,3 @@
-# Les alternatives numériques d'un monde éthique et désirable
+# Digital alternatives for an ethical and desirable world
 
-## Le but de ce site est de **faciliter la transition numérique** vers des alternatives plus éthiques et plus sobres.
+## The goal of this site is to facilitate the digital transition to more ethical and sober alternatives.
