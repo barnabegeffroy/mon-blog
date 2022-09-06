@@ -3,7 +3,7 @@ altname: Nextcloud
 altfile: nextcloud-notes
 ---
 
-Nextcloud (voir l'alternative à Google Drive) propose une service de prise de notes [**open source**](https://github.com/nextcloud/notes). Vos notes sont stockés en ligne **dans votre cloud**, elles sont donc accessibles depuis vos différents appareils. Si vous n'avez pas besoin de stockage en ligne mais seulement de notes sur votre téléphone, regardez les autres alternatives ci-dessous.
+Nextcloud (voir l'alternative à Google Drive) propose une service de prise de notes [**open source**](https://github.com/nextcloud/notes). Vos notes sont stockés en ligne **dans votre cloud**, elles sont donc accessibles depuis vos différents appareils. Si vous n'avez pas besoin de stockage en ligne mais seulement de notes sur votre smartphone, regardez les autres alternatives ci-dessous.
 
 Vous pouvez utiliser les notes sur votre tableau de bord Nextcloud ou installer une application client<sup>1</sup>.
 
