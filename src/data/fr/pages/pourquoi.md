@@ -48,7 +48,7 @@ Les applications propriétaires sont développées et possédées par des organi
 
 Ces applications peuvent être des services payants pour y avoir accès (le logiciel Photoshop par exemple) mais sont souvent gratuits. Comment ces services rapportent-ils de l'argent alors ?
 
-Ils sont très souvent basés sur l'**économie de la données**. Les entreprises récupèrent les données des utilisateur⋅ices lors de l'utilisation. Ces données sont également traitées pour créer un profil liées à nos usages et ensuite revendues pour afficher des publicités mieux ciblées.
+Ils sont très souvent basés sur l'**économie de la données**. Les entreprises récupèrent les données des utilisateur⋅ices lors de l'utilisation. Ces données sont également traitées pour créer un profil liées à nos usages et ensuite revendues pour afficher des publicités mieux ciblées. Les publicités ont pourtant **un impact clair sur l'environnement**. Il existe en effet une corrélation évidente entre la publicité et la surconsommation. Or **une sobriété systémique s'impose** pour réussir une bifurcation écologique et la  surconsommation en est l'antithèse.
 
 De plus, avec ces données les entreprises vont travailler sur l'**économie de l'attention** pour rendre l'utilisateur⋅ice encore plus addict⋅e au contenu qu'elles proposent (fil Instagram ou TikTok, recommandations Netflix ou Youtube, ...).
 
@@ -63,13 +63,14 @@ Parmi les entreprises qui proposent ces services il y a les géants du web - Goo
 - Pour Facebook/Meta, son patron Marc Zuckerberg menace de fermer les services (Instagram, WhatsApp, Facebook) en Europe parce qu'il ne veut pas respecter les lois de protection des données européennes RGPD.
 - Apple propose de nouveaux produits tous les ans avec un chargeur non universel, démarche à l'opposée de la sobriété numérique. La société affirme également que son iOS est sécurisé mais avec un code source totalement opaque, il faut donc les croire sur parole.
 
+Ces firmes interagissent également entre elles pour assoir encore plus leur monopole. Apple propose comme moteur de recherche Google, Amazon utilise les services de publicités de Google et Facebook/Meta...
 Les services propriétaires ont loin d'avoir une éthique désirable à l'opposée de la philosophie du Web basée sur le partage et l'interconnexion.
 
 ## Les applications libres
 
 Les applications sont développées par différentes institutions (entreprises, associations, fondations, particuliers, ...), leur code est en accès libre, **open source**. N'importe qui, à condition d'en avoir la capacité technique, peut donc voir le code, l'analyser, le vérifier. Tout le monde peut proposer une amélioration au code, rapporter un bug. Le libre accès du code permet aussi d'**auditer** les applications par des instances externes spécialisées dans des domaines précis (sécurité, performance, ...). Au lieu de se baser sur la concurrence, l'open source repose sur la **collaboration**. Au lieu de tout privatiser, la philosophie est de **rendre accessible**, utiliser les standards.
 
-Mais tout ça a un coût. Le fait de ne pas revendre les données veut aussi dire trouver une autre source de financement. La plupart de ces services sont gérés par des fondations qui reçoivent des **dons** (comme Signal). Ils peuvent parfois intégré de la **publicité** ou proposer un **service payant**.
+Mais tout ça a un coût. Le fait de ne pas revendre les données veut aussi dire trouver une autre source de financement. La plupart de ces services sont gérés par des fondations qui reçoivent des **dons** (comme Signal). Ils peuvent parfois intégré de la **publicité** ou proposer un **service payant**. 
 
 Nous pourrions comparer le rapport entre les services libres et ceux aux propriétaires à celui entre le service public (hôpitaux, universités, France TV, ...) et les services privés (cliniques, école privées, Bernard Arnault, ...).
 
