@@ -16,7 +16,7 @@
 
 Les applications pré-installées sur le système sont **open source et respectueuses de la vie privée**. Vous pouvez donc utiliser les notes, l'agenda, le client mail et autres **sans avoir à installer une alternative** plus éthique. Seule l'application de navigation, Cartes, reste propriétaire mais vous pouvez télécharger OsmAnd (l'alternative à Google Maps) sur l'_App Lounge_.
 <a href="/mon-blog/img/menu.webp" target="_blank" rel='noopener noreferrer'>
-    <img src="/mon-blog/img/menu.webp" alt="Menu d'/e/OS" width="300px">
+<img src="/mon-blog/img/menu.webp" alt="Menu d'/e/OS" width="300px">
 </a>
 
 </div>
@@ -29,7 +29,6 @@ Les applications pré-installées sur le système sont **open source et respectu
 </a>
 <div>
 
-    
 Même si vous enlevez les services Google et donc le Play Store, vous pouvez tout de même installer **toutes les applications** disponibles sur Android grâce à l'_App Lounge_, le magasin d'application d'/e/OS. Il réunit les applications du Play Store mais aussi celles de **F-Droid**. _App Lounge_ donne également un **score de vie privée** sur 10 pour chaque applications et **indique si l'application est open source**.
 
 L'_App Lounge_ **ne nécessite aucun compte**. Si vous souhaitez récupérer les applications que vous avez achetées sur votre ancien Android, vous pouvez toutefois vous connecter à votre compte Google pour télécharger vos achats.
@@ -61,10 +60,9 @@ Tous les smartphones Android ne supportent pas /e/OS, il faut donc vérifier dan
     <img src="/mon-blog/img/eos_list.webp" alt="Capture d'Advanced Privacy" width="100%">
 </a>
 
-
 2. Suivre la documentation
 
-Suivant le smartphone la démarche peut être différente. Il faut donc suivre la documentation spécifique à votre smartphone en cliquant sur le *install doc* ou sur le nom de votre smartphone depuis la liste de compatibilité. 
+Suivant le smartphone la démarche peut être différente. Il faut donc suivre la documentation spécifique à votre smartphone en cliquant sur le _install doc_ ou sur le nom de votre smartphone depuis la liste de compatibilité.
 
 Certains smartphones ont un **_easy installer_** qui permet depuis une interface graphique. Cela permet d'installer /e/OS de façon simplifier (sans ligne de commande).
 

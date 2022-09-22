@@ -7,4 +7,4 @@ F-Droid est un magasin [**open source**](https://gitlab.com/fdroid/) d'applicati
 
 F-Droid prône l'**imperméabilité à la censure et à la surveillance**. Il n'y **pas besoin de compte Google** pour utiliser ce service. Son modèle économique est basé sur les dons.
 
-<sup>1</sup> Fennec est le naviagteur Firefox dénué des parties propriétaires disponible sur [F-Droid](https://f-droid.org/fr/packages/org.mozilla.fennec_fdroid/).
+<sup>1</sup> Fennec est le navigateur Firefox dénué des parties propriétaires disponible sur [F-Droid](https://f-droid.org/fr/packages/org.mozilla.fennec_fdroid/).

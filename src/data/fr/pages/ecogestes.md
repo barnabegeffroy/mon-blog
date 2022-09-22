@@ -1,3 +1,3 @@
 ## Quelques éco-gestes liés au numérique
 
-- Préférer le wifi à la 4G
+- Préférer le Wi-Fi à la 4G

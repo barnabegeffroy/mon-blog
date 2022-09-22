@@ -2,28 +2,28 @@
   {
     "otheralt": [
       {
-        "appname": "Les néo-banques",
-        "contents": ""
+        "appname": "Les néo-banques vertes",
+        "contents": "<p>De nombreuses autres alternatives sont possibles, notamment les néo-banques. Ce sont de nouvelles banques 100% en ligne principalement sur Smartphone. Parmi ces néo-banques, deux d&#39;entre elles sont <strong>engagées pour le climat</strong>. Il s&#39;agit de <strong>GreenGot</strong> et <strong>Hélios</strong>.</p>\n<p>Il existe également une application, <strong>Rift</strong>, qui permet de vous aider à placer votre argent dans des projets vertueux qui représentent au mieux vos valeurs.</p>\n"
       }
     ],
     "altname": "Crédit Coopératif",
     "altfile": "creditcoop",
-    "altcontents": "",
+    "altcontents": "<p>Le Crédit Coopératif est une banque française coopérative <strong>engagé dans la lutte contre le dérèglement climatique</strong>. Elle finance et investie <strong>de façon transparente</strong> dans de nombreux <strong>projets vertueux</strong>. En changeant de banque pour le Crédit Coopératif, vous refusez cette complicité passive de financements climaticides imposée par les banques françaises climaticides.</p>\n<p>Le Crédit Coopératif est d&#39;ailleurs <strong>plébiscité par Reclaim Finance</strong>, un organisme qui lutte pour un système financier plus éthique et désirable. Cet organisme propose d&#39;ailleurs une plateforme, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://change-de-banque.org/\"><strong>Change de banque</strong></a>, permettant de voir l&#39;impact de sa banque et de choisir une alternative plus soutenable.</p>\n",
     "appname": "Votre banque",
     "theme": "Système bancaire et financier",
     "appfile": "banque",
-    "appcontents": "",
+    "appcontents": "<p>Le secteur des banques et de la finance joue un rôle considérable dans la crise climatique. De nombreuses banques continuent à financer et <strong>soutenir des projets climaticides</strong> comme les méga-projets pétroliers en Afrique ou au Moyen-Orient. Ces investissements sont en partie réalisables grâce aux capitaux des clients de ces banques écocidaires. Parmi celles-ci on retrouve : la <strong>BNP Paribas</strong>, la <strong>Société Générale</strong>, le <strong>Crédit Agricole/LCL</strong>, la <strong>Caisse d&#39;Épargne</strong> ou encore la <strong>Banque Populaire</strong>. Pour vous donner une idée, 10 000€ d&#39;épargne sur un compte à la BNP a une empreinte carbone représente environ 6 tonnes de CO2 équivalent (calculé avec <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.oxfamfrance.org/climat-et-energie/calculez-lempreinte-carbone-de-votre-compte-bancaire/\">le calculateur Oxfam</a>), alors que l&#39;empreinte moyenne annuelle d&#39;un⋅e français⋅e est de 10 tonnes (sans compter ses finances). Selon <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.oxfamfrance.org/rapports/banques-des-engagements-climat-a-prendre-au-4eme-degre/\">un rapport d&#39;Oxfam</a>, nos finances serait ainsi notre <strong>premier poste d&#39;émission</strong>.</p>\n<p>Forte heureusement, il existe des acteurs banquiers <strong>plus éthiques</strong>, <strong>plus transparents</strong> et <strong>engagés</strong> dans la transition d&#39;un monde davantage soutenable et désirable.</p>\n",
     "install": {
-      "rating": "4.5",
-      "contents": ""
+      "rating": "4",
+      "contents": "<p>Il suffit de remplir un formulaire en ligne en joignant certains documents (identité, fiche d&#39;impôts, ...) ou de se rendre à une agence du Crédit Coopératif.</p>\n<p>Il faut toutefois avoir au moins 300€ pour l&#39;ouverture du compte.</p>\n"
     },
     "transition": {
-      "rating": "2",
-      "contents": ""
+      "rating": "5",
+      "contents": "<p>Avec la <strong>portabilité bancaire</strong>, le Crédit Coopératif s&#39;occupe de toutes les démarches pour transférer vos débiteurs et vos créditeurs (CAF, Sécu, ...). La transition est donc grandement faciliter.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>Le Crédit Coopératif dispose des fonctionnalités qu&#39;un⋅e client⋅e recherche dans une banque : application bancaire, virement instantanées, chéquier, etc.</p>\n<p>Le nombre d&#39;agences est toutefois limité mais vous pouvez retirer sans frais dans les Caisse d&#39;Épargne et les Banques Populaires.</p>\n"
     }
   },
   {

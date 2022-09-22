@@ -63,7 +63,7 @@ Parmi les entreprises qui proposent ces services il y a les géants du web - Goo
 - Pour Facebook/Meta, son patron Marc Zuckerberg menace de fermer les services (Instagram, WhatsApp, Facebook) en Europe parce qu'il ne veut pas respecter les lois de protection des données européennes RGPD.
 - Apple propose de nouveaux produits tous les ans avec un chargeur non universel, démarche à l'opposée de la sobriété numérique. La société affirme également que son iOS est sécurisé mais avec un code source totalement opaque, il faut donc les croire sur parole.
 
-Ces firmes interagissent également entre elles pour assoir encore plus leur monopole. Apple propose comme moteur de recherche Google, Amazon utilise les services de publicités de Google et Facebook/Meta...
+Ces firmes interagissent également entre elles pour asseoir encore plus leur monopole. Apple propose comme moteur de recherche Google, Amazon utilise les services de publicités de Google et Facebook/Meta...
 Les services propriétaires ont loin d'avoir une éthique désirable à l'opposée de la philosophie du Web basée sur le partage et l'interconnexion.
 
 ## Les applications libres
