@@ -2,7 +2,7 @@
 
 # Remplacer Android par un système **open source**
 
-**Attention** ! Ce remplacement est une opération très technique qui nécessite des compétences avancées
+**Attention** ! Ce remplacement est une opération très technique qui nécessite des compétences avancées.
 
 ## Pourquoi /e/OS ?
 

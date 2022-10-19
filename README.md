@@ -31,7 +31,7 @@
 
 ### format code
 
-`npm run data format`
+`npm run format`
 
 ### build the production build
 
