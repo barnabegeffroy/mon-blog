@@ -211,3 +211,13 @@ details[open] > summary:before {
 details summary::-webkit-details-marker {
   display: none;
 }
+
+.block {
+  display: flex;
+}
+
+@media (max-width: 775px) {
+  .block {
+    flex-direction: column;
+  }
+}

@@ -1,6 +1,7 @@
-<div class="content">
-
-# Configurer Android
+---
+layout: blog
+title: Configurer Android
+---
 
 Il existe différentes configurations qui permettent de rendre votre téléphone plus sobre et respectueux de votre vie privée. Voici quelques **rapides réglages** à mettre en place.
 
@@ -175,32 +176,3 @@ Google va enregistrer de nombreuses informations liées à votre compte Google. 
 </details>
 
 Bien évidemment, ces options restreignent la capacité à Google à pister vos données mais ne les bloquent pas entièrement car le système lui-même, Android, est géré par Google. Certains téléphones permettent de remplacer Android par un système dégooglisé : /e/OS (voir [cet article](./eos)).
-
-</div>
-
-<style>
-    .block{
-        display:flex;
-    }
-
-    img{
-        margin : 10px;
-    }
-    h1,h2,h3{
-        margin-right: auto;
-    }
-
-    .content{ 
-        width: 70%;
-    }
-
-
-  @media (max-width: 775px) {
-    .block{
-        flex-direction : column;
-    }
-    .content{
-        width: 90%;
-    }
-  }
-</style>

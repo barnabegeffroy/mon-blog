@@ -21,6 +21,9 @@ const config = defineConfig({
 
   remarkPlugins: [],
   rehypePlugins: [[urls, processUrl]],
+  layout: {
+    blog: './src/lib/Layouts/Article.svelte',
+  },
 })
 
 export default config

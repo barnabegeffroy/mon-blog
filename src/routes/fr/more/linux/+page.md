@@ -1,6 +1,11 @@
-<div class="content">
+---
+layout: blog
+title: Remplacer Windows par un système open source
+---
 
-# Remplacer Windows par un système **open source**
+<script> 
+    import Img from '$lib/Components/Img.svelte'
+</script>
 
 **Attention** ! Ce remplacement est une opération très technique qui nécessite des compétences avancées. N'hésitez pas à demander de l'aide à une personne compétente si vous souhaitez faire cette manipulation.
 
@@ -9,9 +14,7 @@
 Linux est une famille de systèmes d'exploitation **open source**. Il existe ainsi différentes **distributions** répondant aux besoins spécifiques des utilisateur⋅ices. Il y a des **distributions grand public** où il n'y pas besoin d'être professionnel⋅le de l'informatique pour les utiliser comme des distributions minimales qui nécessitent davantage de connaissances en informatique.
 
 Voici une capture d'écran d'Ubuntu, la distribution la plus répandue dans le grand public :
-<a href="/mon-blog/img/ubuntu.webp" target="_blank" rel='noopener noreferrer'>
-<img src="/mon-blog/img/ubuntu.webp" alt="Capture d'écran Ubuntu" width="100%">
-</a>
+<Img file="ubuntu.webp" alt="Capture d'écran Ubuntu" width="100%" />
 
 ## Pourquoi changer ?
 
@@ -36,9 +39,7 @@ Vous aurez également accès par défaut à de nombreuses applications **open so
 Les distributions Linux permettent **une grande personnalisation**. Vous pouvez créer un espace de travail répondant à vos besoins, à **l'expérience que vous souhaitez** avoir. Bien entendu si vous souhaitez ne rien configurer, les environnements sont parfaitement utilisables sans rien toucher.
 
 Ces configurations peuvent être simples : raccourcis claviers, la disposition de barre de tâches... Ou bien des restructuration totale, par exemple, voici une distribution Linux configurée pour ressembler à l'environnement de MacOS :
-<a href="/mon-blog/img/mac.webp" target="_blank" rel='noopener noreferrer'>
-<img src="/mon-blog/img/mac.webp" alt="Capture d'écran d'un environnement Linux ressemblant à MacOS" width="100%">
-</a>
+<Img file="mac.webp" alt="Capture d'écran d'un environnement Linux ressemblant à MacOS" width="100%" />
 
 ### Les inconvénients
 
@@ -67,32 +68,3 @@ Voici un résumé de l'opération d'installation de Linux. Il est toutefois pré
 5. Vous pouvez ensuite **installer la distribution**. Il y a souvent une fenêtre de dialogue qui vous permet de configurer l'installation de Linux. C'est notamment là que vous allez choisir si vous remplacer totalement Windows ou faites un _Dual Boot_ (installer Linux à côté de Windows)
 
 6. Une fois l'installation terminée, votre ordinateur redémarre et **Linux est installé** !
-
-</div>
-
-<style>
-    .block{
-        display:flex;
-    }
-
-    img{
-        margin : 10px;
-    }
-    h1,h2,h3{
-        margin-right: auto;
-    }
-
-    .content{ 
-        width: 70%;
-    }
-
-
-  @media (max-width: 775px) {
-    .block{
-        flex-direction : column;
-    }
-    .content{
-        width: 90%;
-    }
-  }
-</style>
