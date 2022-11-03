@@ -1,5 +1,6 @@
 ---
 layout: blog
+sommaire: true
 title: Remplacer Android par un système open source
 ---
 
