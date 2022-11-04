@@ -30,27 +30,27 @@
     "otheralt": [
       {
         "appname": "Source mobile",
-        "contents": ""
+        "contents": "<p>Source est un forfait sans engagement proposé par <strong>Bouygues Telecom</strong>. Pour 10€ par mois, vous avez 40 Go, appels et SMS illimités. Mais alors pourquoi ce forfait est une alternative à la surconsommation ? Les Gigas non consommés sont transformés en <strong>micro-dons pour les associations de votre choix</strong>. Cette offre propose un <strong>modèle de sobriété convaincant</strong>. Ce n&#39;est pas ce que vous consommez qui est revalorisé, comme par exemple &quot;plus vous faites des recherches sur notre moteur de recherche, plus on plante des arbres&quot;, mais ce que vous ne consommez pas : <strong>&quot;moins vous utilisez notre service, plus c&#39;est vertueux&quot;</strong>.</p>\n"
       }
     ],
     "altname": "Telecoop",
     "altfile": "telecoop",
-    "altcontents": "",
+    "altcontents": "<p>Telecoop est le premier opérateur télécom <strong>coopératif engagé dans la transition écologique et solidaire</strong>.</p>\n<p>L&#39;opérateur propose <strong>deux forfaits</strong> sans engagement :</p>\n<ul>\n<li>Un forfait <strong>sobriété</strong> : 10€ par mois pour SMS et appels illimités et 2€ par Giga consommé.</li>\n<li>Un forfait <strong>transition</strong> : 20€ par mois pour SMS, appels illimités et 9 Gigas puis 2€ par Giga.</li>\n</ul>\n<p>En plus de ses forfaits, Telecoop est propose des conseils pour <strong>réduire son empreinte numérique</strong>, notamment sur la durée de vie de vos appareils numériques.</p>\n<p>TeleCoop fait également partie du <strong>Licoornes</strong>. Un collectif formé de 9 coopératives, Enercoop, Coopcircuit, Commown, la Nef, Mobicoop, Label Emmaüs, Railcoop, Citiz et TeleCoop. Elles oeuvrent pour la transition écologique et sociale dans différents domaines.</p>\n",
     "appname": "Votre opérateur",
     "theme": "Opérateur téléphonique",
     "appfile": "operateur",
-    "appcontents": "",
+    "appcontents": "<p>Les opérateurs ne cessent de proposer des offres avec toujours plus de Giga Octets à des prix toujours plus dérisoires. Nous consommons des données sans se préoccuper de l&#39;impact de cette action, sans se demander comment sont traitées ces données. Sur le réseau mobile, le trafic de données consommées a été <strong>multiplié par plus de 8 en 5 ans</strong> (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-marches-des-communications-electroniques-en-france/t3-2021.html\">Arcep</a>).</p>\n<p>L&#39;utilisation des données mobiles (4G, 5G) est pourtant au moins <strong>4 fois plus énergivore que le Wi-Fi</strong>. Il semble alors de naturel de se tourner vers un opérateur qui propose des forfaits incitant à une sobriété d&#39;utilisation des données mobiles plutôt que vers ceux qui <strong>banalisent la surconsommation</strong>.</p>\n",
     "install": {
-      "rating": "4.5",
-      "contents": ""
+      "rating": "5",
+      "contents": "<p>Il faut souscrire sur le <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://telecoop.fr/forfait\">site internet de Telecoop</a>. Vous pouvez <strong>conserver votre ancien numéro</strong> si vous le souhaitez (la procédure prend juste un peu plus de temps). Au bout de quelques jours, vous recevez votre carte SIM et pouvez utiliser votre nouvel opérateur.</p>\n"
     },
     "transition": {
-      "rating": "2",
-      "contents": ""
+      "rating": "2.5",
+      "contents": "<p>Les forfaits ne sont <strong>pas forcément accessibles financièrement</strong> à toustes. Sans abonnement Wi-Fi, il est en effet compliqué d&#39;assumer le coût de 2€ par Go à moins d&#39;être extrêmement sobre en données. Une <strong>offre solidaire</strong> devrait cependant voir le jour prochainement. En attendant, il y a le forfait Source, présenté ci-dessous.</p>\n<p>Pour celleux qui en ont les moyens, vous pouvez choisir le forfait <em>transition</em> pour tendre vers une sobriété progressivement si le forfait <em>sobriété</em> vous semble une trop grande étape.</p>\n"
     },
     "ux": {
       "rating": "5",
-      "contents": ""
+      "contents": "<p>Le réseau est basé sur celui d&#39;Orange, Telecoop a donc une <strong>très bonne couverture</strong>. Tout fonctionne comme un opérateur classique. Le service client permet de <strong>suivre sa consommation mobile et son impact CO2</strong>.</p>\n"
     }
   }
 ]
