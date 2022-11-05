@@ -2,7 +2,7 @@
 layout: blog
 sommaire: true
 title: Remplacer Windows par un système open source
-name: linux
+name: linux-fr
 ---
 
 <script> 

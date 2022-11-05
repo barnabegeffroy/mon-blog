@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Configurer Android
-name: android
+name: android-fr
 ---
 
 Même si Android est développé par Google, il existe différentes configurations qui permettent de rendre votre smartphone plus sobre et respectueux de votre vie privée. Voici quelques **rapides réglages** à mettre en place.
@@ -130,7 +130,7 @@ Si l'application a réellement besoin de ce paramètre pour fonctionner, elle vo
     Supprimer votre identifiant publicitaire
 </summary>
 
-Votre téléphone possède un identifiant publicitaire Google, un numéro unique pour votre appareil. Grâce à ce numéro, les sociétés peuvent vous pister et créer un profil très facilement sur vos usages.
+Votre smartphone possède un identifiant publicitaire Google, un numéro unique pour votre appareil. Grâce à ce numéro, les sociétés peuvent vous pister et créer un profil très facilement sur vos usages.
 
 Vous pouvez désactiver cet identifiant.
 
@@ -176,4 +176,4 @@ Google va enregistrer de nombreuses informations liées à votre compte Google. 
 
 </details>
 
-Bien évidemment, ces options restreignent la capacité à Google à pister vos données mais ne les bloquent pas entièrement car le système lui-même, Android, est géré par Google. Certains téléphones permettent de remplacer Android par un système dégooglisé : /e/OS (voir [cet article](./eos)).
+Bien évidemment, ces options restreignent la capacité à Google à pister vos données mais ne les bloquent pas entièrement car le système lui-même, Android, est géré par Google. Certains smartphones permettent de remplacer Android par un système dégooglisé : /e/OS (voir [cet article](./eos)).

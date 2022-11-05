@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: Configurer Windows
-name: windows
+name: windows-fr
 ---
 
-Il existe différentes configurations qui permettent de rendre votre téléphone plus sobre et respectueux de votre vie privée. Voici quelques **rapides réglages** à mettre en place.
+Il existe différentes configurations qui permettent de rendre votre ordinateur plus sobre et respectueux de votre vie privée. Voici quelques **rapides réglages** à mettre en place.
 
 <!-- --------------------------------------------- -->
 <details>
