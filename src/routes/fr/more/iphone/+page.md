@@ -133,13 +133,27 @@ Le réseau mobile 4G/5G est au moins 4 fois plus énergivore que le Wi-Fi. Il es
     Désactiver l'actualisation en arrière-plan
 </summary>
 
-Certaines applications continuent de s'actualiser même en arrière-plan (lorsque vous ne les utilisées pas). Cela nécessite de la batterie et des données cellulaires. Vous pouvez sélectionner quelles applications ont cette autorisation en allant dans **Réglages** et suivez ce chemin :
+Certaines applications continuent de s'actualiser même en arrière-plan (lorsque vous ne les utilisées pas). Cela nécessite **de la batterie et des données cellulaires**. Vous pouvez sélectionner quelles applications ont cette autorisation en allant dans **Réglages** et suivez ce chemin :
 
 > **> Général**
 >
 > **> Actualiser en arrière-plan**
 
 > **> Déselectionnez les applications qui n'ont pas besoin de s'actualiser en arrière-plan**
+
+</details>
+
+<!-- --------------------------------------------- -->
+<details>
+<summary>
+    Désactiver les notifications inutiles
+</summary>
+
+Certaines applications vous envoie des notifications sans grand utilité. Cela nécessite **de la batterie et des données cellulaires**. Vous pouvez sélectionner quelles applications ont l'autorisation de vous envoyer des notification en allant dans **Réglages** et suivez ce chemin :
+
+> **> Notifications**
+
+> **> Déselectionnez les applications qui n'ont pas besoin de vous envoyer des notifications**
 
 </details>
 

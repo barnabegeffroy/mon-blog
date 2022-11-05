@@ -112,9 +112,9 @@ De nombreuses applications accèdent à certaines fonctionnalités et données d
 
 > Vous verrez la liste des applications qui ont pour ce paramètre :
 
-- toujours accès
-- seulement pendant l'utilisation
-- non autorisés
+> > - toujours accès
+> > - seulement pendant l'utilisation
+> > - non autorisés
 
 > **> Cliquez sur les applications dont vous souhaitez restreindre l'accès**
 
@@ -122,6 +122,26 @@ Essayez au maximum de **refuser l'accès** et si ce n'est pas possible donnez l'
 Par exemple, je refuse que mon navigateur de recherche est accès à ma position (il n'en a pas besoin) mais j'accepte que mon application de navigation est accès à ma localisation seulement si l'application est en cours d'utilisation.
 
 Si l'application a réellement besoin de ce paramètre pour fonctionner, elle vous demandera l'autorisation à votre prochaine utilisation.
+
+</details>
+
+<!-- --------------------------------------------- -->
+<details>
+<summary>
+    Désactiver les notifications inutiles
+</summary>
+
+Certaines applications vous envoie des notifications sans grand utilité. Cela nécessite **de la batterie et des données cellulaires**. Vous pouvez sélectionner quelles applications ont l'autorisation de vous envoyer des notification en allant dans **Paramètres** et suivez ce chemin :
+
+> **> Applis et notifications**
+
+> **> Notifications**
+
+> **> Tout afficher depuis les sept derniers jours**
+
+> **>** Changez **Les plus récentes** par **Toutes les applis**
+
+> **> Déselectionnez les applications qui n'ont pas besoin de vous envoyer des notifications**
 
 </details>
 <!-- --------------------------------------------- -->
