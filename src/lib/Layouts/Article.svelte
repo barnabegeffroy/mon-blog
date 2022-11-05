@@ -1,6 +1,8 @@
 <script>
+  import Comment from '$lib/Components/Comment.svelte'
   import Toc from 'svelte-toc'
   export let title
+  export let name
   export let sommaire
 </script>
 
@@ -12,7 +14,7 @@
       <Toc
         title="Sommaire"
         breakpoint="0"
-        headingSelector=":is(h2, h3, h4):not(.toc-exclude)"
+        headingSelector=":is(h2, h3):not(.toc-exclude)"
         --toc-active-bg="none"
         activeHeadingScrollOffset="30"
       />
@@ -21,11 +23,16 @@
   <slot />
 </div>
 
+<Comment {name} />
+
 <style>
   .content {
     width: 70%;
   }
 
+  nav {
+    overflow: hidden;
+  }
   @media (max-width: 775px) {
     .content {
       width: 90%;

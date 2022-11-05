@@ -1,6 +1,6 @@
 ## Quelques autres éco-gestes liés au numérique
 
-En plus d'utiliser les alternatives aux GAFAM et de configurer ses appareils (voir ci-dessus), vous pouver adopter des éco-gestes pour réduire votre empreinte numérique.
+En plus d'utiliser les alternatives aux GAFAM et de configurer ses appareils (voir ci-dessus), vous pouvez adopter des éco-gestes pour réduire votre empreinte numérique.
 
 ### Pour limiter l'impact de ses appareils
 
@@ -23,5 +23,5 @@ Ces éco-gestes vous permettront de réduire le nombre d'octets que vous consomm
 - Préférer la radio classique au streaming radio et encore plus de la radio filmée.
 - Désactiver le réseau mobile lorsqu'il n'est pas utilisé.
 - Préférer le transfert de fichier par clé USB ou par bluetooth .
-- Éteigner la box internet quand elle n'est pas utilisée (ainsi que tous les appareils inutilisés).
+- Éteindre la box internet quand elle n'est pas utilisée (ainsi que tous les appareils inutilisés).
 - Préférer le réseau Wi-Fi au réseau 4G/5G (4 fois plus énergivore).

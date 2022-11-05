@@ -1,9 +1,10 @@
 ---
 layout: blog
 title: Configurer Android
+name: android
 ---
 
-Il existe différentes configurations qui permettent de rendre votre téléphone plus sobre et respectueux de votre vie privée. Voici quelques **rapides réglages** à mettre en place.
+Même si Android est développé par Google, il existe différentes configurations qui permettent de rendre votre smartphone plus sobre et respectueux de votre vie privée. Voici quelques **rapides réglages** à mettre en place.
 
 <!-- --------------------------------------------- -->
 <details>
