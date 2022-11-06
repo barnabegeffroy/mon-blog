@@ -4,8 +4,9 @@
   import Info from '../../../data/fr/pages/info.md'
   import applis from '../../../data/fr/applis.json'
 
-  let title = 'Les alternatives aux GAFAM'
-  let banner = 'Important ! Comment bien choisir ses alternatives ?'
+  const title = 'Les alternatives aux GAFAM'
+  const banner = 'Important ! Comment bien choisir ses alternatives ?'
+  const moreButton = 'Allez plus loin dans votre transition'
 </script>
 
-<Gafalt {title} {banner} {applis} {Info} comment="gafalt-fr" />
+<Gafalt {title} {banner} {moreButton} {applis} {Info} comment="gafalt-fr" />
