@@ -123,7 +123,7 @@ Le réseau mobile 4G/5G est au moins 4 fois plus énergivore que le Wi-Fi. Il es
 
 > **> Données cellulaires**
 
-> **> Déselectionnez les applications que vous n'utilisez qu'en Wi-Fi**, essayez au maximum de désactiver les applications contenant des vidéos en ligne (les plus gourmande en données cellulaires)
+> **> Désélectionnez les applications que vous n'utilisez qu'en Wi-Fi**, essayez au maximum de désactiver les applications contenant des vidéos en ligne (les plus gourmande en données cellulaires)
 
 </details>
 
@@ -139,7 +139,7 @@ Certaines applications continuent de s'actualiser même en arrière-plan (lorsqu
 >
 > **> Actualiser en arrière-plan**
 
-> **> Déselectionnez les applications qui n'ont pas besoin de s'actualiser en arrière-plan**
+> **> Désélectionnez les applications qui n'ont pas besoin de s'actualiser en arrière-plan**
 
 </details>
 
@@ -153,7 +153,7 @@ Certaines applications vous envoie des notifications sans grand utilité. Cela n
 
 > **> Notifications**
 
-> **> Déselectionnez les applications qui n'ont pas besoin de vous envoyer des notifications**
+> **> Désélectionnez les applications qui n'ont pas besoin de vous envoyer des notifications**
 
 </details>
 

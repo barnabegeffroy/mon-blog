@@ -141,7 +141,7 @@ Certaines applications vous envoie des notifications sans grand utilité. Cela n
 
 > **>** Changez **Les plus récentes** par **Toutes les applis**
 
-> **> Déselectionnez les applications qui n'ont pas besoin de vous envoyer des notifications**
+> **> Désélectionnez les applications qui n'ont pas besoin de vous envoyer des notifications**
 
 </details>
 <!-- --------------------------------------------- -->

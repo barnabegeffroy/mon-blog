@@ -12,6 +12,10 @@
   export let comment
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
+
 <div>
   <h1>{title}</h1>
 

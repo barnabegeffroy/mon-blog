@@ -230,6 +230,8 @@ Parmi les extensions présentées ci-dessus, uBlock Origin peut être configurer
 
 > **> Appliquer les modifications en cliquant sur &#10003;**
 
+> Ce paramètre peut bloquer le fonctionnement de certains sites. Dans ce cas là, il faut désactiver uBlock Origin sur ce site pour naviguer correctement.
+
 </details>
 
 <!-- --------------------------------------------- -->

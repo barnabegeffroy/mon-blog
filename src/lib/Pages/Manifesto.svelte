@@ -7,7 +7,12 @@
   import { language } from '$lib/Scripts/vars'
   export let Content
   export let button
+  export let title
 </script>
+
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
 
 <div class="container">
   <svelte:component this={Content} />

@@ -8,9 +8,15 @@
   export let Content
   export let manifest
   export let gafalt
+  export let title
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
+
 <svelte:component this={Content} />
+
 <div class="flex">
   <a
     data-sveltekit-prefetch

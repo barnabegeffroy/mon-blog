@@ -6,6 +6,10 @@
   export let sommaire
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
+
 <div class="content">
   <h1>{title}</h1>
 
