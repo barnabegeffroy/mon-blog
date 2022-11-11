@@ -84,13 +84,13 @@ Google enregistre votre activité comme votre localisation. Cela lui permet de g
 
 > **> Désactiver les paramètres de l'historique :**
 
-- De l'**Activité sur le Web et les applications**
-- De l'**Historique des positions**
-- De l'**Historique Youtube**
+> > - De l'**Activité sur le Web et les applications**
+> > - De l'**Historique des positions**
+> > - De l'**Historique Youtube**
 
 > Toujours dans l'onglet "Données et confidentialités" **> Paramètres des annonces**
 
-- Désactivez **Personnalisation des annonces**
+> Désactivez **Personnalisation des annonces**
 
 Dans cet onglet "Données et confidentialités", il peut y avoir d'autres options de Google activées. Si vous voyez des options qui pourraient faire fuiter vos données personnelles, désactivez-les.
 

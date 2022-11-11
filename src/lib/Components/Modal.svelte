@@ -33,7 +33,7 @@
           <h4>{appli.altname}</h4>
         </div>
       </div>
-      <h2 class="banner">{appli.theme}</h2>
+      <div class="banner">{appli.theme}</div>
     </div>
     <div class="modal-body">
       <h3>{appli.appname}</h3>
@@ -165,6 +165,7 @@
     border-radius: 12px;
   }
   .banner {
+    margin: 5%;
     display: flex;
     justify-content: center;
     text-align: center;

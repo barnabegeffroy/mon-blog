@@ -19,7 +19,9 @@
         title="Sommaire"
         breakpoint="0"
         headingSelector=":is(h2, h3):not(.toc-exclude)"
+        --toc-active-color="none"
         --toc-active-bg="none"
+        --toc-li-padding="10px"
         activeHeadingScrollOffset="30"
       />
     </div>
