@@ -1,0 +1,1 @@
+import{default as f}from"../components/pages/fr/more/android/_page.md-1a622d29.js";import"./index-b165e248.js";import"./Article-d4fa079b.js";import"./Comment-e8ea5dad.js";/* empty css                                              */import"./Toc-690d1d24.js";/* empty css                                          */export{f as component};

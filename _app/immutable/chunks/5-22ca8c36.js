@@ -1,0 +1,1 @@
+import{default as e}from"../components/pages/(en)/gafalt/_page.svelte-9c76f7e3.js";import"./index-b165e248.js";/* empty css                                           *//* empty css                                              *//* empty css                                             */export{e as component};
