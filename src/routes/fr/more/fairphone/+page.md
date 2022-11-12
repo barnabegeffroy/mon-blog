@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Configurer Mac
-name: mac-fr
+title: Fairphone
+name: fairphone-fr
 ---
 
 Cette article est en cours de rédaction.

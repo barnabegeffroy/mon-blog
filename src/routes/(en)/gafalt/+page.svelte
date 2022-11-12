@@ -8,4 +8,4 @@
   let banner = 'Important ! How to well choose your alternatives ?'
 </script>
 
-<Gafalt {title} {banner} {applis} {Info} />
+Work in progress. To be released in December 2022

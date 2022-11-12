@@ -15,7 +15,7 @@ L'impact du numérique sur notre planète est clairement non négligeable. Selon
 
 Pour initier une transition numérique, il faut également avoir les bons **ordres de grandeur**. L'empreinte numérique représente environ **2% de l'empreinte carbone totale** d'une personne. Les éco-gestes liés au numérique sont nécessaires, il en existe toutefois des plus impactants en terme de réduction d'émission. En effet, changer son l'alimentation et la façon de se déplacer sont des leviers beaucoup plus impactants.
 
-Selon moi, le **problème de ressource** est pour le **problème majeur du numérique**, bien plus que les émissions de gaz à effet de serre. Il participe en effet à l'**épuisement des ressources abiotiques**. La raréfaction de ces ressources est principalement liée aux équipements des utilisateur⋅ices (smartphones, ordinateurs, télévisions, objets connectés, ...). Si nous continuons cette expansion de production d'appareils, d'ici à une dizaine d'années nous aurons de sérieux soucis de 
+Selon moi, le **problème de ressource** est pour le **problème majeur du numérique**, bien plus que les émissions de gaz à effet de serre. Il participe en effet à l'**épuisement des ressources abiotiques**. La raréfaction de ces ressources est principalement liée aux équipements des utilisateur⋅ices (smartphones, ordinateurs, télévisions, objets connectés, ...). Si nous continuons cette expansion de production d'appareils, d'ici à quelques dizaines d'années nous aurons de sérieux soucis pour fabriquer autant d'appareils.
 
 ## Comment réduire son impact
 
@@ -27,7 +27,7 @@ Il est donc important d'effectuer un virage pour éviter que le numérique soit 
 
 La sobriété numérique a pour but de **diminuer son impact sur la planète** mais également de **réduire votre charge mentale** liée au numérique. Beaucoup d'outils numériques ont un aspect vampirisant. En utilisant des applications non addictives, on réduit son utilisation et améliore sa santé mentale en se détachant de ces services toxiques.
 
-Parfois, certaines actions n'ont pas un réel impact sur la plan environnementale mais davantage sur la charge mentale liée au numérique. Par exemple, réduire l'usage de ses e-mails a un impact minime sur l'environnement en revanche il réduit votre **fardeau numérique**. 
+Parfois, certaines actions n'ont pas un réel impact sur la plan environnementale mais davantage sur la charge mentale liée au numérique. Par exemple, réduire l'usage de ses e-mails a un impact minime sur l'environnement en revanche il réduit votre **fardeau numérique**.
 
 <p>
 <sup>1</sup>

@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Configurer Mac
-name: mac-fr
+title: Why! Computing
+name: why-fr
 ---
 
 Cette article est en cours de rédaction.

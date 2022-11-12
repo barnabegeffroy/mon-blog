@@ -16,15 +16,4 @@
     "D'autres services alternatifs liés au numérique et à la vie privée"
 </script>
 
-<More
-  {title}
-  {services}
-  {configure}
-  {configureDescription}
-  {replace}
-  {replaceDescription}
-  {servicesTitle}
-  Actions={Ecogestes}
-  {Ressources}
-  comment="aller-plus-loin"
-/>
+Work in progress. To be released in December 2022
