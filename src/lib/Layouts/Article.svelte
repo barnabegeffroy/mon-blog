@@ -36,9 +36,6 @@
     width: 70%;
   }
 
-  nav {
-    overflow: hidden;
-  }
   @media (max-width: 775px) {
     .content {
       width: 90%;

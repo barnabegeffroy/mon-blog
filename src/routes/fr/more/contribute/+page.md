@@ -4,6 +4,8 @@ title: Contribuer au monde libre
 name: contribute-fr
 ---
 
+Voici différentes manières de contribuer au développement du monde libre sans compétences particulières en code informatique.
+
 <!-- --------------------------------------------- -->
 <details>
 <summary>
@@ -20,7 +22,7 @@ En parlant de ces alternatives autour de vous, vous contribuer à l'essor de ces
 Traduire les projets
 </summary>
 
-Si vous maitrisez plusieurs langues, vous pouvez participer à la traduction des outils open source que vous utilisez.
+Si vous maîtrisez plusieurs langues, vous pouvez participer à la traduction des outils open source que vous utilisez.
 
 </details>
 
@@ -50,17 +52,7 @@ Si vous trouvez qu'une fonctionnalité manque à une application, vous pouvez pr
 Contribuer en se baladant
 </summary>
 
-Streetcomplete est une application
-
-</details>
-
-<!-- --------------------------------------------- -->
-<details>
-<summary>
-Contribuer à Wikipedia
-</summary>
-
-Wikipedia
+Streetcomplete est une application disponible sur Android qui permet de compléter les informations manquantes dans la base de données cartographiques collaborative, Open Street Map, lorsque vous vous déplacez. Si vous n'avez pas d'Android, vous pouvez contribué depuis un ordinateur sur le site https://www.openstreetmap.org/.
 
 </details>
 
@@ -73,12 +65,3 @@ Contribuer financièrement
 De nombreux projets ont un modèle économique basé sur les dons. Les aider financièrement est donc essentiel. Si vous le pouvez, ces projets proposent souvent de devenir donateur⋅ice régulier⋅ère, une sorte d'abonnement garantissant leur indépendance. Ils proposent également des dons ponctuels.
 
 </details>
-
-<!-- --------------------------------------------- -->
-<details>
-<summary>
-</summary>
-
-</details>
-
-Bien évidemment, ces options restreignent la capacité d'Apple à pister vos données mais ne les bloquent pas entièrement car le système MacOS lui-même est géré par Apple.

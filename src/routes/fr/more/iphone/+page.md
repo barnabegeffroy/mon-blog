@@ -146,6 +146,26 @@ Certaines applications continuent de s'actualiser même en arrière-plan (lorsqu
 <!-- --------------------------------------------- -->
 <details>
 <summary>
+    Désactiver iCloud 
+</summary>
+
+iCloud est le service de drive d'Apple. Il existe des alternatives plus soutenables au produit d'Apple (voir [alternative de Google Drive, Nextcloud](../gafalt)) qui s'intègre sur iPhone. Voici comment désactiver iCloud depuis les **Réglages** :
+
+> **> Cliquez sur votre nom**
+>
+> **> Défilez vers le bas et cliquez Se déconnecter**
+
+> **> Entrez votre mot de passe**
+
+> **> Choisissez les données que vous souhaitez conserver**
+
+> **> Confirmez la déconnexion**
+
+</details>
+
+<!-- --------------------------------------------- -->
+<details>
+<summary>
     Désactiver les notifications inutiles
 </summary>
 
