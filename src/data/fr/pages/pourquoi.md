@@ -11,11 +11,11 @@ La transition numérique a un double enjeu :
 
 ## Contexte
 
-L'impact du numérique sur notre planète est clairement non négligeable. Selon un [rapport de GreenIT.fr](https://www.greenit.fr/empreinte-environnementale-du-numerique-mondial/) Il représente **3,8% des émissions mondiales** de gaz à effet de serre. En constante expansion, les prévisions d'émission pour ce secteur sont toujours revues à la hausse.
+L'impact du numérique sur notre planète est clairement non négligeable. Selon un [rapport de GreenIT.fr](https://www.greenit.fr/empreinte-environnementale-du-numerique-mondial/), il représente **3,8% des émissions mondiales** de gaz à effet de serre. En constante expansion, les prévisions d'émission pour ce secteur sont toujours revues à la hausse.
 
-Pour initier une transition numérique, il faut également avoir les bons **ordres de grandeur**. L'empreinte numérique représente environ **2% de l'empreinte carbone totale** d'une personne. Les éco-gestes liés au numérique sont nécessaires, il en existe toutefois des plus impactants en terme de réduction d'émission. En effet, changer son l'alimentation et la façon de se déplacer sont des leviers beaucoup plus impactants.
+Pour initier une transition numérique, il faut également avoir les bons **ordres de grandeur**. L'empreinte numérique représente environ **2% de l'empreinte carbone totale** d'une personne. Les éco-gestes liés au numérique sont nécessaires, même s’il en existe des plus impactants en terme de réduction d’émission. En effet, changer son alimentation et la façon de se déplacer sont des leviers beaucoup plus impactants.
 
-Selon moi, le **problème de ressource** est pour le **problème majeur du numérique**, bien plus que les émissions de gaz à effet de serre. Il participe en effet à l'**épuisement des ressources abiotiques**. La raréfaction de ces ressources est principalement liée aux équipements des utilisateur⋅ices (smartphones, ordinateurs, télévisions, objets connectés, ...). Si nous continuons cette expansion de production d'appareils, d'ici à quelques dizaines d'années nous aurons de sérieux soucis pour fabriquer autant d'appareils.
+Selon moi, le **problème de ressources** est le **problème majeur du numérique**, bien plus que les émissions de gaz à effet de serre, car il participe à **l’épuisement des ressources abiotiques**. La raréfaction de ces ressources est principalement liée aux équipements des utilisateur⋅ices (smartphones, ordinateurs, télévisions, objets connectés, ...). Cette raréfaction des ressources n’est pas compatible avec l’expansion de la production d’appareils que nous observons aujourd’hui, il y a plus de 30 milliards d'appareils dans le monde. Nous risquons alors de compromettre notre accès à ces outils d’ici quelques dizaines d’années.
 
 ## Comment réduire son impact
 
