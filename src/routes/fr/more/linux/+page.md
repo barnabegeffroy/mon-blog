@@ -34,7 +34,7 @@ Comme il existe de nombreuses distributions, il y a beaucoup de fonctionnalités
 
 Peu importe votre distribution, vous aurez accès à tous les logiciels disponibles sur Linux. Certaines distributions proposent des **magasins d'applications/logiciels**. Il n'y a donc pas besoin d'aller sur le web pour télécharger un logiciel. Cela permet de s'assurer que le logiciel est installé depuis une **source sûre**.
 
-Vous aurez également accès par défaut à de nombreuses applications **open source** comme Firefox, visionneur de PDF, des outils du système (gestionnaire de fichiers, calculatrice, ...).
+Vous aurez également accès par défaut à de nombreuses applications **open source** comme Firefox, visionneur de PDF, des outils du système (gestionnaire de fichiers, calculatrice, etc.).
 
 ### La personnalisation
 
@@ -48,7 +48,7 @@ Ces configurations peuvent être simples : raccourcis claviers, la disposition d
 Le plus gros frein au passage à Linux, est la **non disponibilité de certains logiciels propriétaires**. Parmi eux, la suite Adobe et la suite Office. Bien évidemment il existe des alternatives open source et gratuites : GIMP pour Photoshop,
 Inkscape pour Illustrator, OnlyOffice pour la suite Office. Toutefois, il se peut que certaines contraintes ne vous permettent pas d'effectuer cette transition.
 
-Certains jeux ne sont pas disponibles également. De nombreux jeux restent disponibles (LoL, Steam, ...).
+Certains jeux ne sont pas disponibles également. De nombreux jeux restent disponibles (LoL, Steam, etc.).
 
 Il faut donc bien vérifier que toutes les applications que vous utilisez sont disponibles sur Linux pour ne pas avoir de mauvaise surprise.
 

@@ -2,4 +2,4 @@
 rating: 2
 ---
 
-Comme tous les réseaux sociaux, la transition est **longue** et ne dépend pas que de vous. Elle est plus simple quand vous êtes un groupe à franchir le pas en même temps.
+Un changement de réseau social est **long** dans la mesure où vous ne retrouverez que les comptes qui sont aussi passés sur Pixelfed. Cette transition ne dépend donc pas que de vous mais de toustes les utilisateur⋅ices. Un bon moyen de faire du tri dans vos abonnements et de découvir de nouveaux comptes !

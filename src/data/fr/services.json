@@ -15,11 +15,11 @@
     "appcontents": "<p>Le secteur des banques et de la finance joue un rôle considérable dans la crise climatique. De nombreuses banques continuent à financer et <strong>soutenir des projets climaticides</strong> comme les méga-projets pétroliers en Afrique ou au Moyen-Orient. Ces investissements sont en partie réalisables grâce aux capitaux des clients de ces banques écocidaires. Parmi celles-ci on retrouve : la <strong>BNP Paribas</strong>, la <strong>Société Générale</strong>, le <strong>Crédit Agricole/LCL</strong>, la <strong>Caisse d&#39;Épargne</strong> ou encore la <strong>Banque Populaire</strong>. Pour vous donner une idée, 10 000€ d&#39;épargne sur un compte à la BNP a une empreinte carbone représente environ 6 tonnes de CO2 équivalent (calculé avec <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.oxfamfrance.org/climat-et-energie/calculez-lempreinte-carbone-de-votre-compte-bancaire/\">le calculateur Oxfam</a>), alors que l&#39;empreinte moyenne annuelle d&#39;un⋅e français⋅e est de 10 tonnes (sans compter ses finances). Selon <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.oxfamfrance.org/rapports/banques-des-engagements-climat-a-prendre-au-4eme-degre/\">un rapport d&#39;Oxfam</a>, nos finances serait ainsi notre <strong>premier poste d&#39;émission</strong>.</p>\n<p>Forte heureusement, il existe des acteurs banquiers <strong>plus éthiques</strong>, <strong>plus transparents</strong> et <strong>engagés</strong> dans la transition d&#39;un monde davantage soutenable et désirable.</p>\n",
     "install": {
       "rating": "4",
-      "contents": "<p>Il suffit de remplir un formulaire en ligne en joignant certains documents (identité, fiche d&#39;impôts, ...) ou de se rendre à une agence du Crédit Coopératif.</p>\n<p>Il faut toutefois avoir au moins 300€ pour l&#39;ouverture du compte.</p>\n"
+      "contents": "<p>Il suffit de remplir un formulaire en ligne en joignant certains documents (identité, fiche d&#39;impôts, etc.) ou de se rendre à une agence du Crédit Coopératif.</p>\n<p>Il faut toutefois avoir au moins 300€ pour l&#39;ouverture du compte.</p>\n"
     },
     "transition": {
       "rating": "5",
-      "contents": "<p>Avec la <strong>portabilité bancaire</strong>, le Crédit Coopératif s&#39;occupe de toutes les démarches pour transférer vos débiteurs et vos créditeurs (CAF, Sécu, ...). La transition est donc grandement faciliter.</p>\n"
+      "contents": "<p>Avec la <strong>portabilité bancaire</strong>, le Crédit Coopératif s&#39;occupe de toutes les démarches pour transférer vos débiteurs et vos créditeurs (CAF, Sécu, etc.). La transition est donc grandement faciliter.</p>\n"
     },
     "ux": {
       "rating": "5",

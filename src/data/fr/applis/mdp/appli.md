@@ -12,4 +12,4 @@ Le second est au niveau de la **sécurité**, très important pour des données 
 
 Il faut donc avoir confiance en l'outil, difficile quand il s'agit des **GAFAM**.
 
-Pour ce qui est des gestionnaires de mots de passe des navigateurs (Chrome, Firefox, ...), leur sécurité est **très faible**. De même que les gestionnaires comme Dashlane ou , qui sont des applications propriétaires.
+Pour ce qui est des gestionnaires de mots de passe des navigateurs (Chrome, Firefox, etc.), leur sécurité est **très faible**. De même que les gestionnaires comme Dashlane ou , qui sont des applications propriétaires.

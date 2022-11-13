@@ -3,7 +3,7 @@ altname: Nextcloud
 altfile: nextcloud
 ---
 
-Nextcloud est un service de cloud [**open source**](https://github.com/nextcloud). Il est **auto-hébergeable**, c'est-à-dire qu'il peut être hébergée par différentes institutions (associations, entreprises, ...). Le modèle économique de Nextcloud est basé sur un service payant dédié aux entreprises.
+Nextcloud est un service de cloud [**open source**](https://github.com/nextcloud). Il est **auto-hébergeable**, c'est-à-dire qu'il peut être hébergée par différentes institutions (associations, entreprises, etc.). Le modèle économique de Nextcloud est basé sur un service payant dédié aux entreprises.
 
 De nombreux Chatons<sup>1</sup> proposent ce service, en voici [la liste](https://www.chatons.org/taxonomy/term/271). Il y a donc de nombreuses instances différentes de l'application.
 

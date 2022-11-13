@@ -108,7 +108,7 @@ De nombreuses applications accèdent à certaines fonctionnalités et données d
 
 > **> Gestionnaire d'autorisations**
 
-> **> Sélectionnez le paramètre que vous souhaitez restreindre** (Localisation, Appareil Photo, Microphone, ...)
+> **> Sélectionnez le paramètre que vous souhaitez restreindre** (Localisation, Appareil Photo, Microphone, etc.)
 
 > Vous verrez la liste des applications qui ont pour ce paramètre :
 

@@ -44,7 +44,7 @@
     },
     "transition": {
       "rating": "5",
-      "contents": "<p>La transition vers Firefox est <strong>simple</strong>. La différence d&#39;utilisation entre les deux navigateurs est en effet très faible. Il existe même un <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://support.mozilla.org/fr/kb/passer-de-chrome-a-firefox\">outil</a> pour transférer ces données (historiques, favoris, ...) depuis Chrome.</p>\n"
+      "contents": "<p>La transition vers Firefox est <strong>simple</strong>. La différence d&#39;utilisation entre les deux navigateurs est en effet très faible. Il existe même un <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://support.mozilla.org/fr/kb/passer-de-chrome-a-firefox\">outil</a> pour transférer ces données (historiques, favoris, etc.) depuis Chrome.</p>\n"
     },
     "ux": {
       "rating": "5",
@@ -64,14 +64,14 @@
     "appname": "Citymapper",
     "theme": "Transports en commun",
     "appfile": "citymapper",
-    "appcontents": "<p>Citymapper est une application <strong>propriétaire</strong> de calcul d&#39;itinéraires en transports en commun. Selon la <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://citymapper.com/privacy\">politique de confidentialité de Citymapper</a>, l&#39;application récupère vos données (localisation, recherches, trajets, ...) et peut les envoyer à des services tiers. Elle utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022).</p>\n",
+    "appcontents": "<p>Citymapper est une application <strong>propriétaire</strong> de calcul d&#39;itinéraires en transports en commun. Selon la <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://citymapper.com/privacy\">politique de confidentialité de Citymapper</a>, l&#39;application récupère vos données (localisation, recherches, trajets, etc.) et peut les envoyer à des services tiers. Elle utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022).</p>\n",
     "install": {
       "rating": "5",
       "contents": "<p>L&#39;application s&#39;installe facilement à partir de <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://f-droid.org/fr/packages/de.grobox.liberario/\">F-Droid</a> ou du Play Store. Une fois installée, vous avez juste à choisir le réseau de transports que vous souhaitez utiliser.</p>\n"
     },
     "transition": {
       "rating": "4",
-      "contents": "<p>La recherche n&#39;étant pas performante pour les noms de lieux (restaurants, bars, ...), il faut connaître le nom de l&#39;arrêt (métro, bus, ...) ou prendre plus de temps pour trouver l&#39;adresse exacte.</p>\n"
+      "contents": "<p>La recherche n&#39;étant pas performante pour les noms de lieux (restaurants, bars, etc.), il faut connaître le nom de l&#39;arrêt (métro, bus, etc.) ou prendre plus de temps pour trouver l&#39;adresse exacte.</p>\n"
     },
     "ux": {
       "rating": "3.5",
@@ -87,11 +87,11 @@
     ],
     "altname": "Mattermost",
     "altfile": "mattermost",
-    "altcontents": "<p>Mattermost est un service de messagerie instantanée <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mattermost\"><strong>open source</strong></a>. La messagerie fonctionne comme Discord ou Slack avec un chat interne et des salons de discussions. Elle est <strong>auto-hébergeable</strong>, c&#39;est-à-dire que Mattermost peut être hébergé par différentes institutions (associations, entreprises, ...). De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.chatons.org/taxonomy/term/250\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application. Le modèle économique de Mattermost est basé sur un service payant dédié aux entreprises.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
+    "altcontents": "<p>Mattermost est un service de messagerie instantanée <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mattermost\"><strong>open source</strong></a>. La messagerie fonctionne comme Discord ou Slack avec un chat interne et des salons de discussions. Elle est <strong>auto-hébergeable</strong>, c&#39;est-à-dire que Mattermost peut être hébergé par différentes institutions (associations, entreprises, etc.). De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.chatons.org/taxonomy/term/250\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application. Le modèle économique de Mattermost est basé sur un service payant dédié aux entreprises.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
     "appname": "Discord",
     "theme": "Messagerie instantanée",
     "appfile": "discord",
-    "appcontents": "<p>Discord est une messagerie instantanée <strong>propriétaire</strong>. Elle a été au centre de <strong>plusieurs polémiques</strong> (diffusions de virus, non modération, ...). L&#39;application utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022).</p>\n<p>Discord est également a également une empreinte environnementale conséquente par rapport à d&#39;autres applications, notamment lorsqu&#39;il s&#39;agit de visioconférence (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenspector.com/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/\">Greenspector</a>).</p>\n",
+    "appcontents": "<p>Discord est une messagerie instantanée <strong>propriétaire</strong>. Elle a été au centre de <strong>plusieurs polémiques</strong> (diffusions de virus, non modération, etc.). L&#39;application utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022).</p>\n<p>Discord est également a également une empreinte environnementale conséquente par rapport à d&#39;autres applications, notamment lorsqu&#39;il s&#39;agit de visioconférence (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenspector.com/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact-edition-2021/\">Greenspector</a>).</p>\n",
     "install": {
       "rating": "4.5",
       "contents": "<p>Il faut trouver une instance qui héberge Mattermost puis se créer un compte sur cette instance. Pour ma part j&#39;utilise <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://framateam.org/\">Framateam</a> de Framasoft.</p>\n"
@@ -102,7 +102,7 @@
     },
     "ux": {
       "rating": "4",
-      "contents": "<p>L&#39;expérience d&#39;utilisateur⋅ice est quasi similaire à celle de Discord (salons de discussion, rôles, bots, ...). Vous pouvez choisir un thème pour que Mattermost ressemble à Discord. Le design reste tout de même un peu moins intuitif que Discord.</p>\n"
+      "contents": "<p>L&#39;expérience d&#39;utilisateur⋅ice est quasi similaire à celle de Discord (salons de discussion, rôles, bots, etc.). Vous pouvez choisir un thème pour que Mattermost ressemble à Discord. Le design reste tout de même un peu moins intuitif que Discord.</p>\n"
     }
   },
   {
@@ -135,18 +135,18 @@
   {
     "altname": "Nextcloud",
     "altfile": "nextcloud",
-    "altcontents": "<p>Nextcloud est un service de cloud <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/nextcloud\"><strong>open source</strong></a>. Il est <strong>auto-hébergeable</strong>, c&#39;est-à-dire qu&#39;il peut être hébergée par différentes institutions (associations, entreprises, ...). Le modèle économique de Nextcloud est basé sur un service payant dédié aux entreprises.</p>\n<p>De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.chatons.org/taxonomy/term/271\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application.</p>\n<p>Sur Nextcloud, vous pouvez donc stocker vos fichiers sur des hébergeurs de confiance. Ce Cloud propose également l&#39;<strong>intégration d&#39;applications</strong> (ajoutée par l&#39;hébergeur) dont les données seront stockées sur votre Nextcloud. En voici quelques exemples :</p>\n<ul>\n<li>Notes : l&#39;alternative aux applications de prises de notes</li>\n<li>Agenda : pour stocker ces événements dans un serveur de confiance</li>\n<li>OnlyOffice : l&#39;alternative aux Google Docs</li>\n<li>Cospend : l&#39;alternative à Tricount</li>\n</ul>\n<p>Et tant d&#39;autres qui peuvent être intégrées à votre tableau de bord NextCloud.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
+    "altcontents": "<p>Nextcloud est un service de cloud <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/nextcloud\"><strong>open source</strong></a>. Il est <strong>auto-hébergeable</strong>, c&#39;est-à-dire qu&#39;il peut être hébergée par différentes institutions (associations, entreprises, etc.). Le modèle économique de Nextcloud est basé sur un service payant dédié aux entreprises.</p>\n<p>De nombreux Chatons<sup>1</sup> proposent ce service, en voici <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.chatons.org/taxonomy/term/271\">la liste</a>. Il y a donc de nombreuses instances différentes de l&#39;application.</p>\n<p>Sur Nextcloud, vous pouvez donc stocker vos fichiers sur des hébergeurs de confiance. Ce Cloud propose également l&#39;<strong>intégration d&#39;applications</strong> (ajoutée par l&#39;hébergeur) dont les données seront stockées sur votre Nextcloud. En voici quelques exemples :</p>\n<ul>\n<li>Notes : l&#39;alternative aux applications de prises de notes</li>\n<li>Agenda : pour stocker ces événements dans un serveur de confiance</li>\n<li>OnlyOffice : l&#39;alternative aux Google Docs</li>\n<li>Cospend : l&#39;alternative à Tricount</li>\n</ul>\n<p>Et tant d&#39;autres qui peuvent être intégrées à votre tableau de bord NextCloud.</p>\n<p><sup>1</sup> CHATONS : Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</p>\n",
     "appname": "Google Drive",
     "theme": "Service de cloud/drive",
     "appfile": "google-drive",
-    "appcontents": "<p>Google Drive est un service de cloud <strong>propriétaire</strong> développé par <strong>Google</strong>. Comme tous les services de Google, derrière ce produit gratuit se cache une <strong>structure de surveillance et d&#39;analyse de données</strong>. Avec ce service, vous donnez directement accès à vos images, vidéos, documents, ...</p>\n",
+    "appcontents": "<p>Google Drive est un service de cloud <strong>propriétaire</strong> développé par <strong>Google</strong>. Comme tous les services de Google, derrière ce produit gratuit se cache une <strong>structure de surveillance et d&#39;analyse de données</strong>. Avec ce service, vous donnez directement accès à vos images, vidéos, documents, etc.</p>\n",
     "install": {
       "rating": "5",
       "contents": "<p>Il faut choisir une instance hébergeant NextCloud et les applications que vous souhaitez utilisées. Je conseille<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://murena.io/\">murena.io</a> proposé par Murena, une société qui met en oeuvre des solutions libres et <strong>respectueuses de la vie privée</strong> (comme son /e/OS dégooglisé). Vous disposez de <strong>1 Go gratuit</strong>. Ce NextCloud dispose notamment du calendrier, des notes, d&#39;OnlyOffice.</p>\n"
     },
     "transition": {
       "rating": "3.5",
-      "contents": "<p>Dans une démarche de <strong>sobriété</strong>, la meilleure solution est de ne garder que les fichiers indispensables sur votre Nextcloud. Garder les fichiers que vous utilisez que ponctuellement sur des stockages locaux (disques durs, clefs USB, ...) en priorisant les fichiers volumineux (vidéos, photos).</p>\n"
+      "contents": "<p>Dans une démarche de <strong>sobriété</strong>, la meilleure solution est de ne garder que les fichiers indispensables sur votre Nextcloud. Garder les fichiers que vous utilisez que ponctuellement sur des stockages locaux (disques durs, clefs USB, etc.) en priorisant les fichiers volumineux (vidéos, photos).</p>\n"
     },
     "ux": {
       "rating": "5",
@@ -171,7 +171,7 @@
     },
     "ux": {
       "rating": "5",
-      "contents": "<p>La création de formulaires se fait par simple glisser-déposer. Il y a de nombreuses options (conditions, mise en page, ...) et différents champs qui couvrent largement les besoins pour l&#39;édition d&#39;un sondage ou d&#39;un formulaire.</p>\n"
+      "contents": "<p>La création de formulaires se fait par simple glisser-déposer. Il y a de nombreuses options (conditions, mise en page, etc.) et différents champs qui couvrent largement les besoins pour l&#39;édition d&#39;un sondage ou d&#39;un formulaire.</p>\n"
     }
   },
   {
@@ -191,10 +191,10 @@
     "appname": "Gmail",
     "theme": "Service d'e-mails",
     "appfile": "gmail",
-    "appcontents": "<p>Gmail est un service d&#39;e-mails <strong>propriétaire</strong> proposés par <strong>Google</strong>. Avec ce service, la firme américaine met en place une <strong>structure de surveillance et d&#39;analyse de données</strong>. En effet, sur le webmail (l&#39;interface web de Gmail), des <strong>publicités ciblées</strong> s’affichent en fonction du contenu des messages.</p>\n<p>La création d&#39;un compte Gmail entraîne également la création du compte Google qui va permettre de collecter vos données et de vous <strong>profiler</strong> avec davantage de précision sur les autres plateformes du géant (YouTube, search, drive, ...).</p>\n",
+    "appcontents": "<p>Gmail est un service d&#39;e-mails <strong>propriétaire</strong> proposés par <strong>Google</strong>. Avec ce service, la firme américaine met en place une <strong>structure de surveillance et d&#39;analyse de données</strong>. En effet, sur le webmail (l&#39;interface web de Gmail), des <strong>publicités ciblées</strong> s’affichent en fonction du contenu des messages.</p>\n<p>La création d&#39;un compte Gmail entraîne également la création du compte Google qui va permettre de collecter vos données et de vous <strong>profiler</strong> avec davantage de précision sur les autres plateformes du géant (YouTube, search, drive, etc.).</p>\n",
     "install": {
       "rating": "4.5",
-      "contents": "<p>Il faut créer un compte puis configurer son client mail (Thunderbird, K-9 Mail, ...). C&#39;est une démarche qui nécessite de connaître les informations des serveurs. Cette démarche est expliquée sur leur site.</p>\n"
+      "contents": "<p>Il faut créer un compte puis configurer son client mail (Thunderbird, K-9 Mail, etc.). C&#39;est une démarche qui nécessite de connaître les informations des serveurs. Cette démarche est expliquée sur leur site.</p>\n"
     },
     "transition": {
       "rating": "3",
@@ -229,7 +229,7 @@
     },
     "transition": {
       "rating": "5",
-      "contents": "<p>Les résultats sont <strong>les mêmes</strong> que sur Google. Les différents outils s&#39;affichent de la même manière (météo, convertisseurs, ...).</p>\n"
+      "contents": "<p>Les résultats sont <strong>les mêmes</strong> que sur Google. Les différents outils s&#39;affichent de la même manière (météo, convertisseurs, etc.).</p>\n"
     },
     "ux": {
       "rating": "5",
@@ -256,7 +256,7 @@
     },
     "transition": {
       "rating": "2",
-      "contents": "<p>Comme tous les réseaux sociaux, la transition est <strong>longue</strong> et ne dépend pas que de vous. Elle est plus simple quand vous êtes un groupe à franchir le pas en même temps.</p>\n"
+      "contents": "<p>Un changement de réseau social est <strong>long</strong> dans la mesure où vous ne retrouverez que les comptes qui sont aussi passés sur Pixelfed. Cette transition ne dépend donc pas que de vous mais de toustes les utilisateur⋅ices. Un bon moyen de faire du tri dans vos abonnements et de découvir de nouveaux comptes !</p>\n"
     },
     "ux": {
       "rating": "5",
@@ -304,11 +304,11 @@
     },
     "transition": {
       "rating": "3.5",
-      "contents": "<p>Il faut avoir suffisamment de stockage pour pouvoir télécharger les cartes. Trouver des restaurants, des bars et autres lieux est également plus compliqué (manque de description, notes et photos des utilisateurs Google, ...).</p>\n"
+      "contents": "<p>Il faut avoir suffisamment de stockage pour pouvoir télécharger les cartes. Trouver des restaurants, des bars et autres lieux est également plus compliqué (manque de description, notes et photos des utilisateurs Google, etc.).</p>\n"
     },
     "ux": {
       "rating": "3",
-      "contents": "<p>L&#39;application permet de se déplacer correctement. L&#39;interface est moins intuitive avec beaucoup de réglages possibles. Elle affiche facilement les différents lieux recherchés (supermarchés, toilettes, banques, restaurants, ...). Le fait d&#39;avoir les cartes hors ligne permet un affichage rapide.</p>\n<p>Pour la navigation, le temps de trajet est souvent vu à la hausse.</p>\n"
+      "contents": "<p>L&#39;application permet de se déplacer correctement. L&#39;interface est moins intuitive avec beaucoup de réglages possibles. Elle affiche facilement les différents lieux recherchés (supermarchés, toilettes, banques, restaurants, etc.). Le fait d&#39;avoir les cartes hors ligne permet un affichage rapide.</p>\n<p>Pour la navigation, le temps de trajet est souvent vu à la hausse.</p>\n"
     }
   },
   {
@@ -320,18 +320,18 @@
     ],
     "altname": "Bitwarden",
     "altfile": "bitwarden",
-    "altcontents": "<p>Bitwarden est un gestionnaire de mot de passe <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/orgs/bitwarden/\"><strong>open source</strong></a>. Cette application est <strong>respectueuse de la vie privée</strong>. Le fait que le code soit ouvert à toustes rend la correction de bug beaucoup plus transparente et immédiate ce qui augmente la <strong>sécurité</strong> de Bitwarden.</p>\n<p>Il s&#39;intègre sur <strong>tous les systèmes</strong> (Windows, Mac, Linux, Android, iOS). Le modèle économique de Bitwarden repose sur des abonnements premium (donnant accès à un espace de stockage, une gestion des mots de passe avancée, ...).</p>\n",
+    "altcontents": "<p>Bitwarden est un gestionnaire de mot de passe <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/orgs/bitwarden/\"><strong>open source</strong></a>. Cette application est <strong>respectueuse de la vie privée</strong>. Le fait que le code soit ouvert à toustes rend la correction de bug beaucoup plus transparente et immédiate ce qui augmente la <strong>sécurité</strong> de Bitwarden.</p>\n<p>Il s&#39;intègre sur <strong>tous les systèmes</strong> (Windows, Mac, Linux, Android, iOS). Le modèle économique de Bitwarden repose sur des abonnements premium (donnant accès à un espace de stockage, une gestion des mots de passe avancée, etc.).</p>\n",
     "appname": "Mots de passe",
     "theme": "Gestionnaire de mots de passe",
     "appfile": "mdp",
-    "appcontents": "<p>Les systèmes d&#39;exploitations propriétaires (Windows, Mac, iOS, Android) proposent des gestionnaires de mots de passe pour vous permettre de les stocker sans avoir à les retenir. C&#39;est un outil très pratique mais les solutions proposées par ces systèmes sont <strong>propriétaires</strong> ce qui pose deux problèmes.</p>\n<p>Le premier est au niveau des données. Les mots de passe sont des données très sensibles, ils donnent accès à de <strong>nombreuses informations personnelles</strong>. Ils se doivent d&#39;être stockés chez des hébergeurs qui ne participent pas à l&#39;<strong>économie de la donnée</strong>.</p>\n<p>Le second est au niveau de la <strong>sécurité</strong>, très important pour des données aussi <strong>sensibles</strong> que les mots de passe. Le code étant propriétaire, il n&#39;est pas visible d&#39;autres instances qui peuvent s&#39;assurer du niveau de sûreté du gestionnaire.</p>\n<p>Il faut donc avoir confiance en l&#39;outil, difficile quand il s&#39;agit des <strong>GAFAM</strong>.</p>\n<p>Pour ce qui est des gestionnaires de mots de passe des navigateurs (Chrome, Firefox, ...), leur sécurité est <strong>très faible</strong>. De même que les gestionnaires comme Dashlane ou , qui sont des applications propriétaires.</p>\n",
+    "appcontents": "<p>Les systèmes d&#39;exploitations propriétaires (Windows, Mac, iOS, Android) proposent des gestionnaires de mots de passe pour vous permettre de les stocker sans avoir à les retenir. C&#39;est un outil très pratique mais les solutions proposées par ces systèmes sont <strong>propriétaires</strong> ce qui pose deux problèmes.</p>\n<p>Le premier est au niveau des données. Les mots de passe sont des données très sensibles, ils donnent accès à de <strong>nombreuses informations personnelles</strong>. Ils se doivent d&#39;être stockés chez des hébergeurs qui ne participent pas à l&#39;<strong>économie de la donnée</strong>.</p>\n<p>Le second est au niveau de la <strong>sécurité</strong>, très important pour des données aussi <strong>sensibles</strong> que les mots de passe. Le code étant propriétaire, il n&#39;est pas visible d&#39;autres instances qui peuvent s&#39;assurer du niveau de sûreté du gestionnaire.</p>\n<p>Il faut donc avoir confiance en l&#39;outil, difficile quand il s&#39;agit des <strong>GAFAM</strong>.</p>\n<p>Pour ce qui est des gestionnaires de mots de passe des navigateurs (Chrome, Firefox, etc.), leur sécurité est <strong>très faible</strong>. De même que les gestionnaires comme Dashlane ou , qui sont des applications propriétaires.</p>\n",
     "install": {
       "rating": "5",
       "contents": "<p>Il suffit de créer un compte sur le site de Bitwarden. Vous pouvez ensuite installer l&#39;extension Firefox et l&#39;application mobile pour avoir accès à vos mots de passe sur ordinateur comme sur mobile.</p>\n"
     },
     "transition": {
       "rating": "4.5",
-      "contents": "<p>Il existe des outils pour exporter vos mots de passe depuis une application propriétaire (Chrome, Dashlane, ...) vers Bitwarden. La démarche est relativement <strong>simple et automatique</strong>.</p>\n"
+      "contents": "<p>Il existe des outils pour exporter vos mots de passe depuis une application propriétaire (Chrome, Dashlane, etc.) vers Bitwarden. La démarche est relativement <strong>simple et automatique</strong>.</p>\n"
     },
     "ux": {
       "rating": "5",
@@ -410,7 +410,7 @@
     },
     "ux": {
       "rating": "5",
-      "contents": "<p>L&#39;application donne accès à de nombreuses applications <strong>gratuitement</strong> (qui peuvent être payantes sur le Play Store). F-Droid propose les <strong>mêmes fonctionnalités</strong> que le Play Store (recherche, catégories, suggestions, mises à jour, ...).</p>\n"
+      "contents": "<p>L&#39;application donne accès à de nombreuses applications <strong>gratuitement</strong> (qui peuvent être payantes sur le Play Store). F-Droid propose les <strong>mêmes fonctionnalités</strong> que le Play Store (recherche, catégories, suggestions, mises à jour, etc.).</p>\n"
     }
   },
   {
@@ -453,7 +453,7 @@
     "appname": "Twitter",
     "theme": "Réseau social",
     "appfile": "twitr",
-    "appcontents": "<p>Twitter est un réseau social de microblogage <strong>propriétaire</strong>. Il compte 326 million de comptes actifs. Twitter a été au centre de <strong>plusieurs polémiques</strong> (détournements politiques, économie de l&#39;attention, harcèlement, ...). L&#39;application utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022). Il a été racheté par le milliardaire <strong>Elon Musk</strong>, ce qui pose des questions quant à la modération de la plateforme, déjà insoutenable.</p>\n",
+    "appcontents": "<p>Twitter est un réseau social de microblogage <strong>propriétaire</strong>. Il compte 326 million de comptes actifs. Twitter a été au centre de <strong>plusieurs polémiques</strong> (détournements politiques, économie de l&#39;attention, harcèlement, etc.). L&#39;application utilise également <strong>plusieurs pisteurs</strong> dont Google Analytics (illégal depuis 2022). Il a été racheté par le milliardaire <strong>Elon Musk</strong>, ce qui pose des questions quant à la modération de la plateforme, déjà insoutenable.</p>\n",
     "install": {
       "rating": "5",
       "contents": "<p>Il faut choisir l&#39;instance sur laquelle créer son profil Mastodon. La plus répandue est sûrement <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://mastodon.social/\">mastodon.social</a>. Mais vous pouvez choisir une communauté spécifique sur le <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joinmastodon.org/communities\">site de Mastodon</a> ou voir les instances alimenter par des énergies renouvelables sur <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenfediverse.codeberg.page/green-instances/\">GreenFediverse</a>.</p>\n<p>Après avoir choisi votre instance, il suffit de compléter votre profil et suivre les comptes que vous souhaitez.</p>\n"
@@ -497,7 +497,7 @@
     ],
     "altname": "Signal",
     "altfile": "signal",
-    "altcontents": "<p>Signal est une messagerie <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/signalapp\"><strong>open source</strong></a> qui fonctionne comme WhatsApp. Il suffit d&#39;un numéro de smartphone pour s&#39;inscrire. L&#39;application est réputée pour assurer au mieux la confidentialité des données utilisateur⋅ices. Son modèle économique est basé sur les dons des utilisateur⋅ices.</p>\n<p>En terme de sobriété, le SMS a une empreinte plus faible (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.greenit.fr/2010/02/24/un-sms-c-est-combien-de-co2/\">GreenIT.fr</a>). Le SMS présente quelques inconvénients (moins sécurisé, pas de conversation de groupe, ...) qui font qu&#39;il ne peut pas à lui seul être un alternative. Vous pouvez toutefois (sur Android uniquement) faire de Signal votre messagerie SMS, vous pouvez ainsi envoyer des SMS et des messages Signal à partir de la même application.</p>\n<p>Pour ma part, j&#39;utilise au maximum les SMS pour les conversations individuelles car plus sobres et ne dépend d&#39;aucune application. Pour les conversations de groupes et les correspondants étrangers, j&#39;utilise Signal.</p>\n",
+    "altcontents": "<p>Signal est une messagerie <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/signalapp\"><strong>open source</strong></a> qui fonctionne comme WhatsApp. Il suffit d&#39;un numéro de smartphone pour s&#39;inscrire. L&#39;application est réputée pour assurer au mieux la confidentialité des données utilisateur⋅ices. Son modèle économique est basé sur les dons des utilisateur⋅ices.</p>\n<p>En terme de sobriété, le SMS a une empreinte plus faible (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.greenit.fr/2010/02/24/un-sms-c-est-combien-de-co2/\">GreenIT.fr</a>). Le SMS présente quelques inconvénients (moins sécurisé, pas de conversation de groupe, etc.) qui font qu&#39;il ne peut pas à lui seul être un alternative. Vous pouvez toutefois (sur Android uniquement) faire de Signal votre messagerie SMS, vous pouvez ainsi envoyer des SMS et des messages Signal à partir de la même application.</p>\n<p>Pour ma part, j&#39;utilise au maximum les SMS pour les conversations individuelles car plus sobres et ne dépend d&#39;aucune application. Pour les conversations de groupes et les correspondants étrangers, j&#39;utilise Signal.</p>\n",
     "appname": "WhatsApp",
     "theme": "Messageries instantanées",
     "appfile": "whatsapp",
@@ -566,7 +566,7 @@
     },
     "ux": {
       "rating": "5",
-      "contents": "<p>PeerTube présente toutes les fonctionnalités recherchées par un lecteur de streaming vidéo (recherche, abonnements, commentaires, live, ...).</p>\n"
+      "contents": "<p>PeerTube présente toutes les fonctionnalités recherchées par un lecteur de streaming vidéo (recherche, abonnements, commentaires, live, etc.).</p>\n"
     }
   },
   {

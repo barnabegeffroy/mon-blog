@@ -13,7 +13,7 @@ name: eos-fr
 
 ## Pourquoi /e/OS ?
 
-/e/OS est un système d'exploitation [**open source**](https://gitlab.e.foundation) développé par Murena, une société qui met en oeuvre des solutions libres et respectueuses de la vie privée (avec /e/OS notamment). /e/OS se base sur Android mais est **démuni des services Google** (Play Store, Google Photo, GMail, ...).
+/e/OS est un système d'exploitation [**open source**](https://gitlab.e.foundation) développé par Murena, une société qui met en oeuvre des solutions libres et respectueuses de la vie privée (avec /e/OS notamment). /e/OS se base sur Android mais est **démuni des services Google** (Play Store, Google Photo, GMail, etc.).
 
 ## Les fonctionnalités
 

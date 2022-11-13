@@ -34,9 +34,9 @@ Ces éco-gestes vous permettront de réduire le nombre d'octets que vous consomm
 
 - Préférer la TNT à la box.
 
-- Préférer les SMS aux messages instantanés (WhatsApp, Signal, ...).
+- Préférer les SMS aux messages instantanés (WhatsApp, Signal, etc.).
 
-- Préférer les appels classiques aux appels en ligne (appels WhatsApp, Signal, ...).
+- Préférer les appels classiques aux appels en ligne (appels WhatsApp, Signal, etc.).
 
 - Préférer la radio classique au streaming radio et encore plus de la radio filmée.
 

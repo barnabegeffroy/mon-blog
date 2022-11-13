@@ -278,7 +278,7 @@ Accéder ensuite aux **paramètres de Startpage** :
 
 > **> Effectuez une recherche** pour tester si Startpage est bien votre navigateur par défaut
 
-> **> Cliquez sur la roue dentée** elle se situe en haut à droite de la ligne que _Data indifférente, Toutes les régions ..._ (en anglais _Any time, All regions, ..._). Il faut parfois défiler horizontalement sur smartphone.
+> **> Cliquez sur la roue dentée** elle se situe en haut à droite de la ligne que _Data indifférente, Toutes les régions ..._ (en anglais _Any time, All regions, etc._). Il faut parfois défiler horizontalement sur smartphone.
 
 > **> Sélectionnez la langue que vous souhaitez**
 

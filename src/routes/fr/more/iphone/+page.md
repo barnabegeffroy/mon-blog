@@ -64,11 +64,11 @@ De nombreuses applications accèdent à certaines fonctionnalités et données d
 
 > **> Confidentialité et sécurité**
 
-> **> Sélectionnez le paramètre que vous souhaitez restreindre** (Localisation, Appareil Photo, Microphone, ...)
+> **> Sélectionnez le paramètre que vous souhaitez restreindre** (Localisation, Appareil Photo, Microphone, etc.)
 
 > Vous verrez la liste des applications qui ont pour ce paramètre :
 
-> **> Cliquez sur les applications dont vous souhaitez restreindre l'accès**. Pour la localisation, si votre application a besoin de votre position mais pas forcément de façon très précise (météo, réseaux sociaux, ...), vous pouvez désactiver "Position exacte".
+> **> Cliquez sur les applications dont vous souhaitez restreindre l'accès**. Pour la localisation, si votre application a besoin de votre position mais pas forcément de façon très précise (météo, réseaux sociaux, etc.), vous pouvez désactiver "Position exacte".
 
 Essayez au maximum de **refuser l'accès**. Par exemple, je refuse que mon navigateur de recherche est accès à ma position (il n'en a pas besoin) mais j'accepte que mon application de navigation est accès à ma localisation seulement si l'application est en cours d'utilisation.
 
@@ -177,4 +177,4 @@ Certaines applications vous envoie des notifications sans grand utilité. Cela n
 
 </details>
 
-Bien évidemment, ces options restreignent la capacité à Apple à pister vos données mais ne les bloquent pas entièrement car le système lui-même, iOS, est géré par Apple. Évitez au maximum d'utiliser les applications d'Apple (Safari, calendrier, ...) si des [alternatives](../gafalt) existent.
+Bien évidemment, ces options restreignent la capacité à Apple à pister vos données mais ne les bloquent pas entièrement car le système lui-même, iOS, est géré par Apple. Évitez au maximum d'utiliser les applications d'Apple (Safari, calendrier, etc.) si des [alternatives](../gafalt) existent.
