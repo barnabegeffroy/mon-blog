@@ -40,9 +40,9 @@ La diminution des possibilités d’usage d’un appareil numérique en raison d
  Tendre vers un numérique plus éthique et respectueux de la vie privée des utilisateur⋅ices
     </summary>
 
-En plus d'une sobriété numérique, pour réussir sa transition numérique il faut également se questionner sur l'éthique et la soutenabilité des outils que nous utilisons. Certains services ont effectivement une approche à l'opposée d'**un monde soutenable et désirable**. Ceux-ci sont malheureusement souvent les plus utilisés par les utilisateur⋅ices. Par chance, il existe des alternatives
+En plus d'une sobriété numérique, pour réussir sa transition numérique il faut également se questionner sur l'éthique et la soutenabilité des outils que nous utilisons. Certains services ont effectivement une approche à l'opposée d'**un monde soutenable et désirable**. Ceux-ci sont malheureusement souvent les plus utilisés par les utilisateur⋅ices. Par chance, il existe des alternatives.
 
-Pour savoir quelles alternatives choisir il faut d'abord comprendre comment se repartissent les services numériques. Ceux-ci se composent en **deux grandes familles** : les services propriétaires et les services libres.
+Pour savoir quelles alternatives choisir il faut d'abord comprendre comment se répartissent les services numériques. Ceux-ci se composent en **deux grandes familles** : les services propriétaires et les services libres.
 
 ## Les applications propriétaires
 
@@ -50,31 +50,31 @@ Les applications propriétaires sont développées et possédées par des organi
 
 Ces applications peuvent être des services payants pour y avoir accès (le logiciel Photoshop par exemple) mais sont souvent gratuits. Comment ces services rapportent-ils de l'argent alors ?
 
-Ils sont très souvent basés sur l'**économie de la données**. Les entreprises récupèrent les données des utilisateur⋅ices lors de l'utilisation. Ces données sont également traitées pour créer un profil liées à nos usages et ensuite revendues pour afficher des publicités mieux ciblées. Les publicités ont pourtant **un impact clair sur l'environnement**. Il existe en effet une corrélation évidente entre la publicité et la surconsommation. Or **une sobriété systémique s'impose** pour réussir une bifurcation écologique et la surconsommation en est l'antithèse.
+Ils sont très souvent basés sur l'**économie de la donnée**. Les entreprises récupèrent les données des utilisateur⋅ices lors de l'utilisation. Ces données sont également traitées pour créer un profil lié à nos usages et ensuite revendues pour afficher des publicités mieux ciblées. Les publicités ont pourtant **un impact clair sur l'environnement**. Il existe en effet une corrélation évidente entre la publicité et la surconsommation. Or **une sobriété systémique s'impose** pour réussir une bifurcation écologique et la surconsommation en est l'antithèse.
 
 De plus, avec ces données les entreprises vont travailler sur l'**économie de l'attention** pour rendre l'utilisateur⋅ice encore plus addict⋅e au contenu qu'elles proposent (fil Instagram ou TikTok, recommandations Netflix ou Youtube, etc.).
 
-Parfois il y a des services sont payants mais dont le modèle économique repose tout de même sur l'économie de la données. C'est le cas de Spotify notamment. Difficile alors de voir ces services d'une autre manière que des **aspirateurs à données** qui se fichent de ce qu'ils proposent tant qu'ils peuvent capitaliser toujours plus sur le marché de la donnée. **Un service payant propriétaire ne nous garantie donc pas une sécurité des données**, même s'il n'affichent aucune publicité.
+Parfois il y a des services payants mais dont le modèle économique repose tout de même sur cette économie de la donnée. C'est le cas de Spotify notamment. Difficile alors de voir ces services d'une autre manière que des **aspirateurs à données** qui se fichent de ce qu'ils proposent tant qu'ils peuvent capitaliser toujours plus sur le marché de la donnée. **Un service payant propriétaire ne nous garantit donc pas une sécurité des données**, même s'il n'affiche aucune publicité.
 
 Le modèle propriétaire vise donc à faire consommer toujours plus de contenu avec des publicités davantage personnalisées menant à une surconsommation de masse. Il est donc important d'avoir le **contrôle de ses données**.
 
 Parmi les entreprises qui proposent ces services il y a les géants du web - Google, Amazon, Facebook/Meta, Apple, Microsoft - les GAFAMs dont les outils sont des plus utilisés dans le monde. Leur système de fonctionnement n'est vraiment pas celui d'un monde vertueux. Voici quelques exemples pour ces organisations :
 
 - Google joue sur son hyper dominance sur Android pour imposer ces produits (Chrome, Cloud, etc.). La société essaie de déstandardiser Internet pour avoir le monopole.
-- Amazon et Microsoft ont des conditions conditions de travail désastreuses.
+- Amazon et Microsoft ont des conditions de travail désastreuses.
 - Pour Facebook/Meta, son patron Marc Zuckerberg menace de fermer les services (Instagram, WhatsApp, Facebook) en Europe parce qu'il ne veut pas respecter les lois de protection des données européennes RGPD.
 - Apple propose de nouveaux produits tous les ans avec un chargeur non universel, démarche à l'opposée de la sobriété numérique. La société affirme également que son iOS est sécurisé mais avec un code source totalement opaque, il faut donc les croire sur parole.
 
 Ces firmes interagissent également entre elles pour asseoir encore plus leur monopole. Apple propose comme moteur de recherche Google, Amazon utilise les services de publicités de Google et Facebook/Meta...
-Les services propriétaires ont loin d'avoir une éthique désirable à l'opposée de la philosophie du Web basée sur le partage et l'interconnexion.
+Les services propriétaires sont loin d'avoir une éthique désirable à l'opposée de la philosophie du Web basée sur le partage et l'interconnexion.
 
 ## Les applications libres
 
 Les applications sont développées par différentes institutions (entreprises, associations, fondations, particuliers, etc.), leur code est en accès libre, **open source**. N'importe qui, à condition d'en avoir la capacité technique, peut donc voir le code, l'analyser, le vérifier. Tout le monde peut proposer une amélioration au code, rapporter un bug. Le libre accès du code permet aussi d'**auditer** les applications par des instances externes spécialisées dans des domaines précis (sécurité, performance, etc.). Au lieu de se baser sur la concurrence, l'open source repose sur la **collaboration**. Au lieu de tout privatiser, la philosophie est de **rendre accessible**, utiliser les standards.
 
-Mais tout ça a un coût. Le fait de ne pas revendre les données veut aussi dire trouver une autre source de financement. La plupart de ces services sont gérés par des fondations qui reçoivent des **dons** (comme Signal). Ils peuvent parfois intégré de la **publicité** ou proposer un **service payant**.
+Mais tout ça a un coût. Le fait de ne pas revendre les données veut aussi dire trouver une autre source de financement. La plupart de ces services sont gérés par des fondations qui reçoivent des **dons** (comme Signal). Ils peuvent parfois intégrer de la **publicité** ou proposer un **service payant**.
 
-Nous pourrions comparer le rapport entre les services libres et ceux aux propriétaires à celui entre le service public (hôpitaux, universités, France TV, etc.) et les services privés (cliniques, école privées, Bernard Arnault, etc.).
+Nous pourrions comparer le rapport entre les services libres/propriétaires à celui entre le service public (hôpitaux, universités, France TV, etc.) et les services privés (cliniques, école privées, Bernard Arnault, etc.).
 
 Il faut tout de même faire attention "open source" ne veut pas toujours dire éthique et parfait. Par exemple Google développe le navigateur open source Chromium qui sert notamment de base à de nombreux navigateurs (Chrome, Edge, Brave, etc.). Pourtant ce navigateur est truffé de pisteurs permettant à Google de suivre votre activité sur le web.
 

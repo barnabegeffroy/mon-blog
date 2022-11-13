@@ -17,7 +17,11 @@
 
 `lang='fr'|'en'`
 
-### deploy app on github pages (+ update all data and build)
+### update all data
+
+`npm run alldata`
+
+### deploy app on github pages (+ build)
 
 `npm run deploy`
 
