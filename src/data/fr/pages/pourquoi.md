@@ -27,7 +27,7 @@ Ensuite, **en réduisant son utilisation**. Celle-ci représente **20% des émis
 
 Il est donc important d'effectuer un virage pour éviter que le numérique soit considéré comme une **ressource critique non renouvelable**. Ce virage passe par une **sobriété numérique**.
 
-La sobriété numérique a pour but de **diminuer son impact sur la planète** mais également de **réduire sa charge mentale** liée au numérique. Beaucoup d'outils numériques ont un aspect vampirisant. En utilisant des applications non addictives, on réduit son utilisation et améliore sa santé mentale en se détachant de ces services toxiques.
+La sobriété numérique a pour but de **diminuer son impact sur la planète** mais également de **réduire sa charge mentale** liée au numérique. Beaucoup d'outils numériques peuvent amener à une dépendance. En utilisant des applications non addictives, on réduit son utilisation et améliore sa santé mentale en se détachant de ces services toxiques.
 
 Parfois, certaines actions n'ont pas un réel impact sur le plan environnemental mais davantage sur la charge mentale liée au numérique. Par exemple, réduire l'usage de ses e-mails a un impact minime sur l'environnement. En revanche, il réduit votre **fardeau numérique**.
 
@@ -56,7 +56,7 @@ Ils sont très souvent basés sur l'**économie de la donnée**. Les entreprises
 
 De plus, avec ces données les entreprises vont travailler sur l'**économie de l'attention** pour rendre l'utilisateur⋅ice encore plus addict⋅e au contenu qu'elles proposent (fil Instagram ou TikTok, recommandations Netflix ou Youtube, etc.).
 
-Parfois il y a des services payants mais dont le modèle économique repose tout de même sur cette économie de la donnée. C'est le cas de Spotify notamment. Difficile alors de voir ces services d'une autre manière que des **aspirateurs à données** qui se fichent de ce qu'ils proposent tant qu'ils peuvent capitaliser toujours plus sur le marché de la donnée. **Un service payant propriétaire ne nous garantit donc pas une sécurité des données**, même s'il n'affiche aucune publicité.
+Parfois il y a des services payants mais dont le modèle économique repose tout de même sur cette économie de la donnée. C'est le cas de Spotify notamment. **Un service payant propriétaire ne nous garantit donc pas une sécurité des données**, même s'il n'affiche aucune publicité.
 
 Le modèle propriétaire vise donc à augmenter la consommation de contenu avec des publicités davantage personnalisées menant à une surconsommation de masse. Il est donc important d'avoir le **contrôle de ses données**.
 
