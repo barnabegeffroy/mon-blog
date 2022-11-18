@@ -341,7 +341,7 @@
   {
     "altname": "Médiathèque",
     "altfile": "disc",
-    "altcontents": "<p>La médiathèque est un lieu <strong>ouvert à toustes</strong> qui prône un des fondamentaux de la <strong>sobriété</strong> : la <strong>mutualisation</strong>. Vous pouvez y emprunter livres, CDs, DVDs et tant d&#39;autres types de médias. L&#39;abonnement est en général <strong>gratuit</strong> pour les résident⋅es de la commune. Vous pouvez ainsi choisir des DVDs avec pour seul algorithme de suggestion le ou la médiathécaire.</p>\n<p>Cette alternative <strong>ne nécessite pas de connexion internet</strong> donc aucune chance d&#39;être tracer ou d&#39;être face à des publicités. Vous réduisez également votre empreinte numérique<sup>1</sup> en utilisant des DVDs partagés au sein d&#39;une médiathèque d&#39;autant plus si vous vous y rendez avec un moyen de transport décarboné.</p>\n<p><sup>1</sup> à ne pas confondre avec <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nosgestesclimat.fr/\">votre empreinte carbone</a>. L&#39;empreinte numérique représente environ 2% de l&#39;empreinte carbone totale.</p>\n",
+    "altcontents": "<p>La médiathèque est un lieu <strong>ouvert à toustes</strong> qui prône un des fondamentaux de la <strong>sobriété</strong> : la <strong>mutualisation</strong>. Vous pouvez y emprunter livres, CDs, DVDs et tant d&#39;autres types de médias. L&#39;abonnement est en général <strong>gratuit</strong> pour les résident⋅es de la commune. Vous pouvez ainsi choisir des DVDs avec pour seul algorithme de suggestion le ou la médiathécaire.</p>\n<p>Cette alternative <strong>ne nécessite pas de connexion internet</strong> donc aucune chance d&#39;être tracé⋅e ou d&#39;être face à des publicités. Vous réduisez également votre empreinte numérique<sup>1</sup> en utilisant des DVDs partagés au sein d&#39;une médiathèque d&#39;autant plus si vous vous y rendez avec un moyen de transport décarboné.</p>\n<p><sup>1</sup> à ne pas confondre avec <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nosgestesclimat.fr/\">votre empreinte carbone</a>. L&#39;empreinte numérique représente environ 2% de l&#39;empreinte carbone totale.</p>\n",
     "appname": "Netflix",
     "theme": "Vidéo à la demande",
     "appfile": "netflix",
@@ -356,7 +356,7 @@
     },
     "ux": {
       "rating": "4.5",
-      "contents": "<p>C&#39;est très agréable de prendre le temps de choisir et d&#39;être conseiller sur le film ou la série à regarder. Il n&#39;y a pas immédiatement les toutes dernières sorties (cela prend en général 6 mois) mais tout de même un <strong>large choix</strong>.</p>\n"
+      "contents": "<p>C&#39;est très agréable de prendre le temps de choisir et d&#39;être conseillé⋅e sur le film ou la série à regarder. Il n&#39;y a pas immédiatement les toutes dernières sorties (cela prend en général 6 mois) mais tout de même un <strong>large choix</strong>.</p>\n"
     }
   },
   {
