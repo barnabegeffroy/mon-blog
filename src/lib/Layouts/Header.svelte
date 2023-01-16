@@ -22,6 +22,15 @@
     { name: '🇬🇧️ English', code: 'en' },
     { name: '🇨🇵️ Français', code: 'fr' },
   ]
+
+  function changeLang() {
+    var path =
+      $language == 'en'
+        ? window.location.pathname.substring(12)
+        : window.location.pathname.substring(9)
+    window.location.href =
+      $language === 'en' ? base + path : base + '/' + $language + path
+  }
 </script>
 
 <nav id="navbar">
@@ -53,12 +62,7 @@
         {/each}
       </ul>
     </div>
-    <select
-      bind:value={$language}
-      on:change={() =>
-        (window.location.href =
-          $language === 'en' ? base + '/' : base + '/' + $language)}
-    >
+    <select bind:value={$language} on:change={changeLang}>
       {#each languages as lang}
         <option value={lang.code} selected={lang.code === $language}
           >{lang.name}</option

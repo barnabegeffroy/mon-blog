@@ -27,7 +27,11 @@
     if (!$init) {
       $language = window.navigator.language.substring(0, 2)
       if ($language != 'en') {
-        window.location = base + '/' + $language
+        var path =
+          $language == 'en'
+            ? window.location.pathname.substring(12)
+            : window.location.pathname.substring(9)
+        window.location = base + '/' + $language + path
       }
       $init = true
     }

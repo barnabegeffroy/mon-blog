@@ -7,7 +7,7 @@
 
   function closeModal() {
     isOpenModal = false
-    document.getElementsByClassName('modal')[0].scroll(0,0)
+    document.getElementsByClassName('modal')[0].scroll(0, 0)
   }
   function closeEscape(event) {
     if (event.key == 'Escape') closeModal()
