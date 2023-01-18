@@ -26,13 +26,13 @@
 
     if (!$init) {
       $language = window.navigator.language.substring(0, 2)
-      if ($language != 'en') {
-        var path =
-          $language == 'en'
-            ? window.location.pathname.substring(12)
-            : window.location.pathname.substring(9)
-        window.location = base + '/' + $language + path
-      }
+      var pathname = window.location.pathname
+      var index = pathname.match('[/][a-z]{2}[/]') === null ? 9 : 12
+      var path =
+        $language == 'en'
+          ? pathname.substring(index)
+          : '/' + $language + pathname.substring(index)
+      window.location = base + path
       $init = true
     }
     document.documentElement.setAttribute('lang', $language)
