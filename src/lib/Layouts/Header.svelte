@@ -29,7 +29,9 @@
         ? window.location.pathname.substring(12)
         : window.location.pathname.substring(9)
     window.location.href =
-      $language === 'en' ? base + path : base + '/' + $language + (path === '/' ? '' : path)
+      $language === 'en'
+        ? base + path
+        : base + '/' + $language + (path === '/' ? '' : path)
   }
 </script>
 
