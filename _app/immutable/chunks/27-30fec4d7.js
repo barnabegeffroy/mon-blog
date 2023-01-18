@@ -1,1 +1,0 @@
-import{default as f}from"../components/pages/fr/more/iphone/_page.md-292e52eb.js";import"./index-b165e248.js";import"./Article-d4fa079b.js";import"./Comment-e8ea5dad.js";/* empty css                                              */import"./Toc-690d1d24.js";/* empty css                                          */export{f as component};
