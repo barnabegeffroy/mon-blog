@@ -12,10 +12,6 @@
   const footer = 'Code source du blog'
 </script>
 
-<svelte:head>
-  <meta http-equiv="content-language" content="fr-fr" />
-</svelte:head>
-
 <Header {navItems} />
 <main>
   <slot />

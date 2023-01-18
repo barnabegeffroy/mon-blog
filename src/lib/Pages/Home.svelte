@@ -15,8 +15,8 @@
 
 <svelte:head>
   <title>{title}</title>
-  <meta name="description" content={description} />
-  <meta name="keywords" content={keywords} />
+  <meta name="description" content={description}>
+  <meta name="keywords" content={keywords}>
 </svelte:head>
 
 <svelte:component this={Content} />
