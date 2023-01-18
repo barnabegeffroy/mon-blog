@@ -11,6 +11,8 @@
   import { base } from '$app/paths'
 
   export let services
+  export let description
+  export let keywords
   export let title
   export let configureTitle
   export let configure
@@ -32,6 +34,8 @@
 
 <svelte:head>
   <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="keywords" content={keywords} />
 </svelte:head>
 
 <h1>{title}</h1>
@@ -56,7 +60,7 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/firefox'}
+        '/more/firefox/'}
     >
       {configure} Firefox
     </a>
@@ -64,7 +68,7 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/android'}
+        '/more/android/'}
     >
       {configure} Android
     </a>
@@ -72,7 +76,7 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/iphone'}
+        '/more/iphone/'}
     >
       {configure} iPhone
     </a>
@@ -80,14 +84,14 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/windows'}
+        '/more/windows/'}
     >
       {configure} Windows
     </a>
     <a
       data-sveltekit-prefetch
       class="button"
-      href={($language === 'en' ? base : base + '/' + $language) + '/more/mac'}
+      href={($language === 'en' ? base : base + '/' + $language) + '/more/mac/'}
     >
       {configure} Mac
     </a>
@@ -99,14 +103,14 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/linux'}
+        '/more/linux/'}
     >
       {replace} Windows
     </a>
     <a
       data-sveltekit-prefetch
       class="button"
-      href={($language === 'en' ? base : base + '/' + $language) + '/more/eos'}
+      href={($language === 'en' ? base : base + '/' + $language) + '/more/eos/'}
     >
       {replace} Android
     </a>
@@ -126,14 +130,14 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/fairphone'}
+        '/more/fairphone/'}
     >
       {smartphone}
     </a>
     <a
       data-sveltekit-prefetch
       class="button"
-      href={($language === 'en' ? base : base + '/' + $language) + '/more/why'}
+      href={($language === 'en' ? base : base + '/' + $language) + '/more/why/'}
     >
       {laptop}
     </a>
@@ -148,7 +152,7 @@
       data-sveltekit-prefetch
       class="button"
       href={($language === 'en' ? base : base + '/' + $language) +
-        '/more/contribute'}
+        '/more/contribute/'}
     >
       {contributeButton}
     </a>

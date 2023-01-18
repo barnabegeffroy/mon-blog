@@ -5,7 +5,10 @@
   import Ecogestes from '../../../data/fr/pages/ecogestes.md'
   import Ressources from '../../../data/fr/pages/ressources.md'
 
-  const title = 'Pour aller plus loin'
+  const title = 'Aller plus loin dans son émancipation'
+  const description =
+    "Des ressources permettant de s'émanciper davatange du monde des GAFAM"
+  const keywords = ''
   const configureTitle =
     'Configurer ses appareils pour plus de sobriété et de vie privée'
   const configure = 'Configurer son'
@@ -29,6 +32,8 @@
 
 <More
   {title}
+  {description}
+  {keywords}
   {services}
   {configureTitle}
   {configure}

@@ -4,8 +4,10 @@
 
 <footer>
   <p>
-    <a href="https://github.com/barnabegeffroy/mon-blog" target="_blank"
-      >{content}</a
+    <a
+      href="https://github.com/barnabegeffroy/mon-blog"
+      rel="noopener noreferrer"
+      target="_blank">{content}</a
     >
   </p>
 </footer>

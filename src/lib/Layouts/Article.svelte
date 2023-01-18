@@ -2,12 +2,16 @@
   import Comment from '$lib/Components/Comment.svelte'
   import Toc from 'svelte-toc'
   export let title
+  export let description
+  export let keywords
   export let name
   export let sommaire
 </script>
 
 <svelte:head>
   <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="keywords" content={keywords} />
 </svelte:head>
 
 <div class="content">

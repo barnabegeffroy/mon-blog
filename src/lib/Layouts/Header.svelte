@@ -56,7 +56,8 @@
               data-sveltekit-prefetch
               href={($language === 'en' ? base : base + '/' + $language) +
                 '/' +
-                item.href}>{item.label}</a
+                item.href +
+                (item.href === '' ? '' : '/')}>{item.label}</a
             >
           </li>
         {/each}

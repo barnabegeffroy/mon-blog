@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: Configurer Windows
+description: Comment configurer son Windows pour éviter les pisteurs, la publicité, économiser de la batterie
+keywords: microsoft, sécurité, vie privée, ad-block, sobriété, moteur de recherche, réglages, windows 11, windows 10, pisteur, surveillance
 name: windows-fr
 ---
 

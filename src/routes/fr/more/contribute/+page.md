@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: Contribuer au monde libre
+description: Quelques pistes pour contribuer au monde libre sans avoir besoin de compétences en programmation
+keywords: contribution, communauté, logiciel libre, open source, éthique, gafa, programmer
 name: contribute-fr
 ---
 

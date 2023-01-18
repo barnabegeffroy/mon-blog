@@ -69,7 +69,7 @@
         on:click={animate}
       />
     </div>
-    <h4 class="app-name">{name}</h4>
+    <h2 class="app-name">{name}</h2>
   </span>
 </div>
 
@@ -109,6 +109,9 @@
     margin-top: 1%;
     width: 120px;
     text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
   }
 
   .target {

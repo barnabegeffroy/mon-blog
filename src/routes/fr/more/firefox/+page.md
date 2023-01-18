@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: Configurer Firefox
+description: Comment configurer Firefox pour éviter les pisteurs, la publicité, économiser de la batterie
+keywords: sécurité, vie privée, ad-block, sobriété, moteur de recherche, chrome, opera, edge, tracker, pisteur, surveillance, réglages
 name: firefox-fr
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: Configurer son iPhone
+description: Comment configurer son iPhone pour éviter les pisteurs, la publicité, économiser de la batterie
+keywords: sécurité, vie privée, ad-block, sobriété, Apple, iOS, Safari, réglages, tracker, pisteur, surveillance
 name: iphone-fr
 ---
 

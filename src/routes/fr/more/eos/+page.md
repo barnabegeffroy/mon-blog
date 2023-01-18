@@ -2,6 +2,8 @@
 layout: blog
 sommaire: true
 title: Remplacer Android par un système open source
+description: Comment remplacer Android par un système libre et éthique, /e/OS
+keywords: open source, logiciel libre, système d'exploitation, OS, google, samsung, lineage
 name: eos-fr
 ---
 

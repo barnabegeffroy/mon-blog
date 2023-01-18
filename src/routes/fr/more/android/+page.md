@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: Configurer Android
+description: Comment configurer son Android pour éviter les pisteurs, la publicité, économiser de la batterie
+keywords: sécurité, vie privée, ad-block, sobriété, réglages, android, samsung, google, play store, tracker, pisteur, surveillance
 name: android-fr
 ---
 

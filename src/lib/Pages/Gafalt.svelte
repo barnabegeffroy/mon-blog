@@ -10,6 +10,8 @@
   export let applis
   export let banner
   export let title
+  export let description
+  export let keywords
   export let moreButton
   export let Info
   export let comment
@@ -17,6 +19,8 @@
 
 <svelte:head>
   <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="keywords" content={keywords} />
 </svelte:head>
 
 <div>
@@ -31,7 +35,8 @@
   <a
     data-sveltekit-prefetch
     class="button"
-    href={($language === 'en' ? base : base + '/' + $language) + '/more'}
+    rel="noopener noreferrer"
+    href={($language === 'en' ? base : base + '/' + $language) + '/more/'}
     >{moreButton}</a
   >
 

@@ -8,10 +8,14 @@
   export let Content
   export let button
   export let title
+  export let description
+  export let keywords
 </script>
 
 <svelte:head>
   <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="keywords" content={keywords} />
 </svelte:head>
 
 <div class="container">
@@ -21,7 +25,8 @@
 <a
   data-sveltekit-prefetch
   class="button"
-  href={($language === 'en' ? base : base + '/' + $language) + '/gafalt'}
+  rel="noopener noreferrer"
+  href={($language === 'en' ? base : base + '/' + $language) + '/gafalt/'}
   >{button}</a
 >
 

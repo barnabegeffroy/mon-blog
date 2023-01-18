@@ -2,6 +2,8 @@
 layout: blog
 sommaire: true
 title: Remplacer Windows par un système open source
+description: Comment remplacer Windows par un système libre et éthique, Linux
+keywords: microsoft, open source, logiciel libre, ubuntu, fedora, système d'exploitation, OS
 name: linux-fr
 ---
 

@@ -35,6 +35,7 @@
       }
       $init = true
     }
+    document.documentElement.setAttribute('lang', $language)
   })
 
   function stick() {
