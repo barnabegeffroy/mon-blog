@@ -1,0 +1,1 @@
+import{default as a}from"../components/pages/fr/manifesto/_page.svelte-12d5e666.js";import"./index-b165e248.js";import"./Manifesto-8585fa6e.js";import"./paths-6cd3a76e.js";import"./vars-6fb987dd.js";import"./index-c10d4589.js";export{a as component};
