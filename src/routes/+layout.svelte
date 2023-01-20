@@ -27,13 +27,25 @@
     if (!$init) {
       $language = window.navigator.language.substring(0, 2)
       var pathname = window.location.pathname
-      var index = pathname.match('[/][a-z]{2}[/]') === null ? 9 : 12
-      var path =
-        $language == 'en'
-          ? pathname.substring(index)
-          : '/' + $language + pathname.substring(index)
-      window.location = base + path
-      $init = true
+      if (
+        ($language === 'en' &&
+          pathname.match('[/][a-z]{2}[/]') === null &&
+          pathname.match('[/][a-z]{2}$') === null) ||
+        ($language != 'en' && pathname.match(base + '/' + $language) != null)
+      ) {
+        $init = true
+      } else if (pathname.match('/mon-blog/[a-z]{2}$') != null) {
+        window.location = base + ($language === 'en' ? '' : '/' + $language)
+        $init = true
+      } else {
+        var index = pathname.match('[/][a-z]{2}[/]') === null ? 9 : 12
+        var path =
+          $language == 'en'
+            ? pathname.substring(index)
+            : '/' + $language + pathname.substring(index)
+        window.location = base + path
+        $init = true
+      }
     }
     document.documentElement.setAttribute('lang', $language)
   })
