@@ -102,4 +102,4 @@ Pour convertir votre compte en local sur Windows 10 et 11, il faut suivre [le tu
 
 </details>
 
-Bien évidemment, ces options restreignent la capacité de Microsoft à pister vos données mais ne les bloquent pas entièrement car le système Windows lui-même est géré par Microsoft. Si vous souhaitez aller plus loin, vous pouvez remplacer Windows par un système libre basé sous Linux (voir [cet article](./linux)).
+Bien évidemment, ces options restreignent la capacité de Microsoft à pister vos données mais ne les bloquent pas entièrement car le système Windows lui-même est géré par Microsoft. Si vous souhaitez aller plus loin, vous pouvez remplacer Windows par un système libre basé sous Linux (voir [cet article](../linux)).

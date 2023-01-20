@@ -105,7 +105,7 @@ Vous pouvez désactiver certains de ces services. Allez dans les **Réglages** d
     Protéger son activité Mail
 </summary>
 
-Comme il n'existe pas d'alternatives open source au client mail Apple (alternatives au client mail](../gafalt)), vous utilisez sûrement le client d'Apple. Pour le rendre plus sécurisé vous pouvez activer une option en allant dans **Réglages** et suivez ce chemin :
+Comme il n'existe pas d'alternatives open source au client mail Apple (alternatives au client mail](../../gafalt)), vous utilisez sûrement le client d'Apple. Pour le rendre plus sécurisé vous pouvez activer une option en allant dans **Réglages** et suivez ce chemin :
 
 > **> Mail**
 
@@ -151,7 +151,7 @@ Certaines applications continuent de s'actualiser même en arrière-plan (lorsqu
     Désactiver iCloud 
 </summary>
 
-iCloud est le service de drive d'Apple. Il existe des alternatives plus soutenables au produit d'Apple (voir [alternative de Google Drive, Nextcloud](../gafalt)) qui s'intègre sur iPhone. Voici comment désactiver iCloud depuis les **Réglages** :
+iCloud est le service de drive d'Apple. Il existe des alternatives plus soutenables au produit d'Apple (voir [alternative de Google Drive, Nextcloud](../../gafalt)) qui s'intègre sur iPhone. Voici comment désactiver iCloud depuis les **Réglages** :
 
 > **> Cliquez sur votre nom**
 >
@@ -179,4 +179,4 @@ Certaines applications vous envoie des notifications sans grand utilité. Cela n
 
 </details>
 
-Bien évidemment, ces options restreignent la capacité à Apple à pister vos données mais ne les bloquent pas entièrement car le système lui-même, iOS, est géré par Apple. Évitez au maximum d'utiliser les applications d'Apple (Safari, calendrier, etc.) si des [alternatives](../gafalt) existent.
+Bien évidemment, ces options restreignent la capacité à Apple à pister vos données mais ne les bloquent pas entièrement car le système lui-même, iOS, est géré par Apple. Évitez au maximum d'utiliser les applications d'Apple (Safari, calendrier, etc.) si des [alternatives](../../gafalt) existent.

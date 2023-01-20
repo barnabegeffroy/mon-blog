@@ -198,7 +198,7 @@ Voici une **liste d'extensions open source à installer** sur votre ordinateur, 
 
 > - [Privacy redirect](https://addons.mozilla.org/fr/firefox/addon/privacy-redirect/) qui redirige vos demandes d'accès à Twitter, Youtube, etc. vers des interfaces alternatives open source et sécurisées (Nitter, Freetube)
 
-> - [Bitwarden](https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager/) le gestionnaire de mots de passe alternatifs ([voir les alternatives](../gafalt))
+> - [Bitwarden](https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager/) le gestionnaire de mots de passe alternatifs ([voir les alternatives](../../gafalt))
 
 > Si certains paramètres ne vous conviennent pas, vous pouvez configurer ces applications en cliquant leur icône.
 
@@ -262,7 +262,7 @@ Vous pouvez activer la complétion automatique lorsque vous êtes sur une page d
     Ajouter Startpage comme moteur de recherche par défaut
 </summary>
 
-Voici comment ajouter Startpage ([l'alternative à Google Search](../gafalt)) à Firefox lorsque vous effectuez une recherche depuis la barre de recherche, et comment bien paramétrer Startpage.
+Voici comment ajouter Startpage ([l'alternative à Google Search](../../gafalt)) à Firefox lorsque vous effectuez une recherche depuis la barre de recherche, et comment bien paramétrer Startpage.
 
 Sur ordinateur :
 

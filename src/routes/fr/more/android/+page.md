@@ -186,7 +186,7 @@ Cela n'empêche pas le pistage mais rend le profilage plus compliqué. Si vous s
     Déconnecter son compte Google
 </summary>
 
-Google va enregistrer de nombreuses informations liées à votre compte Google. Si vous le pouvez, déconnectez votre compte de votre smartphone. Pour cela **assurez-vous d'avoir les magasins d'applications F-Droid et Aurora Store** ([alternatives au Play Store](../gafalt)) pour pouvoir installer toutes les applications Android sans compte Google. Vous pouvez ensuite déconnecter votre compte en allant dans **Paramètres** et suivez ce chemin :
+Google va enregistrer de nombreuses informations liées à votre compte Google. Si vous le pouvez, déconnectez votre compte de votre smartphone. Pour cela **assurez-vous d'avoir les magasins d'applications F-Droid et Aurora Store** ([alternatives au Play Store](../../gafalt)) pour pouvoir installer toutes les applications Android sans compte Google. Vous pouvez ensuite déconnecter votre compte en allant dans **Paramètres** et suivez ce chemin :
 
 > **> Comptes et sauvegardes**
 
@@ -198,4 +198,4 @@ Google va enregistrer de nombreuses informations liées à votre compte Google. 
 
 </details>
 
-Bien évidemment, ces options restreignent la capacité à Google à pister vos données mais ne les bloquent pas entièrement car le système lui-même, Android, est géré par Google. Certains smartphones permettent de remplacer Android par un système dégooglisé : /e/OS (voir [cet article](./eos)).
+Bien évidemment, ces options restreignent la capacité à Google à pister vos données mais ne les bloquent pas entièrement car le système lui-même, Android, est géré par Google. Certains smartphones permettent de remplacer Android par un système dégooglisé : /e/OS (voir [cet article](../eos)).
